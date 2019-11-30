@@ -1,9 +1,6 @@
 package com.github.avantgarde95.painttalk
 
 import java.awt.Font
-import java.util.*
-import javax.swing.JFileChooser
-import javax.swing.JOptionPane
 import javax.swing.UIManager
 
 fun main() {
@@ -25,9 +22,6 @@ fun main() {
         UIManager.put("TextArea.font", this)
         UIManager.put("TextField.font", this)
     }
-
-    JFileChooser.setDefaultLocale(Locale.US)
-    JOptionPane.setDefaultLocale(Locale.US)
 
     App().start()
 }
