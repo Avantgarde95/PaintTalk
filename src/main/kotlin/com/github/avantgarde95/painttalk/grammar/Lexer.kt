@@ -28,7 +28,7 @@ object Lexer {
                 }
             }
 
-            throw GrammarException("Unknown character at line $lineIndex!")
+            throw GrammarException(lineIndex, "Unknown character!")
         }
 
         return tokens

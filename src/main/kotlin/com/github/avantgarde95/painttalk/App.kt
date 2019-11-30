@@ -132,11 +132,9 @@ class App {
 
         val tokens: List<Token> = try {
             Lexer.toTokens(input)
-        } catch (e: GrammarException) {
-            Logger.addLog(e.message!!)
+        } catch (exception: GrammarException) {
+            Logger.addLog("Error at line ${exception.lineIndex}: ${exception.message}")
             return
         }
-
-        Logger.addLog(tokens.joinToString { "[${it.type.name}: ${it.value}]" })
     }
 }
