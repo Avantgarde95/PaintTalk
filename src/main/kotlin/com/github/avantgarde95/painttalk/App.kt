@@ -3,6 +3,7 @@ package com.github.avantgarde95.painttalk
 import com.github.avantgarde95.painttalk.view.CanvasPanel
 import com.github.avantgarde95.painttalk.view.ControlPanel
 import com.github.avantgarde95.painttalk.view.InputPanel
+import com.github.avantgarde95.painttalk.view.LogPanel
 import java.awt.BorderLayout
 import java.awt.Dimension
 import java.io.File
@@ -14,6 +15,7 @@ class App {
     private val controlPanel = ControlPanel()
     private val inputPanel = InputPanel()
     private val canvasPanel = CanvasPanel()
+    private val logPanel = LogPanel()
 
     fun start() {
         connectEvents()
@@ -21,6 +23,10 @@ class App {
     }
 
     private fun connectEvents() {
+        Logger.logEvent.addListener { log ->
+            logPanel.addLog(log)
+        }
+
         controlPanel.openRequestEvent.addListener {
             val fileChooser = JFileChooser().apply {
                 dialogTitle = "Open your input"
@@ -76,7 +82,7 @@ class App {
         SwingUtilities.invokeLater {
             JFrame("PaintTalk").apply {
                 layout = BorderLayout()
-                preferredSize = Dimension(600, 300)
+                preferredSize = Dimension(600, 500)
                 defaultCloseOperation = WindowConstants.EXIT_ON_CLOSE
                 isVisible = true
                 isResizable = true
@@ -85,16 +91,24 @@ class App {
 
                 add(
                     JSplitPane(
-                        JSplitPane.HORIZONTAL_SPLIT,
-                        inputPanel,
-                        canvasPanel
+                        JSplitPane.VERTICAL_SPLIT,
+                        JSplitPane(
+                            JSplitPane.HORIZONTAL_SPLIT,
+                            inputPanel,
+                            canvasPanel
+                        ).apply {
+                            dividerLocation = 300
+                        },
+                        logPanel
                     ).apply {
-                        dividerLocation = 300
+                        dividerLocation = 280
                     }, BorderLayout.CENTER
                 )
 
                 pack()
             }
+
+            Logger.addLog("Welcome!")
         }
     }
 }
