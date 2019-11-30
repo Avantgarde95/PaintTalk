@@ -1,5 +1,8 @@
 package com.github.avantgarde95.painttalk
 
+import com.github.avantgarde95.painttalk.grammar.GrammarException
+import com.github.avantgarde95.painttalk.grammar.Lexer
+import com.github.avantgarde95.painttalk.grammar.Token
 import com.github.avantgarde95.painttalk.view.CanvasPanel
 import com.github.avantgarde95.painttalk.view.ControlPanel
 import com.github.avantgarde95.painttalk.view.InputPanel
@@ -28,53 +31,19 @@ class App {
         }
 
         controlPanel.openRequestEvent.addListener {
-            val fileChooser = JFileChooser().apply {
-                dialogTitle = "Open your input"
-                fileFilter = FileNameExtensionFilter("Text file", "txt")
-            }
-
-            val returnValue = fileChooser.showOpenDialog(null)
-
-            if (returnValue == JFileChooser.APPROVE_OPTION) {
-                val path = fileChooser.selectedFile.path
-                val input = File(path).readText()
-
-                inputPanel.setInput(input)
-            }
+            askAndOpenInput()
         }
 
         controlPanel.saveRequestEvent.addListener {
-            val fileChooser = JFileChooser().apply {
-                dialogTitle = "Save your input"
-                fileFilter = FileNameExtensionFilter("Text file", "txt")
-            }
-
-            val returnValue = fileChooser.showSaveDialog(null)
-
-            if (returnValue == JFileChooser.APPROVE_OPTION) {
-                val path = fileChooser.selectedFile.path
-
-                File(path).writeText(inputPanel.getInput())
-            }
+            askAndSaveInput()
         }
 
         controlPanel.exportRequestEvent.addListener {
-            val fileChooser = JFileChooser().apply {
-                dialogTitle = "Export to image"
-                fileFilter = FileNameExtensionFilter("PNG file", "png")
-            }
-
-            val returnValue = fileChooser.showSaveDialog(null)
-
-            if (returnValue == JFileChooser.APPROVE_OPTION) {
-                val path = fileChooser.selectedFile.path
-
-                ImageIO.write(canvasPanel.getImage(), "png", File(path))
-            }
+            askAndExportCanvas()
         }
 
         controlPanel.drawRequestEvent.addListener {
-
+            parseAndDrawInput()
         }
     }
 
@@ -110,5 +79,64 @@ class App {
 
             Logger.addLog("Welcome!")
         }
+    }
+
+    private fun askAndOpenInput() {
+        val fileChooser = JFileChooser().apply {
+            dialogTitle = "Open your input"
+            fileFilter = FileNameExtensionFilter("Text file", "txt")
+        }
+
+        val returnValue = fileChooser.showOpenDialog(null)
+
+        if (returnValue == JFileChooser.APPROVE_OPTION) {
+            val path = fileChooser.selectedFile.path
+            val input = File(path).readText()
+
+            inputPanel.setInput(input)
+        }
+    }
+
+    private fun askAndSaveInput() {
+        val fileChooser = JFileChooser().apply {
+            dialogTitle = "Save your input"
+            fileFilter = FileNameExtensionFilter("Text file", "txt")
+        }
+
+        val returnValue = fileChooser.showSaveDialog(null)
+
+        if (returnValue == JFileChooser.APPROVE_OPTION) {
+            val path = fileChooser.selectedFile.path
+
+            File(path).writeText(inputPanel.getInput())
+        }
+    }
+
+    private fun askAndExportCanvas() {
+        val fileChooser = JFileChooser().apply {
+            dialogTitle = "Export to image"
+            fileFilter = FileNameExtensionFilter("PNG file", "png")
+        }
+
+        val returnValue = fileChooser.showSaveDialog(null)
+
+        if (returnValue == JFileChooser.APPROVE_OPTION) {
+            val path = fileChooser.selectedFile.path
+
+            ImageIO.write(canvasPanel.getImage(), "png", File(path))
+        }
+    }
+
+    private fun parseAndDrawInput() {
+        val input = inputPanel.getInput()
+
+        val tokens: List<Token> = try {
+            Lexer.toTokens(input)
+        } catch (e: GrammarException) {
+            Logger.addLog(e.message!!)
+            return
+        }
+
+        Logger.addLog(tokens.joinToString { "[${it.type.name}: ${it.value}]" })
     }
 }

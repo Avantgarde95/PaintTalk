@@ -5,6 +5,7 @@ object Lexer {
         val tokens = mutableListOf<Token>()
         val types = Token.Type.values()
         var startIndex = 0
+        var lineIndex = 1
 
         loop@ while (startIndex < input.length) {
             for (type in types) {
@@ -14,8 +15,12 @@ object Lexer {
                 }
 
                 if (value != null) {
-                    if (type != Token.Type.Ignore) {
-                        tokens.add(Token(type, value))
+                    if (type == Token.Type.Ignore) {
+                        if (value == "\n") {
+                            lineIndex++
+                        }
+                    } else {
+                        tokens.add(Token(type, value, lineIndex))
                     }
 
                     startIndex += value.length
@@ -23,7 +28,7 @@ object Lexer {
                 }
             }
 
-            throw Exception("\"${input.substring(startIndex)}\"")
+            throw GrammarException("Unknown character at line $lineIndex!")
         }
 
         return tokens

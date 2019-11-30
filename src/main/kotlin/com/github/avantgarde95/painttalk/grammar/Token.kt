@@ -2,7 +2,8 @@ package com.github.avantgarde95.painttalk.grammar
 
 class Token(
     val type: Type,
-    val value: String
+    val value: String,
+    val lineIndex: Int
 ) {
     enum class Type(val pattern: Pattern) {
         Canvas(StringPattern("canvas")),
@@ -39,7 +40,7 @@ class Token(
 
         Number(RegexPattern("""^[0-9]+""".toRegex())),
         Name(RegexPattern("""^[a-zA-Z_][a-zA-Z0-9_]*""".toRegex())),
-        Ignore(RegexPattern("""^\s|\n|\t""".toRegex()))
+        Ignore(RegexPattern("""^[\s\r\n\t]""".toRegex()))
     }
 
     override fun toString() = "<$type \"$value\">"
