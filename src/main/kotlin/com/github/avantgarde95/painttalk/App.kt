@@ -141,7 +141,7 @@ class App {
 
         Logger.addLog("\n${tokens.joinToString()}")
 
-        val ast: AST = try {
+        val ast: ASTNode = try {
             Parser.toAST(tokens)
         } catch (exception: GrammarException) {
             Logger.addLog("Error at line ${exception.lineIndex}: ${exception.message}")

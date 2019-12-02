@@ -46,5 +46,5 @@ class Token(
     }
 
     override fun toString() =
-        "Token($type \"$value\" at line $lineIndex)"
+        "Token.$type(\"$value\" at line $lineIndex)"
 }
