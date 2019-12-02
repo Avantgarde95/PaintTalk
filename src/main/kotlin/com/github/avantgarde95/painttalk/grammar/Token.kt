@@ -62,4 +62,6 @@ class Token(
             }
         }
     }
+
+    override fun hashCode() = super.hashCode() + 1
 }
