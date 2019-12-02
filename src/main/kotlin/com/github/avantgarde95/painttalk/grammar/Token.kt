@@ -47,4 +47,19 @@ class Token(
 
     override fun toString() =
         "Token.$type(\"$value\" at line $lineIndex)"
+
+    override fun equals(other: Any?) = when {
+        this === other -> true
+        javaClass != other?.javaClass -> false
+        else -> {
+            val otherToken = other as Token
+
+            when {
+                type != otherToken.type -> false
+                value != otherToken.value -> false
+                lineIndex != otherToken.lineIndex -> false
+                else -> true
+            }
+        }
+    }
 }

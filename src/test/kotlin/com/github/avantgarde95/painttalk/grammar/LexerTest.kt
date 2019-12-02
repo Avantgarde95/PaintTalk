@@ -11,7 +11,7 @@ class LexerTest {
         val expectedTokens = emptyList<Token>()
         val actualTokens = Lexer.toTokens(input)
 
-        assertEquals(expectedTokens, actualTokens)
+        TestUtil.assertListEquals(expectedTokens, actualTokens)
     }
 
     @Test
@@ -33,7 +33,7 @@ class LexerTest {
 
         val actualTokens = Lexer.toTokens(input)
 
-        assertEquals(expectedTokens, actualTokens)
+        TestUtil.assertListEquals(expectedTokens, actualTokens)
     }
 
     @Test
