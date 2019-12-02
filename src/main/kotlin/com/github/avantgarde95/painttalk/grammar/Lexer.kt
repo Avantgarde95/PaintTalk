@@ -4,14 +4,14 @@ object Lexer {
     fun toTokens(input: String): List<Token> {
         val tokens = mutableListOf<Token>()
         val types = Token.Type.values()
-        var startIndex = 0
+        var inputIndex = 0
         var lineIndex = 1
 
-        loop@ while (startIndex < input.length) {
+        loop@ while (inputIndex < input.length) {
             for (type in types) {
                 val value = when (val pattern = type.pattern) {
-                    is StringPattern -> matchStringPattern(input, startIndex, pattern)
-                    is RegexPattern -> matchRegexPattern(input, startIndex, pattern)
+                    is StringPattern -> matchStringPattern(input, inputIndex, pattern)
+                    is RegexPattern -> matchRegexPattern(input, inputIndex, pattern)
                 }
 
                 if (value != null) {
@@ -23,12 +23,15 @@ object Lexer {
                         tokens.add(Token(type, value, lineIndex))
                     }
 
-                    startIndex += value.length
+                    inputIndex += value.length
                     continue@loop
                 }
             }
 
-            throw GrammarException(lineIndex, "Unknown character!")
+            throw GrammarException(
+                lineIndex,
+                "Unknown character \"${input[inputIndex]}\"!"
+            )
         }
 
         return tokens

@@ -1,8 +1,6 @@
 package com.github.avantgarde95.painttalk
 
-import com.github.avantgarde95.painttalk.grammar.GrammarException
-import com.github.avantgarde95.painttalk.grammar.Lexer
-import com.github.avantgarde95.painttalk.grammar.Token
+import com.github.avantgarde95.painttalk.grammar.*
 import com.github.avantgarde95.painttalk.view.CanvasPanel
 import com.github.avantgarde95.painttalk.view.ControlPanel
 import com.github.avantgarde95.painttalk.view.InputPanel
@@ -10,6 +8,8 @@ import com.github.avantgarde95.painttalk.view.LogPanel
 import java.awt.BorderLayout
 import java.awt.Dimension
 import java.io.File
+import java.io.PrintWriter
+import java.io.StringWriter
 import javax.imageio.ImageIO
 import javax.swing.*
 import javax.swing.filechooser.FileNameExtensionFilter
@@ -134,6 +134,20 @@ class App {
             Lexer.toTokens(input)
         } catch (exception: GrammarException) {
             Logger.addLog("Error at line ${exception.lineIndex}: ${exception.message}")
+            return
+        }
+
+        if (tokens.isEmpty()) {
+            return
+        }
+
+        val ast: AST = try {
+            Parser.toAST(tokens)
+        } catch (exception: GrammarException) {
+            //Logger.addLog("Error at line ${exception.lineIndex}: ${exception.message}")
+            val sw = StringWriter()
+            exception.printStackTrace(PrintWriter(sw))
+            Logger.addLog(sw.toString())
             return
         }
     }

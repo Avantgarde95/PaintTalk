@@ -1,6 +1,6 @@
 package com.github.avantgarde95.painttalk.grammar
 
-data class Token(
+class Token(
     val type: Type,
     val value: String,
     val lineIndex: Int
@@ -42,4 +42,7 @@ data class Token(
         Name(RegexPattern("""^[a-zA-Z_][a-zA-Z0-9_]*""".toRegex())),
         Ignore(RegexPattern("""^[\s\r\n\t]""".toRegex()))
     }
+
+    override fun toString() =
+        "Token($type \"$value\" at line $lineIndex)"
 }
