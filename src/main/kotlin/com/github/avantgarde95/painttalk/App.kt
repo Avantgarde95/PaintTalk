@@ -139,11 +139,15 @@ class App {
             return
         }
 
+        Logger.addLog("\n${tokens.joinToString()}")
+
         val ast: AST = try {
             Parser.toAST(tokens)
         } catch (exception: GrammarException) {
             Logger.addLog("Error at line ${exception.lineIndex}: ${exception.message}")
             return
         }
+
+        Logger.addLog("\n$ast")
     }
 }

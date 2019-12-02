@@ -1,7 +1,5 @@
 package com.github.avantgarde95.painttalk.grammar
 
-import com.github.avantgarde95.painttalk.Logger
-
 object Parser {
     fun toAST(tokens: List<Token>): AST {
         return ParserInstance(tokens).parse()
@@ -63,7 +61,6 @@ private class ParserInstance(
 
     fun parse(): AST {
         val root = parseInput()
-        Logger.addLog(root.toString())
 
         val eofToken = getCurrentToken()
 

@@ -11,7 +11,7 @@ class InputPanel : JPanel() {
         lineWrap = true
     }
 
-    fun getInput() = inputTextArea.text
+    fun getInput() = inputTextArea.text!!
 
     fun setInput(input: String) {
         inputTextArea.text = input
