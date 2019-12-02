@@ -1,7 +1,7 @@
 package com.github.avantgarde95.painttalk.grammar
 
 /**
- * <Input> ::= <Sentence> ("." <Sentence>)* "."
+ * <Input> ::= <Sentence> "." (<Sentence> ".")*
  *
  * <Sentence> ::= <BasicSentence> ("and" <BasicSentence>)*
  *

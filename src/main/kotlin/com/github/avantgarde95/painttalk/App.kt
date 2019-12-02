@@ -8,8 +8,6 @@ import com.github.avantgarde95.painttalk.view.LogPanel
 import java.awt.BorderLayout
 import java.awt.Dimension
 import java.io.File
-import java.io.PrintWriter
-import java.io.StringWriter
 import javax.imageio.ImageIO
 import javax.swing.*
 import javax.swing.filechooser.FileNameExtensionFilter
@@ -144,10 +142,7 @@ class App {
         val ast: AST = try {
             Parser.toAST(tokens)
         } catch (exception: GrammarException) {
-            //Logger.addLog("Error at line ${exception.lineIndex}: ${exception.message}")
-            val sw = StringWriter()
-            exception.printStackTrace(PrintWriter(sw))
-            Logger.addLog(sw.toString())
+            Logger.addLog("Error at line ${exception.lineIndex}: ${exception.message}")
             return
         }
     }

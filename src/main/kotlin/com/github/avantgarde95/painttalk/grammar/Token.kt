@@ -40,7 +40,9 @@ class Token(
 
         Number(RegexPattern("""^[0-9]+""".toRegex())),
         Name(RegexPattern("""^[a-zA-Z_][a-zA-Z0-9_]*""".toRegex())),
-        Ignore(RegexPattern("""^[\s\r\n\t]""".toRegex()))
+        Ignore(RegexPattern("""^[\s\r\n\t]""".toRegex())),
+
+        EOF(StringPattern("EOF"))
     }
 
     override fun toString() =

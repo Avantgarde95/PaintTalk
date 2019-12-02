@@ -8,17 +8,66 @@ object Parser {
     }
 }
 
+private object FirstTokenType {
+    val color = listOf(
+        Token.Type.Red,
+        Token.Type.Blue,
+        Token.Type.Green,
+        Token.Type.White,
+        Token.Type.Black
+    )
+
+    val number = listOf(Token.Type.Number)
+    val tuple = listOf(Token.Type.LParen)
+
+    val area = listOf(
+        Token.Type.Border,
+        Token.Type.Inside
+    )
+
+    val attribute = listOf(
+        Token.Type.Position,
+        Token.Type.Size,
+        Token.Type.Color
+    )
+
+    val order = listOf(
+        Token.Type.In,
+        Token.Type.Behind
+    )
+
+    val shape = listOf(
+        Token.Type.Circle,
+        Token.Type.Square,
+        Token.Type.Ellipse,
+        Token.Type.Rectangle
+    )
+
+    val name = listOf(Token.Type.Name)
+    val canvas = listOf(Token.Type.Canvas)
+    val value = number + tuple + color
+    val obj = name + canvas
+    val target = listOf(Token.Type.Its) + attribute
+    val basicSentence = name + target
+    val sentence = basicSentence
+}
+
 private class ParserInstance(
-    private val tokens: List<Token>
+    inputTokens: List<Token>
 ) {
+    val tokens = inputTokens + listOf(
+        Token(Token.Type.EOF, "", inputTokens.last().lineIndex + 1)
+    )
+
     private var tokenIndex = 0
 
     fun parse(): AST {
         val root = parseInput()
         Logger.addLog(root.toString())
 
-        if (tokenIndex <= tokens.lastIndex) {
-            moveToNextToken()
+        val eofToken = getCurrentToken()
+
+        if (eofToken.type != Token.Type.EOF) {
             throw createException(getCurrentToken())
         }
 
@@ -29,24 +78,31 @@ private class ParserInstance(
         val firstToken = getCurrentToken()
         val sentences = mutableListOf(parseSentence())
 
-        while (true) {
-            val periodToken = getCurrentToken()
+        val firstPeriodToken = getCurrentToken()
 
-            if (periodToken.type != Token.Type.Period) {
-                break
-            }
-
-            moveToNextToken()
-            sentences.add(parseSentence())
-        }
-
-        val periodToken = getCurrentToken()
-
-        if (periodToken.type != Token.Type.Period) {
-            throw createException(periodToken)
+        if (firstPeriodToken.type != Token.Type.Period) {
+            throw createException(firstPeriodToken)
         }
 
         moveToNextToken()
+
+        while (true) {
+            val sentenceToken = getCurrentToken()
+
+            if (sentenceToken.type !in FirstTokenType.sentence) {
+                break
+            }
+
+            sentences.add(parseSentence())
+            val periodToken = getCurrentToken()
+
+            if (periodToken.type != Token.Type.Period) {
+                throw createException(periodToken)
+            }
+
+            moveToNextToken()
+        }
+
         return AST.Input(firstToken, sentences)
     }
 
@@ -71,60 +127,66 @@ private class ParserInstance(
     private fun parseBasicSentence(): AST.BasicSentence {
         val firstToken = getCurrentToken()
 
-        if (firstToken.type == Token.Type.Name) {
-            val firstName = parseName()
-            val isToken = getCurrentToken()
+        when (firstToken.type) {
+            in FirstTokenType.name -> {
+                val firstName = parseName()
+                val isToken = getCurrentToken()
 
-            if (isToken.type != Token.Type.Is) {
-                throw createException(isToken)
+                if (isToken.type != Token.Type.Is) {
+                    throw createException(isToken)
+                }
+
+                moveToNextToken()
+                val orderToken = getCurrentToken()
+
+                when (orderToken.type) {
+                    Token.Type.In,
+                    Token.Type.Behind -> {
+                        val order = parseOrder()
+                        val secondName = parseName()
+
+                        return AST.BasicSentence(
+                            firstToken,
+                            AST.BasicSentence.Type.Order,
+                            firstName = firstName,
+                            order = order,
+                            secondName = secondName
+                        )
+                    }
+                    else -> {
+                        val shape = parseShape()
+
+                        return AST.BasicSentence(
+                            firstToken,
+                            AST.BasicSentence.Type.Shape,
+                            firstName = firstName,
+                            shape = shape
+                        )
+                    }
+                }
             }
+            in FirstTokenType.target -> {
+                val target = parseTarget()
+                val isToken = getCurrentToken()
 
-            moveToNextToken()
-            val orderToken = getCurrentToken()
-
-            when (orderToken.type) {
-                Token.Type.In,
-                Token.Type.Behind -> {
-                    val order = parseOrder()
-                    val secondName = parseName()
-
-                    return AST.BasicSentence(
-                        firstToken,
-                        AST.BasicSentence.Type.Order,
-                        firstName = firstName,
-                        order = order,
-                        secondName = secondName
-                    )
+                if (isToken.type != Token.Type.Is) {
+                    throw createException(isToken)
                 }
-                else -> {
-                    val shape = parseShape()
 
-                    return AST.BasicSentence(
-                        firstToken,
-                        AST.BasicSentence.Type.Shape,
-                        firstName = firstName,
-                        shape = shape
-                    )
-                }
+                moveToNextToken()
+                val value = parseValue()
+
+                return AST.BasicSentence(
+                    firstToken,
+                    AST.BasicSentence.Type.Value,
+                    target = target,
+                    value = value
+                )
+            }
+            else -> {
+                throw createException(firstToken)
             }
         }
-
-        val target = parseTarget()
-        val isToken = getCurrentToken()
-
-        if (isToken.type != Token.Type.Is) {
-            throw createException(isToken)
-        }
-
-        moveToNextToken()
-        val value = parseValue()
-
-        return AST.BasicSentence(
-            firstToken,
-            AST.BasicSentence.Type.Value,
-            target = target,
-            value = value
-        )
     }
 
     private fun parseTarget(): AST.Target {
@@ -161,8 +223,7 @@ private class ParserInstance(
                     area = area
                 )
             }
-            Token.Type.Border,
-            Token.Type.Inside -> {
+            in FirstTokenType.area -> {
                 val area = parseArea()
                 val ofToken2 = getCurrentToken()
 
@@ -180,7 +241,7 @@ private class ParserInstance(
                     obj = obj
                 )
             }
-            else -> {
+            in FirstTokenType.obj -> {
                 val obj = parseObject()
                 return AST.Target(
                     firstToken,
@@ -189,6 +250,9 @@ private class ParserInstance(
                     obj = obj
                 )
             }
+            else -> {
+                throw createException(afterOfToken)
+            }
         }
     }
 
@@ -196,10 +260,12 @@ private class ParserInstance(
         val token = getCurrentToken()
 
         return when (token.type) {
-            Token.Type.Name ->
+            in FirstTokenType.name ->
                 AST.Object(token, AST.Object.Type.Name, parseName())
-            else ->
+            in FirstTokenType.canvas ->
                 AST.Object(token, AST.Object.Type.Canvas, parseCanvas())
+            else ->
+                throw createException(token)
         }
     }
 
@@ -207,12 +273,14 @@ private class ParserInstance(
         val token = getCurrentToken()
 
         return when (token.type) {
-            Token.Type.Number ->
+            in FirstTokenType.number ->
                 AST.Value(token, AST.Value.Type.Number, parseNumber())
-            Token.Type.LParen ->
+            in FirstTokenType.tuple ->
                 AST.Value(token, AST.Value.Type.Tuple, parseTuple())
-            else ->
+            in FirstTokenType.color ->
                 AST.Value(token, AST.Value.Type.Color, parseColor())
+            else ->
+                throw createException(token)
         }
     }
 
@@ -241,19 +309,13 @@ private class ParserInstance(
     private fun parseShape(): AST.Shape {
         val token = getCurrentToken()
 
-        when (token.type) {
-            Token.Type.Circle,
-            Token.Type.Square,
-            Token.Type.Ellipse,
-            Token.Type.Rectangle -> {
-                moveToNextToken()
-                val type = AST.Shape.Type.values().find { it.name == token.type.name }!!
-                return AST.Shape(token, type)
-            }
-            else -> {
-                throw createException(token)
-            }
+        if (token.type !in FirstTokenType.shape) {
+            throw createException(token)
         }
+
+        moveToNextToken()
+        val type = AST.Shape.Type.values().find { it.name == token.type.name }!!
+        return AST.Shape(token, type)
     }
 
     private fun parseOrder(): AST.Order {
@@ -287,34 +349,25 @@ private class ParserInstance(
     private fun parseAttribute(): AST.Attribute {
         val token = getCurrentToken()
 
-        when (token.type) {
-            Token.Type.Position,
-            Token.Type.Size,
-            Token.Type.Color -> {
-                moveToNextToken()
-                val type = AST.Attribute.Type.values().find { it.name == token.type.name }!!
-                return AST.Attribute(token, type)
-            }
-            else -> {
-                throw createException(token)
-            }
+        if (token.type !in FirstTokenType.attribute) {
+            throw createException(token)
         }
+
+        moveToNextToken()
+        val type = AST.Attribute.Type.values().find { it.name == token.type.name }!!
+        return AST.Attribute(token, type)
     }
 
     private fun parseArea(): AST.Area {
         val token = getCurrentToken()
 
-        when (token.type) {
-            Token.Type.Border,
-            Token.Type.Inside -> {
-                moveToNextToken()
-                val type = AST.Area.Type.values().find { it.name == token.type.name }!!
-                return AST.Area(token, type)
-            }
-            else -> {
-                throw createException(token)
-            }
+        if (token.type !in FirstTokenType.area) {
+            throw createException(token)
         }
+
+        moveToNextToken()
+        val type = AST.Area.Type.values().find { it.name == token.type.name }!!
+        return AST.Area(token, type)
     }
 
     private fun parseTuple(): AST.Tuple {
@@ -362,20 +415,13 @@ private class ParserInstance(
     private fun parseColor(): AST.Color {
         val token = getCurrentToken()
 
-        when (token.type) {
-            Token.Type.Red,
-            Token.Type.Blue,
-            Token.Type.Green,
-            Token.Type.White,
-            Token.Type.Black -> {
-                moveToNextToken()
-                val type = AST.Color.Type.values().find { it.name == token.type.name }!!
-                return AST.Color(token, type)
-            }
-            else -> {
-                throw createException(token)
-            }
+        if (token.type !in FirstTokenType.color) {
+            throw createException(token)
         }
+
+        moveToNextToken()
+        val type = AST.Color.Type.values().find { it.name == token.type.name }!!
+        return AST.Color(token, type)
     }
 
     private fun getCurrentToken(): Token {
