@@ -150,6 +150,6 @@ class App {
             return
         }
 
-        Logger.addLog("\n$ast")
+        Logger.addLog("\n${ast.toPrettyString()}")
     }
 }

@@ -1,6 +1,6 @@
 package com.github.avantgarde95.painttalk.grammar
 
-class Token(
+data class Token(
     val type: Type,
     val value: String,
     val lineIndex: Int
@@ -47,21 +47,4 @@ class Token(
 
     override fun toString() =
         "Token.$type(\"$value\" at line $lineIndex)"
-
-    override fun equals(other: Any?) = when {
-        this === other -> true
-        javaClass != other?.javaClass -> false
-        else -> {
-            val otherToken = other as Token
-
-            when {
-                type != otherToken.type -> false
-                value != otherToken.value -> false
-                lineIndex != otherToken.lineIndex -> false
-                else -> true
-            }
-        }
-    }
-
-    override fun hashCode() = super.hashCode() + 1
 }

@@ -52,7 +52,10 @@ class ParserTest {
 
         val actualAST = Parser.toAST(tokens)
 
-        TestUtil.assertMultilineEquals(expectedAST.toString(), actualAST.toString())
+        TestUtil.assertMultilineEquals(
+            expectedAST.toPrettyString(),
+            actualAST.toPrettyString()
+        )
     }
 
     @Test

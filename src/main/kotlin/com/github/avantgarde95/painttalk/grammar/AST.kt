@@ -31,29 +31,14 @@ package com.github.avantgarde95.painttalk.grammar
 class AST(
     val root: InputNode
 ) {
-    override fun toString() = root.toString()
-
-    override fun equals(other: Any?) = when {
-        this === other -> true
-        javaClass != other?.javaClass -> false
-        else -> {
-            val otherAST = other as AST
-            toString() == otherAST.toString()
-        }
-    }
-
-    override fun hashCode() = super.hashCode() + 1
+    fun toPrettyString() = root.toPrettyString(0)
 }
 
 sealed class ASTNode(
     val token: Token,
     val childs: List<ASTNode>
 ) {
-    override fun toString(): String {
-        return toStringWithDepth(0)
-    }
-
-    private fun toStringWithDepth(depth: Int): String {
+    fun toPrettyString(depth: Int): String {
         val prefix = when (depth) {
             0 -> ""
             else -> "${" ".repeat(3 * (depth - 1))}+- "
@@ -64,7 +49,7 @@ sealed class ASTNode(
         return when {
             childs.isEmpty() -> thisString
             else -> thisString + "\n" + childs.joinToString("\n") {
-                it.toStringWithDepth(depth + 1)
+                it.toPrettyString(depth + 1)
             }
         }
     }
