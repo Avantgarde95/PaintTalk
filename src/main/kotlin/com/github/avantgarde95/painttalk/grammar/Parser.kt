@@ -61,7 +61,6 @@ private class ParserInstance(
 
     fun parse(): InputNode {
         val root = parseInput()
-
         val eofToken = getCurrentToken()
 
         if (eofToken.type != Token.Type.EOF) {
