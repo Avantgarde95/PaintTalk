@@ -32,6 +32,17 @@ class AST(
     val root: InputNode
 ) {
     override fun toString() = root.toString()
+
+    override fun equals(other: Any?) = when {
+        this === other -> true
+        javaClass != other?.javaClass -> false
+        else -> {
+            val otherAST = other as AST
+            toString() == otherAST.toString()
+        }
+    }
+
+    override fun hashCode() = super.hashCode() + 1
 }
 
 sealed class ASTNode(

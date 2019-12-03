@@ -9,4 +9,8 @@ object TestUtil {
             actual.map { it as Any }.toTypedArray()
         )
     }
+
+    fun assertMultilineEquals(expected: String, actual: String) {
+        assertListEquals(expected.lines(), actual.lines())
+    }
 }
