@@ -311,8 +311,7 @@ private class ParserInstance(
         }
 
         moveToNextToken()
-        val type = ShapeNode.Type.values().find { it.name == token.type.name }!!
-        return ShapeNode(token, type)
+        return ShapeNode(token)
     }
 
     private fun parseOrder(): OrderNode {
@@ -417,8 +416,7 @@ private class ParserInstance(
         }
 
         moveToNextToken()
-        val type = ColorNode.Type.values().find { it.name == token.type.name }!!
-        return ColorNode(token, type)
+        return ColorNode(token)
     }
 
     private fun getCurrentToken(): Token {

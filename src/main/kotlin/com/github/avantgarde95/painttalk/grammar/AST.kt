@@ -149,18 +149,8 @@ class NameNode(
 ) : ASTNode(token, emptyList())
 
 class ShapeNode(
-    token: Token,
-    val type: Type
-) : ASTNode(token, emptyList()) {
-    enum class Type {
-        Circle,
-        Square,
-        Ellipse,
-        Rectangle
-    }
-
-    override fun getName() = "${super.getName()}.$type"
-}
+    token: Token
+) : ASTNode(token, emptyList())
 
 class OrderNode(
     token: Token,
@@ -209,16 +199,5 @@ class NumberNode(
 ) : ASTNode(token, emptyList())
 
 class ColorNode(
-    token: Token,
-    val type: Type
-) : ASTNode(token, emptyList()) {
-    enum class Type {
-        Red,
-        Blue,
-        Green,
-        White,
-        Black
-    }
-
-    override fun getName() = "${super.getName()}.$type"
-}
+    token: Token
+) : ASTNode(token, emptyList())

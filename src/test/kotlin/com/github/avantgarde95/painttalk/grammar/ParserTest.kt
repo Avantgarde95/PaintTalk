@@ -21,7 +21,7 @@ class ParserTest {
                                 tokens[0],
                                 BasicSentenceNode.Type.Shape,
                                 firstName = NameNode(tokens[0]),
-                                shape = ShapeNode(tokens[2], ShapeNode.Type.Circle)
+                                shape = ShapeNode(tokens[2])
                             ),
                             BasicSentenceNode(
                                 tokens[4],
