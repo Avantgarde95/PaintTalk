@@ -1,9 +1,9 @@
 package com.github.avantgarde95.painttalk.grammar
 
 object Parser {
-    fun toAST(tokens: List<Token>): ASTNode {
-        return ParserInstance(tokens).parse()
-    }
+    fun toAST(tokens: List<Token>) = AST(
+        root = ParserInstance(tokens).parse()
+    )
 }
 
 private object FirstTokenType {
@@ -59,7 +59,7 @@ private class ParserInstance(
 
     private var tokenIndex = 0
 
-    fun parse(): ASTNode {
+    fun parse(): InputNode {
         val root = parseInput()
 
         val eofToken = getCurrentToken()

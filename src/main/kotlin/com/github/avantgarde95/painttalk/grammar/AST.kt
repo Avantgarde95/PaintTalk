@@ -28,6 +28,12 @@ package com.github.avantgarde95.painttalk.grammar
  * <Color> ::= "red" | "green" | ...
  */
 
+class AST(
+    val root: InputNode
+) {
+    override fun toString() = root.toString()
+}
+
 sealed class ASTNode(
     val token: Token,
     val childs: List<ASTNode>
@@ -52,7 +58,7 @@ sealed class ASTNode(
         }
     }
 
-    open fun getName() = this::class.simpleName!!
+    protected open fun getName() = this::class.simpleName!!
 }
 
 class InputNode(

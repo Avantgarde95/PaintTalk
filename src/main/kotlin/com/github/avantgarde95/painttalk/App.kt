@@ -1,6 +1,8 @@
 package com.github.avantgarde95.painttalk
 
-import com.github.avantgarde95.painttalk.grammar.*
+import com.github.avantgarde95.painttalk.grammar.GrammarException
+import com.github.avantgarde95.painttalk.grammar.Lexer
+import com.github.avantgarde95.painttalk.grammar.Parser
 import com.github.avantgarde95.painttalk.view.CanvasPanel
 import com.github.avantgarde95.painttalk.view.ControlPanel
 import com.github.avantgarde95.painttalk.view.InputPanel
@@ -128,7 +130,7 @@ class App {
     private fun parseAndDrawInput() {
         val input = inputPanel.getInput()
 
-        val tokens: List<Token> = try {
+        val tokens = try {
             Lexer.toTokens(input)
         } catch (exception: GrammarException) {
             Logger.addLog("Error at line ${exception.lineIndex}: ${exception.message}")
@@ -141,7 +143,7 @@ class App {
 
         Logger.addLog("\n${tokens.joinToString()}")
 
-        val ast: ASTNode = try {
+        val ast = try {
             Parser.toAST(tokens)
         } catch (exception: GrammarException) {
             Logger.addLog("Error at line ${exception.lineIndex}: ${exception.message}")
