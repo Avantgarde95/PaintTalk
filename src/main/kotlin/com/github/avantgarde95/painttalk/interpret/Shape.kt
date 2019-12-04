@@ -1,6 +1,6 @@
 package com.github.avantgarde95.painttalk.interpret
 
-data class Shape(
+class Shape(
         val type: Type,
         val name: String
 ) {
@@ -17,4 +17,12 @@ data class Shape(
     var color = Value(listOf(40, 40, 40))
     var borderSize = Value(listOf(0))
     var borderColor = Value(listOf(40, 40, 40))
+
+    fun toPrettyString() = """
+        |$type "$name"
+        |- size: $size
+        |- color: $color
+        |- border.size: $borderSize
+        |- border.color: $borderColor
+        |""".trimMargin()
 }

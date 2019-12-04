@@ -9,6 +9,7 @@ object Interpreter {
 private class InterpreterInstance {
     private val canvas = Canvas()
     private val shapes = mutableListOf<Shape>()
+    private var lastUsedName: String? = null
 
     fun interpret(ast: AST): Picture {
         val inputNode = ast.root
@@ -39,9 +40,7 @@ private class InterpreterInstance {
         val shapeNode = basicSentenceNode.shape!!
         val name = nameNode.token.value
 
-        if (shapeWithNameExists(nameNode)) {
-            throw InterpretException(nameNode, "Shape \"$name\" already exists!")
-        }
+        checkNameIsNew(nameNode)
 
         val type = when (shapeNode.token.type) {
             Token.Type.Circle -> Shape.Type.Circle
@@ -54,14 +53,43 @@ private class InterpreterInstance {
         }
 
         shapes.add(Shape(type, name))
+        lastUsedName = name
     }
 
     private fun interpretOrderSentence(basicSentenceNode: BasicSentenceNode) {
         val firstNameNode = basicSentenceNode.firstName!!
         val orderNode = basicSentenceNode.order!!
         val secondNameNode = basicSentenceNode.secondName!!
+
         val firstName = firstNameNode.token.value
         val secondName = secondNameNode.token.value
+
+        if (firstName == secondName) {
+            throw InterpretException(
+                    firstNameNode,
+                    "We can't set the order of the same shapes!"
+            )
+        }
+
+        val (firstIndex, firstShape) = getShapeByName(firstNameNode)
+        val (secondIndex, secondShape) = getShapeByName(secondNameNode)
+
+        when (orderNode.type) {
+            OrderNode.Type.Front -> {
+                if (firstIndex > secondIndex) {
+                    shapes.removeAt(firstIndex)
+                    shapes.add(secondIndex, firstShape)
+                }
+            }
+            OrderNode.Type.Behind -> {
+                if (firstIndex < secondIndex) {
+                    shapes.removeAt(secondIndex)
+                    shapes.add(firstIndex, secondShape)
+                }
+            }
+        }
+
+        lastUsedName = firstName
     }
 
     private fun interpretValueSentence(basicSentenceNode: BasicSentenceNode) {
@@ -78,11 +106,30 @@ private class InterpreterInstance {
 
     }
 
-    private fun shapeWithNameExists(nameNode: NameNode) =
-            shapes.find { nameNode.token.value == it.name } != null
+    private fun checkNameIsNew(nameNode: NameNode) {
+        val name = nameNode.token.value
 
-    private fun getShapeByName(nameNode: NameNode) =
-            shapes.find { nameNode.token.value == it.name }!!
+        if (shapes.find { name == it.name } != null) {
+            throw InterpretException(
+                    nameNode.token.lineIndex,
+                    "Shape \"$name\" already exists!"
+            )
+        }
+    }
+
+    private fun getShapeByName(nameNode: NameNode): Pair<Int, Shape> {
+        val name = nameNode.token.value
+        val index = shapes.indexOfFirst { name == it.name }
+
+        if (index < 0) {
+            throw InterpretException(
+                    nameNode.token.lineIndex,
+                    "Shape \"$name\" doesn't exist!"
+            )
+        }
+
+        return index to shapes[index]
+    }
 
     private fun tupleNodeToValue(tupleNode: TupleNode) =
             Value(tupleNode.numbers.map { it.token.value.toInt() })

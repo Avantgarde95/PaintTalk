@@ -5,4 +5,12 @@ class Canvas {
     var color = Value(listOf(40, 40, 40))
     var borderSize = Value(listOf(0))
     var borderColor = Value(listOf(40, 40, 40))
+
+    fun toPrettyString() = """
+        |Canvas
+        |- size: $size
+        |- color: $color
+        |- border.size: $borderSize
+        |- border.color: $borderColor
+        |""".trimMargin()
 }

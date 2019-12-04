@@ -4,5 +4,6 @@ class Picture(
         val canvas: Canvas,
         val shapes: List<Shape>
 ) {
-    fun toPrettyString() = ""
+    fun toPrettyString() = "${canvas.toPrettyString()}\n" +
+            shapes.joinToString("\n") { it.toPrettyString() }
 }
