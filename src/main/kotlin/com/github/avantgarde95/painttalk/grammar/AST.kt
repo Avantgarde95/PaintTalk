@@ -29,14 +29,14 @@ package com.github.avantgarde95.painttalk.grammar
  */
 
 class AST(
-    val root: InputNode
+        val root: InputNode
 ) {
     fun toPrettyString() = root.toPrettyString(0)
 }
 
 sealed class ASTNode(
-    val token: Token,
-    val childs: List<ASTNode>
+        val token: Token,
+        val childs: List<ASTNode>
 ) {
     fun toPrettyString(depth: Int): String {
         val prefix = when (depth) {
@@ -58,34 +58,34 @@ sealed class ASTNode(
 }
 
 class InputNode(
-    token: Token,
-    val sentences: List<SentenceNode>
+        token: Token,
+        val sentences: List<SentenceNode>
 ) : ASTNode(token, sentences)
 
 class SentenceNode(
-    token: Token,
-    val sentences: List<BasicSentenceNode>
-) : ASTNode(token, sentences)
+        token: Token,
+        val basicSentences: List<BasicSentenceNode>
+) : ASTNode(token, basicSentences)
 
 class BasicSentenceNode(
-    token: Token,
-    val type: Type,
-    val firstName: NameNode? = null,
-    val shape: ShapeNode? = null,
-    val order: OrderNode? = null,
-    val secondName: NameNode? = null,
-    val target: TargetNode? = null,
-    val value: ValueNode? = null
+        token: Token,
+        val type: Type,
+        val firstName: NameNode? = null,
+        val shape: ShapeNode? = null,
+        val order: OrderNode? = null,
+        val secondName: NameNode? = null,
+        val target: TargetNode? = null,
+        val value: ValueNode? = null
 ) : ASTNode(
-    token,
-    listOfNotNull(
-        firstName,
-        shape,
-        order,
-        secondName,
-        target,
-        value
-    )
+        token,
+        listOfNotNull(
+                firstName,
+                shape,
+                order,
+                secondName,
+                target,
+                value
+        )
 ) {
     enum class Type {
         Shape,
@@ -97,11 +97,11 @@ class BasicSentenceNode(
 }
 
 class TargetNode(
-    token: Token,
-    val type: Type,
-    val attribute: AttributeNode,
-    val area: AreaNode? = null,
-    val obj: ObjectNode? = null
+        token: Token,
+        val type: Type,
+        val attribute: AttributeNode,
+        val area: AreaNode? = null,
+        val obj: ObjectNode? = null
 ) : ASTNode(token, listOfNotNull(attribute, area, obj)) {
     enum class Type {
         Attribute,
@@ -114,9 +114,9 @@ class TargetNode(
 }
 
 class ObjectNode(
-    token: Token,
-    val type: Type,
-    val obj: ASTNode
+        token: Token,
+        val type: Type,
+        val obj: ASTNode
 ) : ASTNode(token, listOf(obj)) {
     enum class Type {
         Name,
@@ -127,9 +127,9 @@ class ObjectNode(
 }
 
 class ValueNode(
-    token: Token,
-    val type: Type,
-    val value: ASTNode
+        token: Token,
+        val type: Type,
+        val value: ASTNode
 ) : ASTNode(token, listOf(value)) {
     enum class Type {
         Number,
@@ -141,20 +141,20 @@ class ValueNode(
 }
 
 class CanvasNode(
-    token: Token
+        token: Token
 ) : ASTNode(token, emptyList())
 
 class NameNode(
-    token: Token
+        token: Token
 ) : ASTNode(token, emptyList())
 
 class ShapeNode(
-    token: Token
+        token: Token
 ) : ASTNode(token, emptyList())
 
 class OrderNode(
-    token: Token,
-    val type: Type
+        token: Token,
+        val type: Type
 ) : ASTNode(token, emptyList()) {
     enum class Type {
         Front,
@@ -165,8 +165,8 @@ class OrderNode(
 }
 
 class AttributeNode(
-    token: Token,
-    val type: Type
+        token: Token,
+        val type: Type
 ) : ASTNode(token, emptyList()) {
     enum class Type {
         Position,
@@ -178,8 +178,8 @@ class AttributeNode(
 }
 
 class AreaNode(
-    token: Token,
-    val type: Type
+        token: Token,
+        val type: Type
 ) : ASTNode(token, emptyList()) {
     enum class Type {
         Border,
@@ -190,14 +190,14 @@ class AreaNode(
 }
 
 class TupleNode(
-    token: Token,
-    val numbers: List<NumberNode>
+        token: Token,
+        val numbers: List<NumberNode>
 ) : ASTNode(token, numbers)
 
 class NumberNode(
-    token: Token
+        token: Token
 ) : ASTNode(token, emptyList())
 
 class ColorNode(
-    token: Token
+        token: Token
 ) : ASTNode(token, emptyList())

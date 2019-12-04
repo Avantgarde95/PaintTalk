@@ -3,6 +3,8 @@ package com.github.avantgarde95.painttalk
 import com.github.avantgarde95.painttalk.grammar.GrammarException
 import com.github.avantgarde95.painttalk.grammar.Lexer
 import com.github.avantgarde95.painttalk.grammar.Parser
+import com.github.avantgarde95.painttalk.interpret.InterpretException
+import com.github.avantgarde95.painttalk.interpret.Interpreter
 import com.github.avantgarde95.painttalk.view.CanvasPanel
 import com.github.avantgarde95.painttalk.view.ControlPanel
 import com.github.avantgarde95.painttalk.view.InputPanel
@@ -59,19 +61,19 @@ class App {
                 add(controlPanel, BorderLayout.NORTH)
 
                 add(
-                    JSplitPane(
-                        JSplitPane.VERTICAL_SPLIT,
                         JSplitPane(
-                            JSplitPane.HORIZONTAL_SPLIT,
-                            inputPanel,
-                            canvasPanel
+                                JSplitPane.VERTICAL_SPLIT,
+                                JSplitPane(
+                                        JSplitPane.HORIZONTAL_SPLIT,
+                                        inputPanel,
+                                        canvasPanel
+                                ).apply {
+                                    dividerLocation = 300
+                                },
+                                logPanel
                         ).apply {
-                            dividerLocation = 300
-                        },
-                        logPanel
-                    ).apply {
-                        dividerLocation = 280
-                    }, BorderLayout.CENTER
+                            dividerLocation = 280
+                        }, BorderLayout.CENTER
                 )
 
                 pack()
@@ -151,5 +153,14 @@ class App {
         }
 
         Logger.addLog("\n${ast.toPrettyString()}")
+
+        val picture = try {
+            Interpreter.toPicture(ast)
+        } catch (exception: InterpretException) {
+            Logger.addLog("Error at line ${exception.lineIndex}: ${exception.message}")
+            return
+        }
+
+        Logger.addLog("\n${picture.toPrettyString()}")
     }
 }
