@@ -1,5 +1,9 @@
 package com.github.avantgarde95.painttalk.view
 
+import com.github.avantgarde95.painttalk.interpret.Canvas
+import com.github.avantgarde95.painttalk.interpret.Picture
+import com.github.avantgarde95.painttalk.interpret.Shape
+import com.github.avantgarde95.painttalk.interpret.Value
 import java.awt.*
 import java.awt.image.BufferedImage
 import javax.swing.JButton
@@ -38,16 +42,13 @@ class CanvasPanel : JPanel() {
     private var zoomValue = 1.0f
     private val zoomDifference = 0.1f
 
-    private var originalImage = BufferedImage(400, 300, BufferedImage.TYPE_INT_RGB).apply {
-        createGraphics().apply {
-            background = Color.CYAN
-            stroke = BasicStroke(10.0f)
-            color = Color.BLUE
-            fillOval(50, 50, 50, 50)
-            color = Color.RED
-            drawOval(50, 50, 50, 50)
-        }
-    }
+    private var originalImage =
+            BufferedImage(100, 100, BufferedImage.TYPE_INT_RGB).apply {
+                createGraphics().apply {
+                    color = Color.WHITE
+                    fillRect(0, 0, 100, 100)
+                }
+            }
 
     private var scaledImage = originalImage
 
@@ -66,11 +67,141 @@ class CanvasPanel : JPanel() {
 
     fun getImage() = originalImage
 
+    fun drawImageFromPicture(picture: Picture) {
+        drawCanvasInside(picture.canvas)
+        drawCanvasBorder(picture.canvas)
+
+        picture.shapes.forEach {
+            drawShapeInside(it)
+            drawShapeBorder(it)
+        }
+
+        updateScaledImage()
+        updateDrawPanel()
+    }
+
+    private fun drawCanvasInside(canvas: Canvas) {
+        originalImage = BufferedImage(
+                canvas.size.numbers[0],
+                canvas.size.numbers[1],
+                BufferedImage.TYPE_INT_RGB
+        )
+
+        val originalGraphics = originalImage.createGraphics()
+
+        originalGraphics.color = valueToColor(canvas.color)
+
+        originalGraphics.fillRect(
+                0,
+                0,
+                canvas.size.numbers[0],
+                canvas.size.numbers[1]
+        )
+    }
+
+    private fun drawCanvasBorder(canvas: Canvas) {
+
+    }
+
+    private fun drawShapeInside(shape: Shape) {
+        val originalGraphics = originalImage.createGraphics()
+
+        originalGraphics.color = valueToColor(shape.color)
+
+        when (shape.type) {
+            Shape.Type.Circle -> {
+                originalGraphics.fillOval(
+                        shape.position.numbers[0],
+                        shape.position.numbers[1],
+                        shape.size.numbers[0],
+                        shape.size.numbers[0]
+                )
+            }
+            Shape.Type.Square -> {
+                originalGraphics.fillRect(
+                        shape.position.numbers[0],
+                        shape.position.numbers[1],
+                        shape.size.numbers[0],
+                        shape.size.numbers[0]
+                )
+            }
+            Shape.Type.Ellipse -> {
+                originalGraphics.fillOval(
+                        shape.position.numbers[0],
+                        shape.position.numbers[1],
+                        shape.size.numbers[0],
+                        shape.size.numbers[1]
+                )
+            }
+            Shape.Type.Rectangle -> {
+                originalGraphics.fillRect(
+                        shape.position.numbers[0],
+                        shape.position.numbers[1],
+                        shape.size.numbers[0],
+                        shape.size.numbers[1]
+                )
+            }
+        }
+    }
+
+    private fun drawShapeBorder(shape: Shape) {
+        val originalGraphics = originalImage.createGraphics()
+        val borderSize = shape.borderSize.numbers[0]
+
+        if (borderSize == 0) {
+            return
+        }
+
+        originalGraphics.stroke = BasicStroke(borderSize.toFloat())
+        originalGraphics.color = valueToColor(shape.borderColor)
+
+        when (shape.type) {
+            Shape.Type.Circle -> {
+                originalGraphics.drawOval(
+                        shape.position.numbers[0],
+                        shape.position.numbers[1],
+                        shape.size.numbers[0],
+                        shape.size.numbers[0]
+                )
+            }
+            Shape.Type.Square -> {
+                originalGraphics.drawRect(
+                        shape.position.numbers[0],
+                        shape.position.numbers[1],
+                        shape.size.numbers[0],
+                        shape.size.numbers[0]
+                )
+            }
+            Shape.Type.Ellipse -> {
+                originalGraphics.drawOval(
+                        shape.position.numbers[0],
+                        shape.position.numbers[1],
+                        shape.size.numbers[0],
+                        shape.size.numbers[1]
+                )
+            }
+            Shape.Type.Rectangle -> {
+                originalGraphics.drawRect(
+                        shape.position.numbers[0],
+                        shape.position.numbers[1],
+                        shape.size.numbers[0],
+                        shape.size.numbers[1]
+                )
+            }
+        }
+    }
+
+    private fun valueToColor(value: Value) = Color(
+            value.numbers[0],
+            value.numbers[1],
+            value.numbers[2]
+    )
+
     private fun updateScaledImage() {
         scaledImage = BufferedImage(
-            (originalImage.width * zoomValue).toInt(),
-            (originalImage.height * zoomValue).toInt(),
-            BufferedImage.TYPE_INT_RGB
+                (originalImage.width * zoomValue).toInt(),
+                (originalImage.height * zoomValue).toInt(),
+                BufferedImage.TYPE_INT_RGB
         )
 
         scaledImage.createGraphics().apply {

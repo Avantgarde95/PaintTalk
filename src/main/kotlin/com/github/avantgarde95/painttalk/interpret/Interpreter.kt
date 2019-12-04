@@ -95,34 +95,164 @@ private class InterpreterInstance {
     private fun interpretValueSentence(basicSentenceNode: BasicSentenceNode) {
         val targetNode = basicSentenceNode.target!!
         val valueNode = basicSentenceNode.value!!
+        val attributeNode = targetNode.attribute
 
         when (targetNode.type) {
             TargetNode.Type.Attribute -> {
+                val objectNode = targetNode.obj!!
 
+                when (objectNode.type) {
+                    ObjectNode.Type.Canvas -> {
+                        setCanvasAttribute(attributeNode, valueNode)
+                        lastUsedName = "canvas"
+                    }
+                    ObjectNode.Type.Name -> {
+                        val nameNode = objectNode.obj as NameNode
+
+                        setShapeAttribute(nameNode, attributeNode, valueNode)
+                        lastUsedName = nameNode.token.value
+                    }
+                }
             }
             TargetNode.Type.AreaAttribute -> {
+                val areaNode = targetNode.area!!
+                val objectNode = targetNode.obj!!
+
 
             }
             TargetNode.Type.IndirectAttribute -> {
-
             }
             TargetNode.Type.IndirectAreaAttribute -> {
+                val areaNode = targetNode.area!!
+            }
+        }
+    }
 
+    private fun setCanvasAttribute(
+            attributeNode: AttributeNode,
+            valueNode: ValueNode
+    ) {
+        val value = valueNodeToValue(valueNode)
+        val lineIndex = valueNode.token.lineIndex
+
+        when (attributeNode.type) {
+            AttributeNode.Type.Size -> {
+                if (value.dimension != 2) {
+                    throw InterpretException(
+                            lineIndex,
+                            "Dimension of canvas size should be 2!"
+                    )
+                }
+
+                canvas.size = value
+            }
+            AttributeNode.Type.Color -> {
+                if (value.dimension != 3) {
+                    throw InterpretException(
+                            lineIndex,
+                            "Dimension of color should be 3!"
+                    )
+                }
+
+                canvas.color = value
+            }
+            AttributeNode.Type.Position -> {
+                throw InterpretException(
+                        lineIndex,
+                        "Invalid attribute for canvas!"
+                )
+            }
+        }
+    }
+
+    private fun setCanvasBorderAttribute(
+            attributeNode: AttributeNode,
+            areaNode: AreaNode,
+            valueNode: ValueNode
+    ) {
+
+        val value = valueNodeToValue(valueNode)
+        val lineIndex = valueNode.token.lineIndex
+
+        when (attributeNode.type) {
+            AttributeNode.Type.Size -> {
+                if (value.dimension != 1) {
+                    throw InterpretException(
+                            lineIndex,
+                            "Dimension of border should be 1!"
+                    )
+                }
+
+                canvas.borderSize = value
+            }
+            AttributeNode.Type.Color -> {
+                if (value.dimension != 3) {
+                    throw InterpretException(
+                            lineIndex,
+                            "Dimension of color should be 3!"
+                    )
+                }
+
+                canvas.borderColor = value
+            }
+            AttributeNode.Type.Position -> {
+                throw InterpretException(
+                        lineIndex,
+                        "Invalid attribute for border!"
+                )
             }
         }
     }
 
     private fun setShapeAttribute(
             nameNode: NameNode,
-            attributeNode: AttributeNode
+            attributeNode: AttributeNode,
+            valueNode: ValueNode
     ) {
-        val shape = getShapeByName(nameNode)
+        val shape = getShapeByName(nameNode).second
+        val value = valueNodeToValue(valueNode)
+        val lineIndex = valueNode.token.lineIndex
+
+        when (attributeNode.type) {
+            AttributeNode.Type.Size -> {
+                if (value.dimension != shape.type.sizeDimension) {
+                    throw InterpretException(
+                            lineIndex,
+                            "Dimension of ${shape.type} size should be ${shape.type.sizeDimension}!"
+                    )
+                }
+
+                shape.size = value
+            }
+            AttributeNode.Type.Color -> {
+                if (value.dimension != 3) {
+                    throw InterpretException(
+                            lineIndex,
+                            "Dimension of position should be 3!"
+                    )
+                }
+
+                shape.color = value
+            }
+            AttributeNode.Type.Position -> {
+                if (value.dimension != 2) {
+                    throw InterpretException(
+                            lineIndex,
+                            "Invalid attribute for canvas!"
+                    )
+                }
+
+                shape.position = value
+            }
+        }
     }
 
-    private fun setCanvasAttribute(
-            attributeNode: AttributeNode
+    private fun setShapeAreaAttribute(
+            nameNode: NameNode,
+            attributeNode: AttributeNode,
+            areaNode: AreaNode,
+            valueNode: ValueNode
     ) {
-
     }
 
     private fun checkNameIsNew(nameNode: NameNode) {
@@ -149,6 +279,16 @@ private class InterpreterInstance {
 
         return index to shapes[index]
     }
+
+    private fun valueNodeToValue(valueNode: ValueNode) =
+            when (valueNode.type) {
+                ValueNode.Type.Tuple ->
+                    tupleNodeToValue(valueNode.value as TupleNode)
+                ValueNode.Type.Number ->
+                    numberNodeToValue(valueNode.value as NumberNode)
+                ValueNode.Type.Color ->
+                    colorNodeToValue(valueNode.value as ColorNode)
+            }
 
     private fun tupleNodeToValue(tupleNode: TupleNode) =
             Value(tupleNode.numbers.map { it.token.value.toInt() })

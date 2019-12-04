@@ -161,6 +161,8 @@ class App {
             return
         }
 
-        Logger.addLog("\n${picture.toPrettyString()}")
+        Logger.addLog("\n\n${picture.toPrettyString()}")
+
+        canvasPanel.drawImageFromPicture(picture)
     }
 }

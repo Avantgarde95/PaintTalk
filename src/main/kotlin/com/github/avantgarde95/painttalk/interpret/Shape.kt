@@ -13,10 +13,11 @@ class Shape(
         Rectangle(sizeDimension = 2)
     }
 
+    var position = Value(listOf(0, 0))
     var size = Value((1..type.sizeDimension).map { 1 })
-    var color = Value(listOf(40, 40, 40))
+    var color = Value(listOf(0, 0, 0))
     var borderSize = Value(listOf(0))
-    var borderColor = Value(listOf(40, 40, 40))
+    var borderColor = Value(listOf(0, 0, 0))
 
     fun toPrettyString() = """
         |$type "$name"
