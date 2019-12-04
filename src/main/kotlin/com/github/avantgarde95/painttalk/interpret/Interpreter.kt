@@ -95,14 +95,33 @@ private class InterpreterInstance {
     private fun interpretValueSentence(basicSentenceNode: BasicSentenceNode) {
         val targetNode = basicSentenceNode.target!!
         val valueNode = basicSentenceNode.value!!
+
+        when (targetNode.type) {
+            TargetNode.Type.Attribute -> {
+
+            }
+            TargetNode.Type.AreaAttribute -> {
+
+            }
+            TargetNode.Type.IndirectAttribute -> {
+
+            }
+            TargetNode.Type.IndirectAreaAttribute -> {
+
+            }
+        }
     }
 
     private fun setShapeAttribute(
             nameNode: NameNode,
-            shapeNode: ShapeNode
+            attributeNode: AttributeNode
     ) {
         val shape = getShapeByName(nameNode)
+    }
 
+    private fun setCanvasAttribute(
+            attributeNode: AttributeNode
+    ) {
 
     }
 
