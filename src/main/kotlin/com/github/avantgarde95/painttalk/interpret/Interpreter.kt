@@ -9,7 +9,7 @@ object Interpreter {
 private class InterpreterInstance {
     private val canvas = Canvas()
     private val shapes = mutableListOf<Shape>()
-    private var lastUsedName: String? = null
+    private var lastUsedObject: Any? = null
 
     fun interpret(ast: AST): Picture {
         val inputNode = ast.root
@@ -52,8 +52,9 @@ private class InterpreterInstance {
             }
         }
 
-        shapes.add(Shape(type, name))
-        lastUsedName = name
+        val shape = Shape(type, name)
+        shapes.add(shape)
+        lastUsedObject = shape
     }
 
     private fun interpretOrderSentence(basicSentenceNode: BasicSentenceNode) {
@@ -89,7 +90,7 @@ private class InterpreterInstance {
             }
         }
 
-        lastUsedName = firstName
+        lastUsedObject = firstShape
     }
 
     private fun interpretValueSentence(basicSentenceNode: BasicSentenceNode) {
@@ -104,13 +105,11 @@ private class InterpreterInstance {
                 when (objectNode.type) {
                     ObjectNode.Type.Canvas -> {
                         setCanvasAttribute(attributeNode, valueNode)
-                        lastUsedName = "canvas"
                     }
                     ObjectNode.Type.Name -> {
                         val nameNode = objectNode.obj as NameNode
 
                         setShapeAttribute(nameNode, attributeNode, valueNode)
-                        lastUsedName = nameNode.token.value
                     }
                 }
             }
@@ -119,26 +118,51 @@ private class InterpreterInstance {
                 val objectNode = targetNode.obj!!
 
                 if (areaNode.type != AreaNode.Type.Border) {
-                    throw InterpretException(areaNode, "Wrong area!")
+                    throw InterpretException(areaNode, "Not \"border\"!")
                 }
 
                 when (objectNode.type) {
                     ObjectNode.Type.Canvas -> {
                         setCanvasBorderAttribute(attributeNode, valueNode)
-                        lastUsedName = "canvas"
                     }
                     ObjectNode.Type.Name -> {
                         val nameNode = objectNode.obj as NameNode
 
                         setShapeBorderAttribute(nameNode, attributeNode, valueNode)
-                        lastUsedName = nameNode.token.value
                     }
                 }
             }
             TargetNode.Type.IndirectAttribute -> {
+                if (lastUsedObject == null) {
+                    throw InterpretException(
+                            targetNode,
+                            "Can't use \"its\" since no object is defined!"
+                    )
+                }
+
+                when (lastUsedObject!!) {
+                    is Canvas -> {
+                        setCanvasAttribute(attributeNode, valueNode)
+                    }
+                    is Shape -> {
+                        val shape = lastUsedObject as Shape
+                        setShapeAttribute(shape, attributeNode, valueNode)
+                    }
+                }
             }
             TargetNode.Type.IndirectAreaAttribute -> {
                 val areaNode = targetNode.area!!
+
+                if (areaNode.type != AreaNode.Type.Border) {
+                    throw InterpretException(areaNode, "Not \"border\"!")
+                }
+
+                if (lastUsedObject == null) {
+                    throw InterpretException(
+                            targetNode,
+                            "Can't use \"its\" since no object is defined!"
+                    )
+                }
             }
         }
     }
@@ -178,6 +202,8 @@ private class InterpreterInstance {
                 )
             }
         }
+
+        lastUsedObject = canvas
     }
 
     private fun setCanvasBorderAttribute(
@@ -216,6 +242,8 @@ private class InterpreterInstance {
                 )
             }
         }
+
+        lastUsedObject = canvas
     }
 
     private fun setShapeAttribute(
@@ -224,6 +252,14 @@ private class InterpreterInstance {
             valueNode: ValueNode
     ) {
         val shape = getShapeByName(nameNode).second
+        setShapeAttribute(shape, attributeNode, valueNode)
+    }
+
+    private fun setShapeAttribute(
+            shape: Shape,
+            attributeNode: AttributeNode,
+            valueNode: ValueNode
+    ) {
         val value = valueNodeToValue(valueNode)
         val lineIndex = valueNode.token.lineIndex
 
@@ -259,6 +295,8 @@ private class InterpreterInstance {
                 shape.position = value
             }
         }
+
+        lastUsedObject = shape
     }
 
     private fun setShapeBorderAttribute(
@@ -298,6 +336,8 @@ private class InterpreterInstance {
                 )
             }
         }
+
+        lastUsedObject = shape
     }
 
     private fun checkNameIsNew(nameNode: NameNode) {
