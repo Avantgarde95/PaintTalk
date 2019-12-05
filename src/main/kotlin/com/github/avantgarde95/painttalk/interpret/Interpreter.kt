@@ -163,6 +163,16 @@ private class InterpreterInstance {
                             "Can't use \"its\" since no object is defined!"
                     )
                 }
+
+                when (lastUsedObject!!) {
+                    is Canvas -> {
+                        setCanvasBorderAttribute(attributeNode, valueNode)
+                    }
+                    is Shape -> {
+                        val shape = lastUsedObject as Shape
+                        setShapeBorderAttribute(shape, attributeNode, valueNode)
+                    }
+                }
             }
         }
     }
@@ -252,6 +262,7 @@ private class InterpreterInstance {
             valueNode: ValueNode
     ) {
         val shape = getShapeByName(nameNode).second
+
         setShapeAttribute(shape, attributeNode, valueNode)
     }
 
@@ -305,6 +316,15 @@ private class InterpreterInstance {
             valueNode: ValueNode
     ) {
         val shape = getShapeByName(nameNode).second
+
+        setShapeBorderAttribute(shape, attributeNode, valueNode)
+    }
+
+    private fun setShapeBorderAttribute(
+            shape: Shape,
+            attributeNode: AttributeNode,
+            valueNode: ValueNode
+    ) {
         val value = valueNodeToValue(valueNode)
         val lineIndex = valueNode.token.lineIndex
 
