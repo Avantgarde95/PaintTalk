@@ -1,0 +1,3201 @@
+Size of canvas is (200, 200).
+
+Pixel1 is square and its size is 5 and its position is (0, 0) and its color is (185, 185, 185).
+
+Pixel2 is square and its size is 5 and its position is (0, 5) and its color is (135, 135, 135).
+
+Pixel3 is square and its size is 5 and its position is (0, 10) and its color is (244, 244, 244).
+
+Pixel4 is square and its size is 5 and its position is (0, 15) and its color is (255, 255, 255).
+
+Pixel5 is square and its size is 5 and its position is (0, 20) and its color is (252, 252, 252).
+
+Pixel6 is square and its size is 5 and its position is (0, 25) and its color is (253, 253, 253).
+
+Pixel7 is square and its size is 5 and its position is (0, 30) and its color is (255, 255, 255).
+
+Pixel8 is square and its size is 5 and its position is (0, 35) and its color is (255, 255, 255).
+
+Pixel9 is square and its size is 5 and its position is (0, 40) and its color is (255, 255, 255).
+
+Pixel10 is square and its size is 5 and its position is (0, 45) and its color is (255, 255, 255).
+
+Pixel11 is square and its size is 5 and its position is (0, 50) and its color is (255, 255, 255).
+
+Pixel12 is square and its size is 5 and its position is (0, 55) and its color is (255, 255, 255).
+
+Pixel13 is square and its size is 5 and its position is (0, 60) and its color is (255, 255, 255).
+
+Pixel14 is square and its size is 5 and its position is (0, 65) and its color is (255, 255, 255).
+
+Pixel15 is square and its size is 5 and its position is (0, 70) and its color is (255, 255, 255).
+
+Pixel16 is square and its size is 5 and its position is (0, 75) and its color is (255, 255, 255).
+
+Pixel17 is square and its size is 5 and its position is (0, 80) and its color is (255, 255, 255).
+
+Pixel18 is square and its size is 5 and its position is (0, 85) and its color is (255, 255, 255).
+
+Pixel19 is square and its size is 5 and its position is (0, 90) and its color is (255, 255, 255).
+
+Pixel20 is square and its size is 5 and its position is (0, 95) and its color is (255, 255, 255).
+
+Pixel21 is square and its size is 5 and its position is (0, 100) and its color is (255, 255, 255).
+
+Pixel22 is square and its size is 5 and its position is (0, 105) and its color is (255, 255, 255).
+
+Pixel23 is square and its size is 5 and its position is (0, 110) and its color is (255, 255, 255).
+
+Pixel24 is square and its size is 5 and its position is (0, 115) and its color is (255, 255, 255).
+
+Pixel25 is square and its size is 5 and its position is (0, 120) and its color is (255, 255, 255).
+
+Pixel26 is square and its size is 5 and its position is (0, 125) and its color is (255, 255, 255).
+
+Pixel27 is square and its size is 5 and its position is (0, 130) and its color is (255, 255, 255).
+
+Pixel28 is square and its size is 5 and its position is (0, 135) and its color is (255, 255, 255).
+
+Pixel29 is square and its size is 5 and its position is (0, 140) and its color is (255, 255, 255).
+
+Pixel30 is square and its size is 5 and its position is (0, 145) and its color is (255, 255, 255).
+
+Pixel31 is square and its size is 5 and its position is (0, 150) and its color is (255, 255, 255).
+
+Pixel32 is square and its size is 5 and its position is (0, 155) and its color is (255, 255, 255).
+
+Pixel33 is square and its size is 5 and its position is (0, 160) and its color is (255, 255, 255).
+
+Pixel34 is square and its size is 5 and its position is (0, 165) and its color is (255, 255, 255).
+
+Pixel35 is square and its size is 5 and its position is (0, 170) and its color is (255, 255, 255).
+
+Pixel36 is square and its size is 5 and its position is (0, 175) and its color is (255, 255, 255).
+
+Pixel37 is square and its size is 5 and its position is (0, 180) and its color is (255, 255, 255).
+
+Pixel38 is square and its size is 5 and its position is (0, 185) and its color is (255, 255, 255).
+
+Pixel39 is square and its size is 5 and its position is (0, 190) and its color is (255, 255, 255).
+
+Pixel40 is square and its size is 5 and its position is (0, 195) and its color is (255, 255, 255).
+
+Pixel41 is square and its size is 5 and its position is (5, 0) and its color is (164, 164, 164).
+
+Pixel42 is square and its size is 5 and its position is (5, 5) and its color is (0, 0, 0).
+
+Pixel43 is square and its size is 5 and its position is (5, 10) and its color is (36, 36, 33).
+
+Pixel44 is square and its size is 5 and its position is (5, 15) and its color is (169, 169, 166).
+
+Pixel45 is square and its size is 5 and its position is (5, 20) and its color is (255, 255, 255).
+
+Pixel46 is square and its size is 5 and its position is (5, 25) and its color is (253, 253, 253).
+
+Pixel47 is square and its size is 5 and its position is (5, 30) and its color is (253, 253, 253).
+
+Pixel48 is square and its size is 5 and its position is (5, 35) and its color is (255, 255, 255).
+
+Pixel49 is square and its size is 5 and its position is (5, 40) and its color is (255, 255, 255).
+
+Pixel50 is square and its size is 5 and its position is (5, 45) and its color is (255, 255, 255).
+
+Pixel51 is square and its size is 5 and its position is (5, 50) and its color is (255, 255, 255).
+
+Pixel52 is square and its size is 5 and its position is (5, 55) and its color is (255, 255, 255).
+
+Pixel53 is square and its size is 5 and its position is (5, 60) and its color is (255, 255, 255).
+
+Pixel54 is square and its size is 5 and its position is (5, 65) and its color is (255, 255, 255).
+
+Pixel55 is square and its size is 5 and its position is (5, 70) and its color is (255, 255, 255).
+
+Pixel56 is square and its size is 5 and its position is (5, 75) and its color is (255, 255, 255).
+
+Pixel57 is square and its size is 5 and its position is (5, 80) and its color is (255, 255, 255).
+
+Pixel58 is square and its size is 5 and its position is (5, 85) and its color is (255, 255, 255).
+
+Pixel59 is square and its size is 5 and its position is (5, 90) and its color is (255, 255, 255).
+
+Pixel60 is square and its size is 5 and its position is (5, 95) and its color is (255, 255, 255).
+
+Pixel61 is square and its size is 5 and its position is (5, 100) and its color is (255, 255, 255).
+
+Pixel62 is square and its size is 5 and its position is (5, 105) and its color is (255, 255, 255).
+
+Pixel63 is square and its size is 5 and its position is (5, 110) and its color is (255, 255, 255).
+
+Pixel64 is square and its size is 5 and its position is (5, 115) and its color is (255, 255, 255).
+
+Pixel65 is square and its size is 5 and its position is (5, 120) and its color is (255, 255, 255).
+
+Pixel66 is square and its size is 5 and its position is (5, 125) and its color is (255, 255, 255).
+
+Pixel67 is square and its size is 5 and its position is (5, 130) and its color is (255, 255, 255).
+
+Pixel68 is square and its size is 5 and its position is (5, 135) and its color is (255, 255, 255).
+
+Pixel69 is square and its size is 5 and its position is (5, 140) and its color is (255, 255, 255).
+
+Pixel70 is square and its size is 5 and its position is (5, 145) and its color is (255, 255, 255).
+
+Pixel71 is square and its size is 5 and its position is (5, 150) and its color is (255, 255, 255).
+
+Pixel72 is square and its size is 5 and its position is (5, 155) and its color is (255, 255, 255).
+
+Pixel73 is square and its size is 5 and its position is (5, 160) and its color is (255, 255, 255).
+
+Pixel74 is square and its size is 5 and its position is (5, 165) and its color is (255, 255, 255).
+
+Pixel75 is square and its size is 5 and its position is (5, 170) and its color is (255, 255, 255).
+
+Pixel76 is square and its size is 5 and its position is (5, 175) and its color is (255, 255, 255).
+
+Pixel77 is square and its size is 5 and its position is (5, 180) and its color is (255, 255, 255).
+
+Pixel78 is square and its size is 5 and its position is (5, 185) and its color is (255, 255, 255).
+
+Pixel79 is square and its size is 5 and its position is (5, 190) and its color is (255, 255, 255).
+
+Pixel80 is square and its size is 5 and its position is (5, 195) and its color is (255, 255, 255).
+
+Pixel81 is square and its size is 5 and its position is (10, 0) and its color is (224, 224, 224).
+
+Pixel82 is square and its size is 5 and its position is (10, 5) and its color is (15, 15, 16).
+
+Pixel83 is square and its size is 5 and its position is (10, 10) and its color is (0, 0, 0).
+
+Pixel84 is square and its size is 5 and its position is (10, 15) and its color is (0, 0, 0).
+
+Pixel85 is square and its size is 5 and its position is (10, 20) and its color is (71, 72, 79).
+
+Pixel86 is square and its size is 5 and its position is (10, 25) and its color is (236, 236, 238).
+
+Pixel87 is square and its size is 5 and its position is (10, 30) and its color is (255, 255, 255).
+
+Pixel88 is square and its size is 5 and its position is (10, 35) and its color is (252, 252, 252).
+
+Pixel89 is square and its size is 5 and its position is (10, 40) and its color is (255, 255, 255).
+
+Pixel90 is square and its size is 5 and its position is (10, 45) and its color is (255, 255, 255).
+
+Pixel91 is square and its size is 5 and its position is (10, 50) and its color is (255, 255, 255).
+
+Pixel92 is square and its size is 5 and its position is (10, 55) and its color is (255, 255, 255).
+
+Pixel93 is square and its size is 5 and its position is (10, 60) and its color is (255, 255, 255).
+
+Pixel94 is square and its size is 5 and its position is (10, 65) and its color is (255, 255, 255).
+
+Pixel95 is square and its size is 5 and its position is (10, 70) and its color is (255, 255, 255).
+
+Pixel96 is square and its size is 5 and its position is (10, 75) and its color is (255, 255, 255).
+
+Pixel97 is square and its size is 5 and its position is (10, 80) and its color is (255, 255, 255).
+
+Pixel98 is square and its size is 5 and its position is (10, 85) and its color is (255, 255, 255).
+
+Pixel99 is square and its size is 5 and its position is (10, 90) and its color is (255, 255, 255).
+
+Pixel100 is square and its size is 5 and its position is (10, 95) and its color is (255, 255, 255).
+
+Pixel101 is square and its size is 5 and its position is (10, 100) and its color is (255, 255, 255).
+
+Pixel102 is square and its size is 5 and its position is (10, 105) and its color is (255, 255, 255).
+
+Pixel103 is square and its size is 5 and its position is (10, 110) and its color is (255, 255, 255).
+
+Pixel104 is square and its size is 5 and its position is (10, 115) and its color is (255, 255, 255).
+
+Pixel105 is square and its size is 5 and its position is (10, 120) and its color is (255, 255, 255).
+
+Pixel106 is square and its size is 5 and its position is (10, 125) and its color is (255, 255, 255).
+
+Pixel107 is square and its size is 5 and its position is (10, 130) and its color is (255, 255, 255).
+
+Pixel108 is square and its size is 5 and its position is (10, 135) and its color is (255, 255, 255).
+
+Pixel109 is square and its size is 5 and its position is (10, 140) and its color is (255, 255, 255).
+
+Pixel110 is square and its size is 5 and its position is (10, 145) and its color is (255, 255, 255).
+
+Pixel111 is square and its size is 5 and its position is (10, 150) and its color is (255, 255, 255).
+
+Pixel112 is square and its size is 5 and its position is (10, 155) and its color is (255, 255, 255).
+
+Pixel113 is square and its size is 5 and its position is (10, 160) and its color is (254, 254, 254).
+
+Pixel114 is square and its size is 5 and its position is (10, 165) and its color is (255, 255, 254).
+
+Pixel115 is square and its size is 5 and its position is (10, 170) and its color is (253, 253, 252).
+
+Pixel116 is square and its size is 5 and its position is (10, 175) and its color is (255, 255, 255).
+
+Pixel117 is square and its size is 5 and its position is (10, 180) and its color is (255, 255, 255).
+
+Pixel118 is square and its size is 5 and its position is (10, 185) and its color is (255, 255, 255).
+
+Pixel119 is square and its size is 5 and its position is (10, 190) and its color is (255, 255, 255).
+
+Pixel120 is square and its size is 5 and its position is (10, 195) and its color is (255, 255, 255).
+
+Pixel121 is square and its size is 5 and its position is (15, 0) and its color is (255, 255, 255).
+
+Pixel122 is square and its size is 5 and its position is (15, 5) and its color is (124, 116, 82).
+
+Pixel123 is square and its size is 5 and its position is (15, 10) and its color is (120, 100, 6).
+
+Pixel124 is square and its size is 5 and its position is (15, 15) and its color is (95, 82, 19).
+
+Pixel125 is square and its size is 5 and its position is (15, 20) and its color is (28, 21, 0).
+
+Pixel126 is square and its size is 5 and its position is (15, 25) and its color is (35, 34, 35).
+
+Pixel127 is square and its size is 5 and its position is (15, 30) and its color is (197, 200, 210).
+
+Pixel128 is square and its size is 5 and its position is (15, 35) and its color is (255, 255, 255).
+
+Pixel129 is square and its size is 5 and its position is (15, 40) and its color is (252, 252, 251).
+
+Pixel130 is square and its size is 5 and its position is (15, 45) and its color is (255, 255, 255).
+
+Pixel131 is square and its size is 5 and its position is (15, 50) and its color is (255, 255, 255).
+
+Pixel132 is square and its size is 5 and its position is (15, 55) and its color is (255, 255, 255).
+
+Pixel133 is square and its size is 5 and its position is (15, 60) and its color is (255, 255, 255).
+
+Pixel134 is square and its size is 5 and its position is (15, 65) and its color is (255, 255, 255).
+
+Pixel135 is square and its size is 5 and its position is (15, 70) and its color is (255, 255, 255).
+
+Pixel136 is square and its size is 5 and its position is (15, 75) and its color is (255, 255, 255).
+
+Pixel137 is square and its size is 5 and its position is (15, 80) and its color is (255, 255, 255).
+
+Pixel138 is square and its size is 5 and its position is (15, 85) and its color is (255, 255, 255).
+
+Pixel139 is square and its size is 5 and its position is (15, 90) and its color is (255, 255, 255).
+
+Pixel140 is square and its size is 5 and its position is (15, 95) and its color is (255, 255, 255).
+
+Pixel141 is square and its size is 5 and its position is (15, 100) and its color is (255, 255, 255).
+
+Pixel142 is square and its size is 5 and its position is (15, 105) and its color is (255, 255, 255).
+
+Pixel143 is square and its size is 5 and its position is (15, 110) and its color is (255, 255, 255).
+
+Pixel144 is square and its size is 5 and its position is (15, 115) and its color is (255, 255, 255).
+
+Pixel145 is square and its size is 5 and its position is (15, 120) and its color is (255, 255, 255).
+
+Pixel146 is square and its size is 5 and its position is (15, 125) and its color is (255, 255, 255).
+
+Pixel147 is square and its size is 5 and its position is (15, 130) and its color is (255, 255, 255).
+
+Pixel148 is square and its size is 5 and its position is (15, 135) and its color is (255, 255, 255).
+
+Pixel149 is square and its size is 5 and its position is (15, 140) and its color is (255, 255, 255).
+
+Pixel150 is square and its size is 5 and its position is (15, 145) and its color is (255, 255, 255).
+
+Pixel151 is square and its size is 5 and its position is (15, 150) and its color is (255, 255, 255).
+
+Pixel152 is square and its size is 5 and its position is (15, 155) and its color is (255, 255, 255).
+
+Pixel153 is square and its size is 5 and its position is (15, 160) and its color is (250, 251, 254).
+
+Pixel154 is square and its size is 5 and its position is (15, 165) and its color is (247, 248, 253).
+
+Pixel155 is square and its size is 5 and its position is (15, 170) and its color is (255, 255, 255).
+
+Pixel156 is square and its size is 5 and its position is (15, 175) and its color is (254, 253, 252).
+
+Pixel157 is square and its size is 5 and its position is (15, 180) and its color is (254, 254, 254).
+
+Pixel158 is square and its size is 5 and its position is (15, 185) and its color is (255, 255, 255).
+
+Pixel159 is square and its size is 5 and its position is (15, 190) and its color is (255, 255, 255).
+
+Pixel160 is square and its size is 5 and its position is (15, 195) and its color is (255, 255, 255).
+
+Pixel161 is square and its size is 5 and its position is (20, 0) and its color is (255, 255, 255).
+
+Pixel162 is square and its size is 5 and its position is (20, 5) and its color is (209, 203, 184).
+
+Pixel163 is square and its size is 5 and its position is (20, 10) and its color is (228, 207, 23).
+
+Pixel164 is square and its size is 5 and its position is (20, 15) and its color is (255, 237, 42).
+
+Pixel165 is square and its size is 5 and its position is (20, 20) and its color is (255, 223, 42).
+
+Pixel166 is square and its size is 5 and its position is (20, 25) and its color is (212, 179, 20).
+
+Pixel167 is square and its size is 5 and its position is (20, 30) and its color is (145, 125, 28).
+
+Pixel168 is square and its size is 5 and its position is (20, 35) and its color is (201, 200, 196).
+
+Pixel169 is square and its size is 5 and its position is (20, 40) and its color is (255, 255, 255).
+
+Pixel170 is square and its size is 5 and its position is (20, 45) and its color is (253, 253, 251).
+
+Pixel171 is square and its size is 5 and its position is (20, 50) and its color is (255, 255, 255).
+
+Pixel172 is square and its size is 5 and its position is (20, 55) and its color is (255, 255, 255).
+
+Pixel173 is square and its size is 5 and its position is (20, 60) and its color is (255, 255, 255).
+
+Pixel174 is square and its size is 5 and its position is (20, 65) and its color is (255, 255, 255).
+
+Pixel175 is square and its size is 5 and its position is (20, 70) and its color is (255, 255, 255).
+
+Pixel176 is square and its size is 5 and its position is (20, 75) and its color is (255, 255, 255).
+
+Pixel177 is square and its size is 5 and its position is (20, 80) and its color is (255, 255, 255).
+
+Pixel178 is square and its size is 5 and its position is (20, 85) and its color is (255, 255, 255).
+
+Pixel179 is square and its size is 5 and its position is (20, 90) and its color is (255, 255, 255).
+
+Pixel180 is square and its size is 5 and its position is (20, 95) and its color is (255, 255, 255).
+
+Pixel181 is square and its size is 5 and its position is (20, 100) and its color is (255, 255, 255).
+
+Pixel182 is square and its size is 5 and its position is (20, 105) and its color is (255, 255, 255).
+
+Pixel183 is square and its size is 5 and its position is (20, 110) and its color is (255, 255, 255).
+
+Pixel184 is square and its size is 5 and its position is (20, 115) and its color is (255, 255, 255).
+
+Pixel185 is square and its size is 5 and its position is (20, 120) and its color is (255, 255, 255).
+
+Pixel186 is square and its size is 5 and its position is (20, 125) and its color is (255, 255, 255).
+
+Pixel187 is square and its size is 5 and its position is (20, 130) and its color is (255, 255, 255).
+
+Pixel188 is square and its size is 5 and its position is (20, 135) and its color is (255, 255, 255).
+
+Pixel189 is square and its size is 5 and its position is (20, 140) and its color is (255, 255, 255).
+
+Pixel190 is square and its size is 5 and its position is (20, 145) and its color is (255, 255, 255).
+
+Pixel191 is square and its size is 5 and its position is (20, 150) and its color is (254, 254, 253).
+
+Pixel192 is square and its size is 5 and its position is (20, 155) and its color is (255, 255, 255).
+
+Pixel193 is square and its size is 5 and its position is (20, 160) and its color is (177, 168, 127).
+
+Pixel194 is square and its size is 5 and its position is (20, 165) and its color is (152, 135, 53).
+
+Pixel195 is square and its size is 5 and its position is (20, 170) and its color is (205, 203, 183).
+
+Pixel196 is square and its size is 5 and its position is (20, 175) and its color is (252, 254, 255).
+
+Pixel197 is square and its size is 5 and its position is (20, 180) and its color is (255, 254, 252).
+
+Pixel198 is square and its size is 5 and its position is (20, 185) and its color is (254, 254, 254).
+
+Pixel199 is square and its size is 5 and its position is (20, 190) and its color is (255, 255, 255).
+
+Pixel200 is square and its size is 5 and its position is (20, 195) and its color is (255, 255, 255).
+
+Pixel201 is square and its size is 5 and its position is (25, 0) and its color is (255, 255, 254).
+
+Pixel202 is square and its size is 5 and its position is (25, 5) and its color is (241, 244, 255).
+
+Pixel203 is square and its size is 5 and its position is (25, 10) and its color is (174, 158, 78).
+
+Pixel204 is square and its size is 5 and its position is (25, 15) and its color is (253, 217, 24).
+
+Pixel205 is square and its size is 5 and its position is (25, 20) and its color is (253, 215, 39).
+
+Pixel206 is square and its size is 5 and its position is (25, 25) and its color is (254, 227, 41).
+
+Pixel207 is square and its size is 5 and its position is (25, 30) and its color is (255, 232, 33).
+
+Pixel208 is square and its size is 5 and its position is (25, 35) and its color is (193, 164, 29).
+
+Pixel209 is square and its size is 5 and its position is (25, 40) and its color is (200, 199, 197).
+
+Pixel210 is square and its size is 5 and its position is (25, 45) and its color is (255, 255, 255).
+
+Pixel211 is square and its size is 5 and its position is (25, 50) and its color is (253, 253, 252).
+
+Pixel212 is square and its size is 5 and its position is (25, 55) and its color is (255, 255, 255).
+
+Pixel213 is square and its size is 5 and its position is (25, 60) and its color is (255, 255, 255).
+
+Pixel214 is square and its size is 5 and its position is (25, 65) and its color is (255, 255, 255).
+
+Pixel215 is square and its size is 5 and its position is (25, 70) and its color is (255, 255, 255).
+
+Pixel216 is square and its size is 5 and its position is (25, 75) and its color is (255, 255, 255).
+
+Pixel217 is square and its size is 5 and its position is (25, 80) and its color is (255, 255, 255).
+
+Pixel218 is square and its size is 5 and its position is (25, 85) and its color is (255, 255, 255).
+
+Pixel219 is square and its size is 5 and its position is (25, 90) and its color is (255, 255, 255).
+
+Pixel220 is square and its size is 5 and its position is (25, 95) and its color is (255, 255, 255).
+
+Pixel221 is square and its size is 5 and its position is (25, 100) and its color is (255, 255, 255).
+
+Pixel222 is square and its size is 5 and its position is (25, 105) and its color is (255, 255, 255).
+
+Pixel223 is square and its size is 5 and its position is (25, 110) and its color is (255, 255, 255).
+
+Pixel224 is square and its size is 5 and its position is (25, 115) and its color is (255, 255, 255).
+
+Pixel225 is square and its size is 5 and its position is (25, 120) and its color is (255, 255, 255).
+
+Pixel226 is square and its size is 5 and its position is (25, 125) and its color is (255, 255, 255).
+
+Pixel227 is square and its size is 5 and its position is (25, 130) and its color is (255, 255, 255).
+
+Pixel228 is square and its size is 5 and its position is (25, 135) and its color is (255, 255, 255).
+
+Pixel229 is square and its size is 5 and its position is (25, 140) and its color is (255, 255, 255).
+
+Pixel230 is square and its size is 5 and its position is (25, 145) and its color is (253, 253, 252).
+
+Pixel231 is square and its size is 5 and its position is (25, 150) and its color is (255, 255, 255).
+
+Pixel232 is square and its size is 5 and its position is (25, 155) and its color is (240, 242, 251).
+
+Pixel233 is square and its size is 5 and its position is (25, 160) and its color is (200, 174, 51).
+
+Pixel234 is square and its size is 5 and its position is (25, 165) and its color is (210, 176, 12).
+
+Pixel235 is square and its size is 5 and its position is (25, 170) and its color is (170, 117, 11).
+
+Pixel236 is square and its size is 5 and its position is (25, 175) and its color is (182, 158, 125).
+
+Pixel237 is square and its size is 5 and its position is (25, 180) and its color is (243, 248, 254).
+
+Pixel238 is square and its size is 5 and its position is (25, 185) and its color is (255, 255, 254).
+
+Pixel239 is square and its size is 5 and its position is (25, 190) and its color is (253, 253, 253).
+
+Pixel240 is square and its size is 5 and its position is (25, 195) and its color is (255, 255, 255).
+
+Pixel241 is square and its size is 5 and its position is (30, 0) and its color is (253, 253, 253).
+
+Pixel242 is square and its size is 5 and its position is (30, 5) and its color is (255, 255, 255).
+
+Pixel243 is square and its size is 5 and its position is (30, 10) and its color is (202, 201, 203).
+
+Pixel244 is square and its size is 5 and its position is (30, 15) and its color is (198, 171, 26).
+
+Pixel245 is square and its size is 5 and its position is (30, 20) and its color is (255, 228, 38).
+
+Pixel246 is square and its size is 5 and its position is (30, 25) and its color is (250, 212, 36).
+
+Pixel247 is square and its size is 5 and its position is (30, 30) and its color is (252, 215, 39).
+
+Pixel248 is square and its size is 5 and its position is (30, 35) and its color is (255, 227, 32).
+
+Pixel249 is square and its size is 5 and its position is (30, 40) and its color is (194, 167, 38).
+
+Pixel250 is square and its size is 5 and its position is (30, 45) and its color is (212, 213, 216).
+
+Pixel251 is square and its size is 5 and its position is (30, 50) and its color is (255, 255, 255).
+
+Pixel252 is square and its size is 5 and its position is (30, 55) and its color is (254, 253, 253).
+
+Pixel253 is square and its size is 5 and its position is (30, 60) and its color is (255, 255, 255).
+
+Pixel254 is square and its size is 5 and its position is (30, 65) and its color is (255, 255, 255).
+
+Pixel255 is square and its size is 5 and its position is (30, 70) and its color is (255, 255, 255).
+
+Pixel256 is square and its size is 5 and its position is (30, 75) and its color is (255, 255, 255).
+
+Pixel257 is square and its size is 5 and its position is (30, 80) and its color is (255, 255, 255).
+
+Pixel258 is square and its size is 5 and its position is (30, 85) and its color is (255, 255, 255).
+
+Pixel259 is square and its size is 5 and its position is (30, 90) and its color is (253, 253, 253).
+
+Pixel260 is square and its size is 5 and its position is (30, 95) and its color is (252, 251, 251).
+
+Pixel261 is square and its size is 5 and its position is (30, 100) and its color is (253, 251, 251).
+
+Pixel262 is square and its size is 5 and its position is (30, 105) and its color is (254, 254, 254).
+
+Pixel263 is square and its size is 5 and its position is (30, 110) and its color is (255, 255, 255).
+
+Pixel264 is square and its size is 5 and its position is (30, 115) and its color is (255, 255, 255).
+
+Pixel265 is square and its size is 5 and its position is (30, 120) and its color is (255, 255, 255).
+
+Pixel266 is square and its size is 5 and its position is (30, 125) and its color is (255, 255, 255).
+
+Pixel267 is square and its size is 5 and its position is (30, 130) and its color is (255, 255, 255).
+
+Pixel268 is square and its size is 5 and its position is (30, 135) and its color is (254, 254, 254).
+
+Pixel269 is square and its size is 5 and its position is (30, 140) and its color is (253, 253, 252).
+
+Pixel270 is square and its size is 5 and its position is (30, 145) and its color is (255, 255, 255).
+
+Pixel271 is square and its size is 5 and its position is (30, 150) and its color is (245, 246, 251).
+
+Pixel272 is square and its size is 5 and its position is (30, 155) and its color is (218, 221, 237).
+
+Pixel273 is square and its size is 5 and its position is (30, 160) and its color is (173, 162, 112).
+
+Pixel274 is square and its size is 5 and its position is (30, 165) and its color is (236, 201, 26).
+
+Pixel275 is square and its size is 5 and its position is (30, 170) and its color is (228, 161, 35).
+
+Pixel276 is square and its size is 5 and its position is (30, 175) and its color is (217, 132, 9).
+
+Pixel277 is square and its size is 5 and its position is (30, 180) and its color is (168, 137, 87).
+
+Pixel278 is square and its size is 5 and its position is (30, 185) and its color is (232, 237, 243).
+
+Pixel279 is square and its size is 5 and its position is (30, 190) and its color is (255, 255, 255).
+
+Pixel280 is square and its size is 5 and its position is (30, 195) and its color is (254, 254, 253).
+
+Pixel281 is square and its size is 5 and its position is (35, 0) and its color is (255, 255, 255).
+
+Pixel282 is square and its size is 5 and its position is (35, 5) and its color is (254, 254, 252).
+
+Pixel283 is square and its size is 5 and its position is (35, 10) and its color is (255, 255, 255).
+
+Pixel284 is square and its size is 5 and its position is (35, 15) and its color is (172, 166, 140).
+
+Pixel285 is square and its size is 5 and its position is (35, 20) and its color is (222, 191, 14).
+
+Pixel286 is square and its size is 5 and its position is (35, 25) and its color is (255, 227, 42).
+
+Pixel287 is square and its size is 5 and its position is (35, 30) and its color is (253, 214, 35).
+
+Pixel288 is square and its size is 5 and its position is (35, 35) and its color is (254, 217, 40).
+
+Pixel289 is square and its size is 5 and its position is (35, 40) and its color is (255, 222, 26).
+
+Pixel290 is square and its size is 5 and its position is (35, 45) and its color is (189, 168, 64).
+
+Pixel291 is square and its size is 5 and its position is (35, 50) and its color is (232, 235, 245).
+
+Pixel292 is square and its size is 5 and its position is (35, 55) and its color is (255, 255, 255).
+
+Pixel293 is square and its size is 5 and its position is (35, 60) and its color is (253, 252, 251).
+
+Pixel294 is square and its size is 5 and its position is (35, 65) and its color is (255, 255, 252).
+
+Pixel295 is square and its size is 5 and its position is (35, 70) and its color is (255, 255, 253).
+
+Pixel296 is square and its size is 5 and its position is (35, 75) and its color is (255, 255, 252).
+
+Pixel297 is square and its size is 5 and its position is (35, 80) and its color is (255, 255, 252).
+
+Pixel298 is square and its size is 5 and its position is (35, 85) and its color is (255, 255, 255).
+
+Pixel299 is square and its size is 5 and its position is (35, 90) and its color is (255, 255, 255).
+
+Pixel300 is square and its size is 5 and its position is (35, 95) and its color is (255, 255, 255).
+
+Pixel301 is square and its size is 5 and its position is (35, 100) and its color is (255, 255, 255).
+
+Pixel302 is square and its size is 5 and its position is (35, 105) and its color is (255, 255, 255).
+
+Pixel303 is square and its size is 5 and its position is (35, 110) and its color is (253, 252, 252).
+
+Pixel304 is square and its size is 5 and its position is (35, 115) and its color is (255, 255, 255).
+
+Pixel305 is square and its size is 5 and its position is (35, 120) and its color is (255, 255, 255).
+
+Pixel306 is square and its size is 5 and its position is (35, 125) and its color is (254, 254, 254).
+
+Pixel307 is square and its size is 5 and its position is (35, 130) and its color is (253, 253, 251).
+
+Pixel308 is square and its size is 5 and its position is (35, 135) and its color is (255, 255, 253).
+
+Pixel309 is square and its size is 5 and its position is (35, 140) and its color is (255, 255, 255).
+
+Pixel310 is square and its size is 5 and its position is (35, 145) and its color is (200, 201, 201).
+
+Pixel311 is square and its size is 5 and its position is (35, 150) and its color is (169, 153, 78).
+
+Pixel312 is square and its size is 5 and its position is (35, 155) and its color is (204, 175, 35).
+
+Pixel313 is square and its size is 5 and its position is (35, 160) and its color is (212, 181, 36).
+
+Pixel314 is square and its size is 5 and its position is (35, 165) and its color is (205, 177, 30).
+
+Pixel315 is square and its size is 5 and its position is (35, 170) and its color is (245, 198, 34).
+
+Pixel316 is square and its size is 5 and its position is (35, 175) and its color is (233, 152, 34).
+
+Pixel317 is square and its size is 5 and its position is (35, 180) and its color is (225, 141, 11).
+
+Pixel318 is square and its size is 5 and its position is (35, 185) and its color is (164, 126, 69).
+
+Pixel319 is square and its size is 5 and its position is (35, 190) and its color is (230, 234, 241).
+
+Pixel320 is square and its size is 5 and its position is (35, 195) and its color is (255, 255, 255).
+
+Pixel321 is square and its size is 5 and its position is (40, 0) and its color is (255, 255, 255).
+
+Pixel322 is square and its size is 5 and its position is (40, 5) and its color is (255, 255, 255).
+
+Pixel323 is square and its size is 5 and its position is (40, 10) and its color is (255, 255, 253).
+
+Pixel324 is square and its size is 5 and its position is (40, 15) and its color is (245, 247, 255).
+
+Pixel325 is square and its size is 5 and its position is (40, 20) and its color is (159, 148, 100).
+
+Pixel326 is square and its size is 5 and its position is (40, 25) and its color is (234, 201, 15).
+
+Pixel327 is square and its size is 5 and its position is (40, 30) and its color is (255, 226, 42).
+
+Pixel328 is square and its size is 5 and its position is (40, 35) and its color is (252, 214, 35).
+
+Pixel329 is square and its size is 5 and its position is (40, 40) and its color is (255, 220, 41).
+
+Pixel330 is square and its size is 5 and its position is (40, 45) and its color is (245, 211, 19).
+
+Pixel331 is square and its size is 5 and its position is (40, 50) and its color is (191, 178, 119).
+
+Pixel332 is square and its size is 5 and its position is (40, 55) and its color is (252, 255, 255).
+
+Pixel333 is square and its size is 5 and its position is (40, 60) and its color is (255, 255, 253).
+
+Pixel334 is square and its size is 5 and its position is (40, 65) and its color is (252, 254, 255).
+
+Pixel335 is square and its size is 5 and its position is (40, 70) and its color is (251, 254, 255).
+
+Pixel336 is square and its size is 5 and its position is (40, 75) and its color is (253, 255, 255).
+
+Pixel337 is square and its size is 5 and its position is (40, 80) and its color is (252, 255, 255).
+
+Pixel338 is square and its size is 5 and its position is (40, 85) and its color is (238, 240, 250).
+
+Pixel339 is square and its size is 5 and its position is (40, 90) and its color is (204, 208, 207).
+
+Pixel340 is square and its size is 5 and its position is (40, 95) and its color is (174, 158, 153).
+
+Pixel341 is square and its size is 5 and its position is (40, 100) and its color is (180, 160, 156).
+
+Pixel342 is square and its size is 5 and its position is (40, 105) and its color is (218, 227, 228).
+
+Pixel343 is square and its size is 5 and its position is (40, 110) and its color is (255, 255, 255).
+
+Pixel344 is square and its size is 5 and its position is (40, 115) and its color is (254, 253, 252).
+
+Pixel345 is square and its size is 5 and its position is (40, 120) and its color is (255, 255, 254).
+
+Pixel346 is square and its size is 5 and its position is (40, 125) and its color is (254, 254, 254).
+
+Pixel347 is square and its size is 5 and its position is (40, 130) and its color is (255, 255, 255).
+
+Pixel348 is square and its size is 5 and its position is (40, 135) and its color is (236, 239, 247).
+
+Pixel349 is square and its size is 5 and its position is (40, 140) and its color is (179, 171, 131).
+
+Pixel350 is square and its size is 5 and its position is (40, 145) and its color is (202, 171, 24).
+
+Pixel351 is square and its size is 5 and its position is (40, 150) and its color is (255, 219, 24).
+
+Pixel352 is square and its size is 5 and its position is (40, 155) and its color is (255, 227, 36).
+
+Pixel353 is square and its size is 5 and its position is (40, 160) and its color is (255, 232, 37).
+
+Pixel354 is square and its size is 5 and its position is (40, 165) and its color is (247, 217, 36).
+
+Pixel355 is square and its size is 5 and its position is (40, 170) and its color is (250, 215, 35).
+
+Pixel356 is square and its size is 5 and its position is (40, 175) and its color is (241, 185, 32).
+
+Pixel357 is square and its size is 5 and its position is (40, 180) and its color is (231, 150, 35).
+
+Pixel358 is square and its size is 5 and its position is (40, 185) and its color is (225, 140, 9).
+
+Pixel359 is square and its size is 5 and its position is (40, 190) and its color is (169, 138, 89).
+
+Pixel360 is square and its size is 5 and its position is (40, 195) and its color is (248, 252, 255).
+
+Pixel361 is square and its size is 5 and its position is (45, 0) and its color is (255, 255, 255).
+
+Pixel362 is square and its size is 5 and its position is (45, 5) and its color is (255, 255, 255).
+
+Pixel363 is square and its size is 5 and its position is (45, 10) and its color is (254, 254, 254).
+
+Pixel364 is square and its size is 5 and its position is (45, 15) and its color is (255, 255, 254).
+
+Pixel365 is square and its size is 5 and its position is (45, 20) and its color is (237, 239, 250).
+
+Pixel366 is square and its size is 5 and its position is (45, 25) and its color is (155, 144, 91).
+
+Pixel367 is square and its size is 5 and its position is (45, 30) and its color is (231, 197, 14).
+
+Pixel368 is square and its size is 5 and its position is (45, 35) and its color is (255, 228, 41).
+
+Pixel369 is square and its size is 5 and its position is (45, 40) and its color is (251, 213, 37).
+
+Pixel370 is square and its size is 5 and its position is (45, 45) and its color is (255, 223, 38).
+
+Pixel371 is square and its size is 5 and its position is (45, 50) and its color is (226, 195, 26).
+
+Pixel372 is square and its size is 5 and its position is (45, 55) and its color is (202, 200, 191).
+
+Pixel373 is square and its size is 5 and its position is (45, 60) and its color is (206, 201, 179).
+
+Pixel374 is square and its size is 5 and its position is (45, 65) and its color is (186, 170, 96).
+
+Pixel375 is square and its size is 5 and its position is (45, 70) and its color is (190, 173, 95).
+
+Pixel376 is square and its size is 5 and its position is (45, 75) and its color is (190, 175, 104).
+
+Pixel377 is square and its size is 5 and its position is (45, 80) and its color is (197, 179, 101).
+
+Pixel378 is square and its size is 5 and its position is (45, 85) and its color is (202, 183, 63).
+
+Pixel379 is square and its size is 5 and its position is (45, 90) and its color is (173, 125, 18).
+
+Pixel380 is square and its size is 5 and its position is (45, 95) and its color is (210, 24, 0).
+
+Pixel381 is square and its size is 5 and its position is (45, 100) and its color is (231, 33, 0).
+
+Pixel382 is square and its size is 5 and its position is (45, 105) and its color is (181, 44, 20).
+
+Pixel383 is square and its size is 5 and its position is (45, 110) and its color is (184, 166, 162).
+
+Pixel384 is square and its size is 5 and its position is (45, 115) and its color is (255, 255, 255).
+
+Pixel385 is square and its size is 5 and its position is (45, 120) and its color is (245, 247, 254).
+
+Pixel386 is square and its size is 5 and its position is (45, 125) and its color is (229, 231, 239).
+
+Pixel387 is square and its size is 5 and its position is (45, 130) and its color is (201, 196, 171).
+
+Pixel388 is square and its size is 5 and its position is (45, 135) and its color is (197, 173, 62).
+
+Pixel389 is square and its size is 5 and its position is (45, 140) and its color is (241, 204, 18).
+
+Pixel390 is square and its size is 5 and its position is (45, 145) and its color is (255, 227, 38).
+
+Pixel391 is square and its size is 5 and its position is (45, 150) and its color is (255, 219, 39).
+
+Pixel392 is square and its size is 5 and its position is (45, 155) and its color is (239, 203, 34).
+
+Pixel393 is square and its size is 5 and its position is (45, 160) and its color is (208, 177, 30).
+
+Pixel394 is square and its size is 5 and its position is (45, 165) and its color is (222, 188, 31).
+
+Pixel395 is square and its size is 5 and its position is (45, 170) and its color is (250, 214, 36).
+
+Pixel396 is square and its size is 5 and its position is (45, 175) and its color is (255, 232, 38).
+
+Pixel397 is square and its size is 5 and its position is (45, 180) and its color is (239, 181, 32).
+
+Pixel398 is square and its size is 5 and its position is (45, 185) and its color is (239, 154, 33).
+
+Pixel399 is square and its size is 5 and its position is (45, 190) and its color is (202, 129, 17).
+
+Pixel400 is square and its size is 5 and its position is (45, 195) and its color is (204, 201, 197).
+
+Pixel401 is square and its size is 5 and its position is (50, 0) and its color is (255, 255, 255).
+
+Pixel402 is square and its size is 5 and its position is (50, 5) and its color is (255, 255, 255).
+
+Pixel403 is square and its size is 5 and its position is (50, 10) and its color is (255, 255, 255).
+
+Pixel404 is square and its size is 5 and its position is (50, 15) and its color is (254, 254, 254).
+
+Pixel405 is square and its size is 5 and its position is (50, 20) and its color is (255, 255, 254).
+
+Pixel406 is square and its size is 5 and its position is (50, 25) and its color is (240, 242, 252).
+
+Pixel407 is square and its size is 5 and its position is (50, 30) and its color is (161, 153, 116).
+
+Pixel408 is square and its size is 5 and its position is (50, 35) and its color is (215, 180, 15).
+
+Pixel409 is square and its size is 5 and its position is (50, 40) and its color is (255, 226, 33).
+
+Pixel410 is square and its size is 5 and its position is (50, 45) and its color is (255, 219, 39).
+
+Pixel411 is square and its size is 5 and its position is (50, 50) and its color is (246, 209, 33).
+
+Pixel412 is square and its size is 5 and its position is (50, 55) and its color is (193, 166, 33).
+
+Pixel413 is square and its size is 5 and its position is (50, 60) and its color is (237, 200, 25).
+
+Pixel414 is square and its size is 5 and its position is (50, 65) and its color is (255, 216, 21).
+
+Pixel415 is square and its size is 5 and its position is (50, 70) and its color is (255, 218, 24).
+
+Pixel416 is square and its size is 5 and its position is (50, 75) and its color is (255, 230, 27).
+
+Pixel417 is square and its size is 5 and its position is (50, 80) and its color is (254, 222, 24).
+
+Pixel418 is square and its size is 5 and its position is (50, 85) and its color is (255, 244, 33).
+
+Pixel419 is square and its size is 5 and its position is (50, 90) and its color is (213, 155, 28).
+
+Pixel420 is square and its size is 5 and its position is (50, 95) and its color is (240, 37, 17).
+
+Pixel421 is square and its size is 5 and its position is (50, 100) and its color is (255, 63, 22).
+
+Pixel422 is square and its size is 5 and its position is (50, 105) and its color is (255, 53, 12).
+
+Pixel423 is square and its size is 5 and its position is (50, 110) and its color is (200, 30, 6).
+
+Pixel424 is square and its size is 5 and its position is (50, 115) and its color is (129, 122, 83).
+
+Pixel425 is square and its size is 5 and its position is (50, 120) and its color is (206, 185, 84).
+
+Pixel426 is square and its size is 5 and its position is (50, 125) and its color is (207, 178, 45).
+
+Pixel427 is square and its size is 5 and its position is (50, 130) and its color is (237, 199, 20).
+
+Pixel428 is square and its size is 5 and its position is (50, 135) and its color is (255, 222, 29).
+
+Pixel429 is square and its size is 5 and its position is (50, 140) and its color is (254, 220, 40).
+
+Pixel430 is square and its size is 5 and its position is (50, 145) and its color is (253, 215, 36).
+
+Pixel431 is square and its size is 5 and its position is (50, 150) and its color is (255, 217, 36).
+
+Pixel432 is square and its size is 5 and its position is (50, 155) and its color is (253, 215, 36).
+
+Pixel433 is square and its size is 5 and its position is (50, 160) and its color is (239, 204, 34).
+
+Pixel434 is square and its size is 5 and its position is (50, 165) and its color is (209, 178, 30).
+
+Pixel435 is square and its size is 5 and its position is (50, 170) and its color is (176, 149, 25).
+
+Pixel436 is square and its size is 5 and its position is (50, 175) and its color is (202, 174, 29).
+
+Pixel437 is square and its size is 5 and its position is (50, 180) and its color is (244, 178, 34).
+
+Pixel438 is square and its size is 5 and its position is (50, 185) and its color is (207, 130, 17).
+
+Pixel439 is square and its size is 5 and its position is (50, 190) and its color is (167, 127, 65).
+
+Pixel440 is square and its size is 5 and its position is (50, 195) and its color is (240, 242, 245).
+
+Pixel441 is square and its size is 5 and its position is (55, 0) and its color is (255, 255, 255).
+
+Pixel442 is square and its size is 5 and its position is (55, 5) and its color is (255, 255, 255).
+
+Pixel443 is square and its size is 5 and its position is (55, 10) and its color is (255, 255, 255).
+
+Pixel444 is square and its size is 5 and its position is (55, 15) and its color is (255, 255, 255).
+
+Pixel445 is square and its size is 5 and its position is (55, 20) and its color is (254, 254, 254).
+
+Pixel446 is square and its size is 5 and its position is (55, 25) and its color is (255, 254, 252).
+
+Pixel447 is square and its size is 5 and its position is (55, 30) and its color is (251, 252, 255).
+
+Pixel448 is square and its size is 5 and its position is (55, 35) and its color is (184, 182, 170).
+
+Pixel449 is square and its size is 5 and its position is (55, 40) and its color is (192, 166, 42).
+
+Pixel450 is square and its size is 5 and its position is (55, 45) and its color is (254, 216, 32).
+
+Pixel451 is square and its size is 5 and its position is (55, 50) and its color is (248, 211, 37).
+
+Pixel452 is square and its size is 5 and its position is (55, 55) and its color is (251, 220, 35).
+
+Pixel453 is square and its size is 5 and its position is (55, 60) and its color is (255, 222, 39).
+
+Pixel454 is square and its size is 5 and its position is (55, 65) and its color is (254, 217, 40).
+
+Pixel455 is square and its size is 5 and its position is (55, 70) and its color is (255, 220, 39).
+
+Pixel456 is square and its size is 5 and its position is (55, 75) and its color is (106, 90, 7).
+
+Pixel457 is square and its size is 5 and its position is (55, 80) and its color is (48, 37, 5).
+
+Pixel458 is square and its size is 5 and its position is (55, 85) and its color is (185, 153, 27).
+
+Pixel459 is square and its size is 5 and its position is (55, 90) and its color is (244, 217, 36).
+
+Pixel460 is square and its size is 5 and its position is (55, 95) and its color is (190, 78, 17).
+
+Pixel461 is square and its size is 5 and its position is (55, 100) and its color is (238, 34, 13).
+
+Pixel462 is square and its size is 5 and its position is (55, 105) and its color is (238, 31, 14).
+
+Pixel463 is square and its size is 5 and its position is (55, 110) and its color is (209, 92, 20).
+
+Pixel464 is square and its size is 5 and its position is (55, 115) and its color is (194, 168, 15).
+
+Pixel465 is square and its size is 5 and its position is (55, 120) and its color is (210, 179, 19).
+
+Pixel466 is square and its size is 5 and its position is (55, 125) and its color is (255, 232, 34).
+
+Pixel467 is square and its size is 5 and its position is (55, 130) and its color is (254, 220, 39).
+
+Pixel468 is square and its size is 5 and its position is (55, 135) and its color is (254, 216, 38).
+
+Pixel469 is square and its size is 5 and its position is (55, 140) and its color is (254, 217, 36).
+
+Pixel470 is square and its size is 5 and its position is (55, 145) and its color is (255, 217, 36).
+
+Pixel471 is square and its size is 5 and its position is (55, 150) and its color is (255, 217, 36).
+
+Pixel472 is square and its size is 5 and its position is (55, 155) and its color is (255, 217, 36).
+
+Pixel473 is square and its size is 5 and its position is (55, 160) and its color is (255, 220, 37).
+
+Pixel474 is square and its size is 5 and its position is (55, 165) and its color is (255, 225, 37).
+
+Pixel475 is square and its size is 5 and its position is (55, 170) and its color is (254, 219, 36).
+
+Pixel476 is square and its size is 5 and its position is (55, 175) and its color is (206, 176, 29).
+
+Pixel477 is square and its size is 5 and its position is (55, 180) and its color is (165, 121, 24).
+
+Pixel478 is square and its size is 5 and its position is (55, 185) and its color is (214, 131, 14).
+
+Pixel479 is square and its size is 5 and its position is (55, 190) and its color is (195, 152, 86).
+
+Pixel480 is square and its size is 5 and its position is (55, 195) and its color is (248, 255, 255).
+
+Pixel481 is square and its size is 5 and its position is (60, 0) and its color is (255, 255, 255).
+
+Pixel482 is square and its size is 5 and its position is (60, 5) and its color is (255, 255, 255).
+
+Pixel483 is square and its size is 5 and its position is (60, 10) and its color is (255, 255, 255).
+
+Pixel484 is square and its size is 5 and its position is (60, 15) and its color is (255, 255, 255).
+
+Pixel485 is square and its size is 5 and its position is (60, 20) and its color is (255, 255, 255).
+
+Pixel486 is square and its size is 5 and its position is (60, 25) and its color is (254, 254, 254).
+
+Pixel487 is square and its size is 5 and its position is (60, 30) and its color is (253, 253, 252).
+
+Pixel488 is square and its size is 5 and its position is (60, 35) and its color is (255, 255, 255).
+
+Pixel489 is square and its size is 5 and its position is (60, 40) and its color is (214, 218, 232).
+
+Pixel490 is square and its size is 5 and its position is (60, 45) and its color is (202, 176, 55).
+
+Pixel491 is square and its size is 5 and its position is (60, 50) and its color is (255, 224, 31).
+
+Pixel492 is square and its size is 5 and its position is (60, 55) and its color is (252, 215, 38).
+
+Pixel493 is square and its size is 5 and its position is (60, 60) and its color is (251, 214, 36).
+
+Pixel494 is square and its size is 5 and its position is (60, 65) and its color is (255, 229, 38).
+
+Pixel495 is square and its size is 5 and its position is (60, 70) and its color is (185, 157, 26).
+
+Pixel496 is square and its size is 5 and its position is (60, 75) and its color is (47, 51, 69).
+
+Pixel497 is square and its size is 5 and its position is (60, 80) and its color is (26, 22, 24).
+
+Pixel498 is square and its size is 5 and its position is (60, 85) and its color is (73, 42, 4).
+
+Pixel499 is square and its size is 5 and its position is (60, 90) and its color is (246, 213, 36).
+
+Pixel500 is square and its size is 5 and its position is (60, 95) and its color is (241, 215, 35).
+
+Pixel501 is square and its size is 5 and its position is (60, 100) and its color is (202, 145, 25).
+
+Pixel502 is square and its size is 5 and its position is (60, 105) and its color is (200, 137, 24).
+
+Pixel503 is square and its size is 5 and its position is (60, 110) and its color is (235, 207, 34).
+
+Pixel504 is square and its size is 5 and its position is (60, 115) and its color is (255, 229, 41).
+
+Pixel505 is square and its size is 5 and its position is (60, 120) and its color is (192, 165, 30).
+
+Pixel506 is square and its size is 5 and its position is (60, 125) and its color is (240, 206, 35).
+
+Pixel507 is square and its size is 5 and its position is (60, 130) and its color is (255, 219, 36).
+
+Pixel508 is square and its size is 5 and its position is (60, 135) and its color is (255, 217, 36).
+
+Pixel509 is square and its size is 5 and its position is (60, 140) and its color is (255, 217, 36).
+
+Pixel510 is square and its size is 5 and its position is (60, 145) and its color is (255, 217, 36).
+
+Pixel511 is square and its size is 5 and its position is (60, 150) and its color is (255, 217, 36).
+
+Pixel512 is square and its size is 5 and its position is (60, 155) and its color is (255, 217, 36).
+
+Pixel513 is square and its size is 5 and its position is (60, 160) and its color is (255, 217, 36).
+
+Pixel514 is square and its size is 5 and its position is (60, 165) and its color is (253, 215, 36).
+
+Pixel515 is square and its size is 5 and its position is (60, 170) and its color is (254, 216, 36).
+
+Pixel516 is square and its size is 5 and its position is (60, 175) and its color is (255, 227, 38).
+
+Pixel517 is square and its size is 5 and its position is (60, 180) and its color is (244, 215, 38).
+
+Pixel518 is square and its size is 5 and its position is (60, 185) and its color is (186, 141, 10).
+
+Pixel519 is square and its size is 5 and its position is (60, 190) and its color is (170, 142, 104).
+
+Pixel520 is square and its size is 5 and its position is (60, 195) and its color is (255, 255, 255).
+
+Pixel521 is square and its size is 5 and its position is (65, 0) and its color is (255, 255, 255).
+
+Pixel522 is square and its size is 5 and its position is (65, 5) and its color is (255, 255, 255).
+
+Pixel523 is square and its size is 5 and its position is (65, 10) and its color is (255, 255, 255).
+
+Pixel524 is square and its size is 5 and its position is (65, 15) and its color is (255, 255, 255).
+
+Pixel525 is square and its size is 5 and its position is (65, 20) and its color is (255, 255, 255).
+
+Pixel526 is square and its size is 5 and its position is (65, 25) and its color is (255, 255, 255).
+
+Pixel527 is square and its size is 5 and its position is (65, 30) and its color is (254, 253, 252).
+
+Pixel528 is square and its size is 5 and its position is (65, 35) and its color is (255, 255, 255).
+
+Pixel529 is square and its size is 5 and its position is (65, 40) and its color is (219, 215, 195).
+
+Pixel530 is square and its size is 5 and its position is (65, 45) and its color is (237, 201, 31).
+
+Pixel531 is square and its size is 5 and its position is (65, 50) and its color is (255, 220, 37).
+
+Pixel532 is square and its size is 5 and its position is (65, 55) and its color is (254, 216, 36).
+
+Pixel533 is square and its size is 5 and its position is (65, 60) and its color is (254, 216, 37).
+
+Pixel534 is square and its size is 5 and its position is (65, 65) and its color is (255, 223, 35).
+
+Pixel535 is square and its size is 5 and its position is (65, 70) and its color is (214, 183, 35).
+
+Pixel536 is square and its size is 5 and its position is (65, 75) and its color is (232, 233, 235).
+
+Pixel537 is square and its size is 5 and its position is (65, 80) and its color is (75, 74, 85).
+
+Pixel538 is square and its size is 5 and its position is (65, 85) and its color is (82, 55, 0).
+
+Pixel539 is square and its size is 5 and its position is (65, 90) and its color is (255, 220, 40).
+
+Pixel540 is square and its size is 5 and its position is (65, 95) and its color is (255, 219, 36).
+
+Pixel541 is square and its size is 5 and its position is (65, 100) and its color is (255, 229, 38).
+
+Pixel542 is square and its size is 5 and its position is (65, 105) and its color is (255, 230, 38).
+
+Pixel543 is square and its size is 5 and its position is (65, 110) and its color is (254, 219, 36).
+
+Pixel544 is square and its size is 5 and its position is (65, 115) and its color is (255, 219, 37).
+
+Pixel545 is square and its size is 5 and its position is (65, 120) and its color is (238, 208, 35).
+
+Pixel546 is square and its size is 5 and its position is (65, 125) and its color is (214, 182, 30).
+
+Pixel547 is square and its size is 5 and its position is (65, 130) and its color is (255, 221, 37).
+
+Pixel548 is square and its size is 5 and its position is (65, 135) and its color is (254, 216, 36).
+
+Pixel549 is square and its size is 5 and its position is (65, 140) and its color is (255, 217, 36).
+
+Pixel550 is square and its size is 5 and its position is (65, 145) and its color is (255, 217, 36).
+
+Pixel551 is square and its size is 5 and its position is (65, 150) and its color is (255, 217, 36).
+
+Pixel552 is square and its size is 5 and its position is (65, 155) and its color is (255, 217, 36).
+
+Pixel553 is square and its size is 5 and its position is (65, 160) and its color is (255, 217, 36).
+
+Pixel554 is square and its size is 5 and its position is (65, 165) and its color is (255, 217, 36).
+
+Pixel555 is square and its size is 5 and its position is (65, 170) and its color is (255, 217, 36).
+
+Pixel556 is square and its size is 5 and its position is (65, 175) and its color is (253, 215, 36).
+
+Pixel557 is square and its size is 5 and its position is (65, 180) and its color is (255, 219, 38).
+
+Pixel558 is square and its size is 5 and its position is (65, 185) and its color is (255, 224, 33).
+
+Pixel559 is square and its size is 5 and its position is (65, 190) and its color is (197, 172, 51).
+
+Pixel560 is square and its size is 5 and its position is (65, 195) and its color is (227, 227, 225).
+
+Pixel561 is square and its size is 5 and its position is (70, 0) and its color is (255, 255, 255).
+
+Pixel562 is square and its size is 5 and its position is (70, 5) and its color is (255, 255, 255).
+
+Pixel563 is square and its size is 5 and its position is (70, 10) and its color is (255, 255, 255).
+
+Pixel564 is square and its size is 5 and its position is (70, 15) and its color is (255, 255, 255).
+
+Pixel565 is square and its size is 5 and its position is (70, 20) and its color is (255, 255, 255).
+
+Pixel566 is square and its size is 5 and its position is (70, 25) and its color is (255, 255, 255).
+
+Pixel567 is square and its size is 5 and its position is (70, 30) and its color is (255, 255, 252).
+
+Pixel568 is square and its size is 5 and its position is (70, 35) and its color is (252, 255, 255).
+
+Pixel569 is square and its size is 5 and its position is (70, 40) and its color is (197, 181, 102).
+
+Pixel570 is square and its size is 5 and its position is (70, 45) and its color is (255, 216, 20).
+
+Pixel571 is square and its size is 5 and its position is (70, 50) and its color is (255, 217, 40).
+
+Pixel572 is square and its size is 5 and its position is (70, 55) and its color is (255, 217, 36).
+
+Pixel573 is square and its size is 5 and its position is (70, 60) and its color is (255, 217, 36).
+
+Pixel574 is square and its size is 5 and its position is (70, 65) and its color is (254, 216, 36).
+
+Pixel575 is square and its size is 5 and its position is (70, 70) and its color is (255, 224, 36).
+
+Pixel576 is square and its size is 5 and its position is (70, 75) and its color is (207, 179, 38).
+
+Pixel577 is square and its size is 5 and its position is (70, 80) and its color is (147, 124, 22).
+
+Pixel578 is square and its size is 5 and its position is (70, 85) and its color is (230, 199, 33).
+
+Pixel579 is square and its size is 5 and its position is (70, 90) and its color is (255, 223, 37).
+
+Pixel580 is square and its size is 5 and its position is (70, 95) and its color is (252, 215, 36).
+
+Pixel581 is square and its size is 5 and its position is (70, 100) and its color is (253, 216, 36).
+
+Pixel582 is square and its size is 5 and its position is (70, 105) and its color is (254, 214, 36).
+
+Pixel583 is square and its size is 5 and its position is (70, 110) and its color is (254, 216, 36).
+
+Pixel584 is square and its size is 5 and its position is (70, 115) and its color is (255, 216, 36).
+
+Pixel585 is square and its size is 5 and its position is (70, 120) and its color is (255, 219, 36).
+
+Pixel586 is square and its size is 5 and its position is (70, 125) and its color is (238, 205, 34).
+
+Pixel587 is square and its size is 5 and its position is (70, 130) and its color is (254, 215, 36).
+
+Pixel588 is square and its size is 5 and its position is (70, 135) and its color is (255, 217, 36).
+
+Pixel589 is square and its size is 5 and its position is (70, 140) and its color is (255, 218, 36).
+
+Pixel590 is square and its size is 5 and its position is (70, 145) and its color is (254, 216, 36).
+
+Pixel591 is square and its size is 5 and its position is (70, 150) and its color is (253, 216, 36).
+
+Pixel592 is square and its size is 5 and its position is (70, 155) and its color is (253, 216, 36).
+
+Pixel593 is square and its size is 5 and its position is (70, 160) and its color is (254, 216, 36).
+
+Pixel594 is square and its size is 5 and its position is (70, 165) and its color is (254, 216, 36).
+
+Pixel595 is square and its size is 5 and its position is (70, 170) and its color is (254, 216, 36).
+
+Pixel596 is square and its size is 5 and its position is (70, 175) and its color is (254, 216, 36).
+
+Pixel597 is square and its size is 5 and its position is (70, 180) and its color is (251, 213, 36).
+
+Pixel598 is square and its size is 5 and its position is (70, 185) and its color is (255, 221, 36).
+
+Pixel599 is square and its size is 5 and its position is (70, 190) and its color is (220, 194, 34).
+
+Pixel600 is square and its size is 5 and its position is (70, 195) and its color is (213, 211, 205).
+
+Pixel601 is square and its size is 5 and its position is (75, 0) and its color is (255, 255, 255).
+
+Pixel602 is square and its size is 5 and its position is (75, 5) and its color is (255, 255, 255).
+
+Pixel603 is square and its size is 5 and its position is (75, 10) and its color is (255, 255, 255).
+
+Pixel604 is square and its size is 5 and its position is (75, 15) and its color is (255, 255, 255).
+
+Pixel605 is square and its size is 5 and its position is (75, 20) and its color is (255, 255, 255).
+
+Pixel606 is square and its size is 5 and its position is (75, 25) and its color is (254, 254, 254).
+
+Pixel607 is square and its size is 5 and its position is (75, 30) and its color is (255, 255, 255).
+
+Pixel608 is square and its size is 5 and its position is (75, 35) and its color is (235, 237, 247).
+
+Pixel609 is square and its size is 5 and its position is (75, 40) and its color is (201, 179, 56).
+
+Pixel610 is square and its size is 5 and its position is (75, 45) and its color is (255, 223, 31).
+
+Pixel611 is square and its size is 5 and its position is (75, 50) and its color is (253, 216, 37).
+
+Pixel612 is square and its size is 5 and its position is (75, 55) and its color is (255, 217, 36).
+
+Pixel613 is square and its size is 5 and its position is (75, 60) and its color is (255, 217, 36).
+
+Pixel614 is square and its size is 5 and its position is (75, 65) and its color is (255, 217, 36).
+
+Pixel615 is square and its size is 5 and its position is (75, 70) and its color is (254, 216, 36).
+
+Pixel616 is square and its size is 5 and its position is (75, 75) and its color is (255, 223, 34).
+
+Pixel617 is square and its size is 5 and its position is (75, 80) and its color is (255, 233, 38).
+
+Pixel618 is square and its size is 5 and its position is (75, 85) and its color is (253, 220, 37).
+
+Pixel619 is square and its size is 5 and its position is (75, 90) and its color is (255, 220, 36).
+
+Pixel620 is square and its size is 5 and its position is (75, 95) and its color is (234, 199, 33).
+
+Pixel621 is square and its size is 5 and its position is (75, 100) and its color is (228, 194, 32).
+
+Pixel622 is square and its size is 5 and its position is (75, 105) and its color is (255, 221, 37).
+
+Pixel623 is square and its size is 5 and its position is (75, 110) and its color is (254, 216, 36).
+
+Pixel624 is square and its size is 5 and its position is (75, 115) and its color is (255, 217, 36).
+
+Pixel625 is square and its size is 5 and its position is (75, 120) and its color is (255, 217, 36).
+
+Pixel626 is square and its size is 5 and its position is (75, 125) and its color is (254, 218, 36).
+
+Pixel627 is square and its size is 5 and its position is (75, 130) and its color is (255, 217, 36).
+
+Pixel628 is square and its size is 5 and its position is (75, 135) and its color is (254, 217, 36).
+
+Pixel629 is square and its size is 5 and its position is (75, 140) and its color is (251, 213, 35).
+
+Pixel630 is square and its size is 5 and its position is (75, 145) and its color is (255, 220, 37).
+
+Pixel631 is square and its size is 5 and its position is (75, 150) and its color is (255, 224, 37).
+
+Pixel632 is square and its size is 5 and its position is (75, 155) and its color is (255, 224, 37).
+
+Pixel633 is square and its size is 5 and its position is (75, 160) and its color is (255, 224, 37).
+
+Pixel634 is square and its size is 5 and its position is (75, 165) and its color is (255, 224, 37).
+
+Pixel635 is square and its size is 5 and its position is (75, 170) and its color is (255, 223, 37).
+
+Pixel636 is square and its size is 5 and its position is (75, 175) and its color is (255, 224, 37).
+
+Pixel637 is square and its size is 5 and its position is (75, 180) and its color is (253, 224, 39).
+
+Pixel638 is square and its size is 5 and its position is (75, 185) and its color is (255, 231, 30).
+
+Pixel639 is square and its size is 5 and its position is (75, 190) and its color is (200, 176, 53).
+
+Pixel640 is square and its size is 5 and its position is (75, 195) and its color is (228, 229, 239).
+
+Pixel641 is square and its size is 5 and its position is (80, 0) and its color is (255, 255, 255).
+
+Pixel642 is square and its size is 5 and its position is (80, 5) and its color is (255, 255, 255).
+
+Pixel643 is square and its size is 5 and its position is (80, 10) and its color is (255, 255, 255).
+
+Pixel644 is square and its size is 5 and its position is (80, 15) and its color is (255, 255, 255).
+
+Pixel645 is square and its size is 5 and its position is (80, 20) and its color is (255, 255, 255).
+
+Pixel646 is square and its size is 5 and its position is (80, 25) and its color is (254, 254, 254).
+
+Pixel647 is square and its size is 5 and its position is (80, 30) and its color is (255, 255, 255).
+
+Pixel648 is square and its size is 5 and its position is (80, 35) and its color is (224, 225, 228).
+
+Pixel649 is square and its size is 5 and its position is (80, 40) and its color is (213, 185, 39).
+
+Pixel650 is square and its size is 5 and its position is (80, 45) and its color is (255, 224, 35).
+
+Pixel651 is square and its size is 5 and its position is (80, 50) and its color is (253, 216, 37).
+
+Pixel652 is square and its size is 5 and its position is (80, 55) and its color is (255, 217, 36).
+
+Pixel653 is square and its size is 5 and its position is (80, 60) and its color is (255, 217, 36).
+
+Pixel654 is square and its size is 5 and its position is (80, 65) and its color is (255, 217, 36).
+
+Pixel655 is square and its size is 5 and its position is (80, 70) and its color is (255, 217, 36).
+
+Pixel656 is square and its size is 5 and its position is (80, 75) and its color is (253, 216, 37).
+
+Pixel657 is square and its size is 5 and its position is (80, 80) and its color is (251, 213, 35).
+
+Pixel658 is square and its size is 5 and its position is (80, 85) and its color is (253, 219, 36).
+
+Pixel659 is square and its size is 5 and its position is (80, 90) and its color is (255, 223, 37).
+
+Pixel660 is square and its size is 5 and its position is (80, 95) and its color is (231, 201, 33).
+
+Pixel661 is square and its size is 5 and its position is (80, 100) and its color is (198, 169, 28).
+
+Pixel662 is square and its size is 5 and its position is (80, 105) and its color is (255, 225, 37).
+
+Pixel663 is square and its size is 5 and its position is (80, 110) and its color is (253, 215, 36).
+
+Pixel664 is square and its size is 5 and its position is (80, 115) and its color is (255, 217, 36).
+
+Pixel665 is square and its size is 5 and its position is (80, 120) and its color is (255, 218, 36).
+
+Pixel666 is square and its size is 5 and its position is (80, 125) and its color is (254, 215, 36).
+
+Pixel667 is square and its size is 5 and its position is (80, 130) and its color is (241, 181, 32).
+
+Pixel668 is square and its size is 5 and its position is (80, 135) and its color is (253, 214, 36).
+
+Pixel669 is square and its size is 5 and its position is (80, 140) and its color is (219, 187, 31).
+
+Pixel670 is square and its size is 5 and its position is (80, 145) and its color is (205, 174, 29).
+
+Pixel671 is square and its size is 5 and its position is (80, 150) and its color is (208, 177, 29).
+
+Pixel672 is square and its size is 5 and its position is (80, 155) and its color is (214, 182, 30).
+
+Pixel673 is square and its size is 5 and its position is (80, 160) and its color is (219, 186, 31).
+
+Pixel674 is square and its size is 5 and its position is (80, 165) and its color is (221, 188, 31).
+
+Pixel675 is square and its size is 5 and its position is (80, 170) and its color is (221, 189, 31).
+
+Pixel676 is square and its size is 5 and its position is (80, 175) and its color is (218, 186, 31).
+
+Pixel677 is square and its size is 5 and its position is (80, 180) and its color is (214, 180, 31).
+
+Pixel678 is square and its size is 5 and its position is (80, 185) and its color is (202, 167, 21).
+
+Pixel679 is square and its size is 5 and its position is (80, 190) and its color is (198, 189, 143).
+
+Pixel680 is square and its size is 5 and its position is (80, 195) and its color is (255, 255, 255).
+
+Pixel681 is square and its size is 5 and its position is (85, 0) and its color is (255, 255, 255).
+
+Pixel682 is square and its size is 5 and its position is (85, 5) and its color is (255, 255, 255).
+
+Pixel683 is square and its size is 5 and its position is (85, 10) and its color is (255, 255, 255).
+
+Pixel684 is square and its size is 5 and its position is (85, 15) and its color is (255, 255, 255).
+
+Pixel685 is square and its size is 5 and its position is (85, 20) and its color is (255, 255, 255).
+
+Pixel686 is square and its size is 5 and its position is (85, 25) and its color is (254, 253, 253).
+
+Pixel687 is square and its size is 5 and its position is (85, 30) and its color is (255, 255, 255).
+
+Pixel688 is square and its size is 5 and its position is (85, 35) and its color is (218, 218, 218).
+
+Pixel689 is square and its size is 5 and its position is (85, 40) and its color is (216, 185, 33).
+
+Pixel690 is square and its size is 5 and its position is (85, 45) and its color is (255, 224, 36).
+
+Pixel691 is square and its size is 5 and its position is (85, 50) and its color is (253, 216, 36).
+
+Pixel692 is square and its size is 5 and its position is (85, 55) and its color is (255, 217, 36).
+
+Pixel693 is square and its size is 5 and its position is (85, 60) and its color is (255, 217, 36).
+
+Pixel694 is square and its size is 5 and its position is (85, 65) and its color is (255, 217, 36).
+
+Pixel695 is square and its size is 5 and its position is (85, 70) and its color is (255, 217, 36).
+
+Pixel696 is square and its size is 5 and its position is (85, 75) and its color is (254, 217, 36).
+
+Pixel697 is square and its size is 5 and its position is (85, 80) and its color is (255, 219, 36).
+
+Pixel698 is square and its size is 5 and its position is (85, 85) and its color is (233, 199, 33).
+
+Pixel699 is square and its size is 5 and its position is (85, 90) and its color is (255, 220, 37).
+
+Pixel700 is square and its size is 5 and its position is (85, 95) and its color is (205, 174, 29).
+
+Pixel701 is square and its size is 5 and its position is (85, 100) and its color is (220, 187, 31).
+
+Pixel702 is square and its size is 5 and its position is (85, 105) and its color is (255, 223, 37).
+
+Pixel703 is square and its size is 5 and its position is (85, 110) and its color is (254, 216, 36).
+
+Pixel704 is square and its size is 5 and its position is (85, 115) and its color is (255, 217, 36).
+
+Pixel705 is square and its size is 5 and its position is (85, 120) and its color is (255, 217, 36).
+
+Pixel706 is square and its size is 5 and its position is (85, 125) and its color is (255, 220, 36).
+
+Pixel707 is square and its size is 5 and its position is (85, 130) and its color is (235, 166, 31).
+
+Pixel708 is square and its size is 5 and its position is (85, 135) and its color is (249, 203, 35).
+
+Pixel709 is square and its size is 5 and its position is (85, 140) and its color is (255, 223, 37).
+
+Pixel710 is square and its size is 5 and its position is (85, 145) and its color is (247, 210, 35).
+
+Pixel711 is square and its size is 5 and its position is (85, 150) and its color is (233, 198, 33).
+
+Pixel712 is square and its size is 5 and its position is (85, 155) and its color is (221, 188, 31).
+
+Pixel713 is square and its size is 5 and its position is (85, 160) and its color is (214, 183, 30).
+
+Pixel714 is square and its size is 5 and its position is (85, 165) and its color is (209, 176, 30).
+
+Pixel715 is square and its size is 5 and its position is (85, 170) and its color is (193, 132, 25).
+
+Pixel716 is square and its size is 5 and its position is (85, 175) and its color is (195, 129, 27).
+
+Pixel717 is square and its size is 5 and its position is (85, 180) and its color is (208, 133, 18).
+
+Pixel718 is square and its size is 5 and its position is (85, 185) and its color is (166, 123, 59).
+
+Pixel719 is square and its size is 5 and its position is (85, 190) and its color is (237, 243, 254).
+
+Pixel720 is square and its size is 5 and its position is (85, 195) and its color is (255, 255, 255).
+
+Pixel721 is square and its size is 5 and its position is (90, 0) and its color is (255, 255, 255).
+
+Pixel722 is square and its size is 5 and its position is (90, 5) and its color is (255, 255, 255).
+
+Pixel723 is square and its size is 5 and its position is (90, 10) and its color is (255, 255, 255).
+
+Pixel724 is square and its size is 5 and its position is (90, 15) and its color is (255, 255, 255).
+
+Pixel725 is square and its size is 5 and its position is (90, 20) and its color is (255, 255, 255).
+
+Pixel726 is square and its size is 5 and its position is (90, 25) and its color is (254, 253, 253).
+
+Pixel727 is square and its size is 5 and its position is (90, 30) and its color is (255, 255, 255).
+
+Pixel728 is square and its size is 5 and its position is (90, 35) and its color is (218, 218, 219).
+
+Pixel729 is square and its size is 5 and its position is (90, 40) and its color is (215, 185, 33).
+
+Pixel730 is square and its size is 5 and its position is (90, 45) and its color is (255, 224, 36).
+
+Pixel731 is square and its size is 5 and its position is (90, 50) and its color is (253, 216, 36).
+
+Pixel732 is square and its size is 5 and its position is (90, 55) and its color is (255, 217, 36).
+
+Pixel733 is square and its size is 5 and its position is (90, 60) and its color is (255, 217, 36).
+
+Pixel734 is square and its size is 5 and its position is (90, 65) and its color is (255, 217, 36).
+
+Pixel735 is square and its size is 5 and its position is (90, 70) and its color is (255, 217, 36).
+
+Pixel736 is square and its size is 5 and its position is (90, 75) and its color is (254, 216, 36).
+
+Pixel737 is square and its size is 5 and its position is (90, 80) and its color is (255, 222, 37).
+
+Pixel738 is square and its size is 5 and its position is (90, 85) and its color is (204, 174, 29).
+
+Pixel739 is square and its size is 5 and its position is (90, 90) and its color is (250, 212, 35).
+
+Pixel740 is square and its size is 5 and its position is (90, 95) and its color is (201, 172, 28).
+
+Pixel741 is square and its size is 5 and its position is (90, 100) and its color is (237, 206, 34).
+
+Pixel742 is square and its size is 5 and its position is (90, 105) and its color is (255, 220, 37).
+
+Pixel743 is square and its size is 5 and its position is (90, 110) and its color is (254, 217, 36).
+
+Pixel744 is square and its size is 5 and its position is (90, 115) and its color is (255, 217, 36).
+
+Pixel745 is square and its size is 5 and its position is (90, 120) and its color is (255, 216, 36).
+
+Pixel746 is square and its size is 5 and its position is (90, 125) and its color is (255, 221, 36).
+
+Pixel747 is square and its size is 5 and its position is (90, 130) and its color is (236, 168, 31).
+
+Pixel748 is square and its size is 5 and its position is (90, 135) and its color is (249, 200, 34).
+
+Pixel749 is square and its size is 5 and its position is (90, 140) and its color is (255, 222, 37).
+
+Pixel750 is square and its size is 5 and its position is (90, 145) and its color is (255, 224, 37).
+
+Pixel751 is square and its size is 5 and its position is (90, 150) and its color is (255, 229, 38).
+
+Pixel752 is square and its size is 5 and its position is (90, 155) and its color is (255, 228, 38).
+
+Pixel753 is square and its size is 5 and its position is (90, 160) and its color is (255, 225, 37).
+
+Pixel754 is square and its size is 5 and its position is (90, 165) and its color is (254, 217, 36).
+
+Pixel755 is square and its size is 5 and its position is (90, 170) and its color is (231, 152, 30).
+
+Pixel756 is square and its size is 5 and its position is (90, 175) and its color is (228, 145, 31).
+
+Pixel757 is square and its size is 5 and its position is (90, 180) and its color is (240, 150, 21).
+
+Pixel758 is square and its size is 5 and its position is (90, 185) and its color is (182, 134, 64).
+
+Pixel759 is square and its size is 5 and its position is (90, 190) and its color is (239, 246, 255).
+
+Pixel760 is square and its size is 5 and its position is (90, 195) and its color is (255, 255, 255).
+
+Pixel761 is square and its size is 5 and its position is (95, 0) and its color is (255, 255, 255).
+
+Pixel762 is square and its size is 5 and its position is (95, 5) and its color is (255, 255, 255).
+
+Pixel763 is square and its size is 5 and its position is (95, 10) and its color is (255, 255, 255).
+
+Pixel764 is square and its size is 5 and its position is (95, 15) and its color is (255, 255, 255).
+
+Pixel765 is square and its size is 5 and its position is (95, 20) and its color is (255, 255, 255).
+
+Pixel766 is square and its size is 5 and its position is (95, 25) and its color is (254, 254, 254).
+
+Pixel767 is square and its size is 5 and its position is (95, 30) and its color is (255, 255, 255).
+
+Pixel768 is square and its size is 5 and its position is (95, 35) and its color is (224, 225, 230).
+
+Pixel769 is square and its size is 5 and its position is (95, 40) and its color is (210, 183, 40).
+
+Pixel770 is square and its size is 5 and its position is (95, 45) and its color is (255, 224, 35).
+
+Pixel771 is square and its size is 5 and its position is (95, 50) and its color is (253, 216, 37).
+
+Pixel772 is square and its size is 5 and its position is (95, 55) and its color is (255, 217, 36).
+
+Pixel773 is square and its size is 5 and its position is (95, 60) and its color is (255, 217, 36).
+
+Pixel774 is square and its size is 5 and its position is (95, 65) and its color is (255, 217, 36).
+
+Pixel775 is square and its size is 5 and its position is (95, 70) and its color is (255, 217, 36).
+
+Pixel776 is square and its size is 5 and its position is (95, 75) and its color is (253, 216, 36).
+
+Pixel777 is square and its size is 5 and its position is (95, 80) and its color is (251, 213, 36).
+
+Pixel778 is square and its size is 5 and its position is (95, 85) and its color is (253, 220, 37).
+
+Pixel779 is square and its size is 5 and its position is (95, 90) and its color is (255, 223, 37).
+
+Pixel780 is square and its size is 5 and its position is (95, 95) and its color is (229, 198, 33).
+
+Pixel781 is square and its size is 5 and its position is (95, 100) and its color is (205, 175, 29).
+
+Pixel782 is square and its size is 5 and its position is (95, 105) and its color is (255, 224, 37).
+
+Pixel783 is square and its size is 5 and its position is (95, 110) and its color is (253, 216, 36).
+
+Pixel784 is square and its size is 5 and its position is (95, 115) and its color is (255, 217, 36).
+
+Pixel785 is square and its size is 5 and its position is (95, 120) and its color is (255, 217, 36).
+
+Pixel786 is square and its size is 5 and its position is (95, 125) and its color is (255, 217, 36).
+
+Pixel787 is square and its size is 5 and its position is (95, 130) and its color is (240, 180, 32).
+
+Pixel788 is square and its size is 5 and its position is (95, 135) and its color is (254, 214, 36).
+
+Pixel789 is square and its size is 5 and its position is (95, 140) and its color is (248, 212, 35).
+
+Pixel790 is square and its size is 5 and its position is (95, 145) and its color is (220, 187, 31).
+
+Pixel791 is square and its size is 5 and its position is (95, 150) and its color is (198, 168, 28).
+
+Pixel792 is square and its size is 5 and its position is (95, 155) and its color is (188, 160, 27).
+
+Pixel793 is square and its size is 5 and its position is (95, 160) and its color is (192, 163, 27).
+
+Pixel794 is square and its size is 5 and its position is (95, 165) and its color is (199, 170, 28).
+
+Pixel795 is square and its size is 5 and its position is (95, 170) and its color is (197, 157, 27).
+
+Pixel796 is square and its size is 5 and its position is (95, 175) and its color is (198, 155, 27).
+
+Pixel797 is square and its size is 5 and its position is (95, 180) and its color is (199, 150, 27).
+
+Pixel798 is square and its size is 5 and its position is (95, 185) and its color is (166, 127, 22).
+
+Pixel799 is square and its size is 5 and its position is (95, 190) and its color is (193, 187, 147).
+
+Pixel800 is square and its size is 5 and its position is (95, 195) and its color is (255, 255, 255).
+
+Pixel801 is square and its size is 5 and its position is (100, 0) and its color is (255, 255, 255).
+
+Pixel802 is square and its size is 5 and its position is (100, 5) and its color is (255, 255, 255).
+
+Pixel803 is square and its size is 5 and its position is (100, 10) and its color is (255, 255, 255).
+
+Pixel804 is square and its size is 5 and its position is (100, 15) and its color is (255, 255, 255).
+
+Pixel805 is square and its size is 5 and its position is (100, 20) and its color is (255, 255, 255).
+
+Pixel806 is square and its size is 5 and its position is (100, 25) and its color is (254, 254, 254).
+
+Pixel807 is square and its size is 5 and its position is (100, 30) and its color is (255, 255, 255).
+
+Pixel808 is square and its size is 5 and its position is (100, 35) and its color is (237, 239, 250).
+
+Pixel809 is square and its size is 5 and its position is (100, 40) and its color is (201, 179, 59).
+
+Pixel810 is square and its size is 5 and its position is (100, 45) and its color is (255, 223, 30).
+
+Pixel811 is square and its size is 5 and its position is (100, 50) and its color is (253, 216, 37).
+
+Pixel812 is square and its size is 5 and its position is (100, 55) and its color is (255, 217, 36).
+
+Pixel813 is square and its size is 5 and its position is (100, 60) and its color is (255, 217, 36).
+
+Pixel814 is square and its size is 5 and its position is (100, 65) and its color is (255, 217, 36).
+
+Pixel815 is square and its size is 5 and its position is (100, 70) and its color is (254, 216, 36).
+
+Pixel816 is square and its size is 5 and its position is (100, 75) and its color is (255, 224, 36).
+
+Pixel817 is square and its size is 5 and its position is (100, 80) and its color is (255, 231, 38).
+
+Pixel818 is square and its size is 5 and its position is (100, 85) and its color is (252, 217, 36).
+
+Pixel819 is square and its size is 5 and its position is (100, 90) and its color is (255, 219, 36).
+
+Pixel820 is square and its size is 5 and its position is (100, 95) and its color is (238, 202, 34).
+
+Pixel821 is square and its size is 5 and its position is (100, 100) and its color is (208, 177, 29).
+
+Pixel822 is square and its size is 5 and its position is (100, 105) and its color is (255, 223, 37).
+
+Pixel823 is square and its size is 5 and its position is (100, 110) and its color is (254, 216, 36).
+
+Pixel824 is square and its size is 5 and its position is (100, 115) and its color is (255, 217, 36).
+
+Pixel825 is square and its size is 5 and its position is (100, 120) and its color is (255, 217, 36).
+
+Pixel826 is square and its size is 5 and its position is (100, 125) and its color is (254, 217, 36).
+
+Pixel827 is square and its size is 5 and its position is (100, 130) and its color is (255, 217, 36).
+
+Pixel828 is square and its size is 5 and its position is (100, 135) and its color is (247, 211, 35).
+
+Pixel829 is square and its size is 5 and its position is (100, 140) and its color is (207, 176, 29).
+
+Pixel830 is square and its size is 5 and its position is (100, 145) and its color is (214, 182, 30).
+
+Pixel831 is square and its size is 5 and its position is (100, 150) and its color is (233, 198, 33).
+
+Pixel832 is square and its size is 5 and its position is (100, 155) and its color is (247, 210, 35).
+
+Pixel833 is square and its size is 5 and its position is (100, 160) and its color is (254, 217, 36).
+
+Pixel834 is square and its size is 5 and its position is (100, 165) and its color is (255, 220, 36).
+
+Pixel835 is square and its size is 5 and its position is (100, 170) and its color is (255, 224, 37).
+
+Pixel836 is square and its size is 5 and its position is (100, 175) and its color is (255, 224, 37).
+
+Pixel837 is square and its size is 5 and its position is (100, 180) and its color is (253, 220, 38).
+
+Pixel838 is square and its size is 5 and its position is (100, 185) and its color is (255, 225, 31).
+
+Pixel839 is square and its size is 5 and its position is (100, 190) and its color is (217, 187, 36).
+
+Pixel840 is square and its size is 5 and its position is (100, 195) and its color is (225, 224, 225).
+
+Pixel841 is square and its size is 5 and its position is (105, 0) and its color is (255, 255, 255).
+
+Pixel842 is square and its size is 5 and its position is (105, 5) and its color is (255, 255, 255).
+
+Pixel843 is square and its size is 5 and its position is (105, 10) and its color is (255, 255, 255).
+
+Pixel844 is square and its size is 5 and its position is (105, 15) and its color is (255, 255, 255).
+
+Pixel845 is square and its size is 5 and its position is (105, 20) and its color is (255, 255, 255).
+
+Pixel846 is square and its size is 5 and its position is (105, 25) and its color is (255, 255, 255).
+
+Pixel847 is square and its size is 5 and its position is (105, 30) and its color is (255, 255, 252).
+
+Pixel848 is square and its size is 5 and its position is (105, 35) and its color is (253, 255, 255).
+
+Pixel849 is square and its size is 5 and its position is (105, 40) and its color is (196, 182, 104).
+
+Pixel850 is square and its size is 5 and its position is (105, 45) and its color is (255, 216, 21).
+
+Pixel851 is square and its size is 5 and its position is (105, 50) and its color is (255, 217, 39).
+
+Pixel852 is square and its size is 5 and its position is (105, 55) and its color is (255, 217, 36).
+
+Pixel853 is square and its size is 5 and its position is (105, 60) and its color is (255, 217, 36).
+
+Pixel854 is square and its size is 5 and its position is (105, 65) and its color is (254, 216, 36).
+
+Pixel855 is square and its size is 5 and its position is (105, 70) and its color is (255, 223, 36).
+
+Pixel856 is square and its size is 5 and its position is (105, 75) and its color is (208, 179, 29).
+
+Pixel857 is square and its size is 5 and its position is (105, 80) and its color is (169, 142, 22).
+
+Pixel858 is square and its size is 5 and its position is (105, 85) and its color is (242, 210, 35).
+
+Pixel859 is square and its size is 5 and its position is (105, 90) and its color is (255, 222, 37).
+
+Pixel860 is square and its size is 5 and its position is (105, 95) and its color is (243, 207, 34).
+
+Pixel861 is square and its size is 5 and its position is (105, 100) and its color is (246, 212, 35).
+
+Pixel862 is square and its size is 5 and its position is (105, 105) and its color is (255, 216, 36).
+
+Pixel863 is square and its size is 5 and its position is (105, 110) and its color is (254, 216, 36).
+
+Pixel864 is square and its size is 5 and its position is (105, 115) and its color is (255, 217, 36).
+
+Pixel865 is square and its size is 5 and its position is (105, 120) and its color is (255, 219, 36).
+
+Pixel866 is square and its size is 5 and its position is (105, 125) and its color is (243, 210, 35).
+
+Pixel867 is square and its size is 5 and its position is (105, 130) and its color is (245, 209, 35).
+
+Pixel868 is square and its size is 5 and its position is (105, 135) and its color is (255, 218, 36).
+
+Pixel869 is square and its size is 5 and its position is (105, 140) and its color is (254, 220, 37).
+
+Pixel870 is square and its size is 5 and its position is (105, 145) and its color is (255, 224, 37).
+
+Pixel871 is square and its size is 5 and its position is (105, 150) and its color is (255, 222, 37).
+
+Pixel872 is square and its size is 5 and its position is (105, 155) and its color is (255, 219, 36).
+
+Pixel873 is square and its size is 5 and its position is (105, 160) and its color is (255, 217, 36).
+
+Pixel874 is square and its size is 5 and its position is (105, 165) and its color is (254, 216, 36).
+
+Pixel875 is square and its size is 5 and its position is (105, 170) and its color is (254, 215, 36).
+
+Pixel876 is square and its size is 5 and its position is (105, 175) and its color is (254, 215, 36).
+
+Pixel877 is square and its size is 5 and its position is (105, 180) and its color is (253, 214, 36).
+
+Pixel878 is square and its size is 5 and its position is (105, 185) and its color is (255, 221, 40).
+
+Pixel879 is square and its size is 5 and its position is (105, 190) and its color is (234, 205, 24).
+
+Pixel880 is square and its size is 5 and its position is (105, 195) and its color is (203, 197, 169).
+
+Pixel881 is square and its size is 5 and its position is (110, 0) and its color is (255, 255, 255).
+
+Pixel882 is square and its size is 5 and its position is (110, 5) and its color is (255, 255, 255).
+
+Pixel883 is square and its size is 5 and its position is (110, 10) and its color is (255, 255, 255).
+
+Pixel884 is square and its size is 5 and its position is (110, 15) and its color is (255, 255, 255).
+
+Pixel885 is square and its size is 5 and its position is (110, 20) and its color is (255, 255, 255).
+
+Pixel886 is square and its size is 5 and its position is (110, 25) and its color is (255, 255, 255).
+
+Pixel887 is square and its size is 5 and its position is (110, 30) and its color is (253, 253, 252).
+
+Pixel888 is square and its size is 5 and its position is (110, 35) and its color is (255, 255, 255).
+
+Pixel889 is square and its size is 5 and its position is (110, 40) and its color is (211, 208, 194).
+
+Pixel890 is square and its size is 5 and its position is (110, 45) and its color is (233, 197, 27).
+
+Pixel891 is square and its size is 5 and its position is (110, 50) and its color is (255, 222, 38).
+
+Pixel892 is square and its size is 5 and its position is (110, 55) and its color is (254, 216, 36).
+
+Pixel893 is square and its size is 5 and its position is (110, 60) and its color is (253, 216, 36).
+
+Pixel894 is square and its size is 5 and its position is (110, 65) and its color is (255, 223, 35).
+
+Pixel895 is square and its size is 5 and its position is (110, 70) and its color is (214, 183, 34).
+
+Pixel896 is square and its size is 5 and its position is (110, 75) and its color is (227, 228, 225).
+
+Pixel897 is square and its size is 5 and its position is (110, 80) and its color is (74, 73, 83).
+
+Pixel898 is square and its size is 5 and its position is (110, 85) and its color is (102, 72, 0).
+
+Pixel899 is square and its size is 5 and its position is (110, 90) and its color is (255, 225, 40).
+
+Pixel900 is square and its size is 5 and its position is (110, 95) and its color is (253, 216, 36).
+
+Pixel901 is square and its size is 5 and its position is (110, 100) and its color is (255, 221, 37).
+
+Pixel902 is square and its size is 5 and its position is (110, 105) and its color is (255, 227, 37).
+
+Pixel903 is square and its size is 5 and its position is (110, 110) and its color is (255, 219, 37).
+
+Pixel904 is square and its size is 5 and its position is (110, 115) and its color is (254, 215, 36).
+
+Pixel905 is square and its size is 5 and its position is (110, 120) and its color is (255, 221, 37).
+
+Pixel906 is square and its size is 5 and its position is (110, 125) and its color is (215, 185, 31).
+
+Pixel907 is square and its size is 5 and its position is (110, 130) and its color is (248, 210, 35).
+
+Pixel908 is square and its size is 5 and its position is (110, 135) and its color is (255, 219, 36).
+
+Pixel909 is square and its size is 5 and its position is (110, 140) and its color is (254, 216, 36).
+
+Pixel910 is square and its size is 5 and its position is (110, 145) and its color is (253, 216, 36).
+
+Pixel911 is square and its size is 5 and its position is (110, 150) and its color is (254, 216, 36).
+
+Pixel912 is square and its size is 5 and its position is (110, 155) and its color is (255, 217, 36).
+
+Pixel913 is square and its size is 5 and its position is (110, 160) and its color is (255, 217, 36).
+
+Pixel914 is square and its size is 5 and its position is (110, 165) and its color is (255, 217, 36).
+
+Pixel915 is square and its size is 5 and its position is (110, 170) and its color is (254, 216, 36).
+
+Pixel916 is square and its size is 5 and its position is (110, 175) and its color is (253, 215, 36).
+
+Pixel917 is square and its size is 5 and its position is (110, 180) and its color is (255, 223, 38).
+
+Pixel918 is square and its size is 5 and its position is (110, 185) and its color is (254, 223, 34).
+
+Pixel919 is square and its size is 5 and its position is (110, 190) and its color is (194, 169, 46).
+
+Pixel920 is square and its size is 5 and its position is (110, 195) and its color is (203, 200, 187).
+
+Pixel921 is square and its size is 5 and its position is (115, 0) and its color is (255, 255, 255).
+
+Pixel922 is square and its size is 5 and its position is (115, 5) and its color is (255, 255, 255).
+
+Pixel923 is square and its size is 5 and its position is (115, 10) and its color is (255, 255, 255).
+
+Pixel924 is square and its size is 5 and its position is (115, 15) and its color is (255, 255, 255).
+
+Pixel925 is square and its size is 5 and its position is (115, 20) and its color is (255, 255, 255).
+
+Pixel926 is square and its size is 5 and its position is (115, 25) and its color is (254, 254, 254).
+
+Pixel927 is square and its size is 5 and its position is (115, 30) and its color is (255, 255, 253).
+
+Pixel928 is square and its size is 5 and its position is (115, 35) and its color is (247, 249, 255).
+
+Pixel929 is square and its size is 5 and its position is (115, 40) and its color is (198, 188, 141).
+
+Pixel930 is square and its size is 5 and its position is (115, 45) and its color is (238, 202, 29).
+
+Pixel931 is square and its size is 5 and its position is (115, 50) and its color is (255, 220, 37).
+
+Pixel932 is square and its size is 5 and its position is (115, 55) and its color is (253, 215, 36).
+
+Pixel933 is square and its size is 5 and its position is (115, 60) and its color is (252, 214, 36).
+
+Pixel934 is square and its size is 5 and its position is (115, 65) and its color is (255, 230, 38).
+
+Pixel935 is square and its size is 5 and its position is (115, 70) and its color is (177, 151, 25).
+
+Pixel936 is square and its size is 5 and its position is (115, 75) and its color is (66, 71, 90).
+
+Pixel937 is square and its size is 5 and its position is (115, 80) and its color is (35, 31, 34).
+
+Pixel938 is square and its size is 5 and its position is (115, 85) and its color is (79, 48, 4).
+
+Pixel939 is square and its size is 5 and its position is (115, 90) and its color is (249, 212, 36).
+
+Pixel940 is square and its size is 5 and its position is (115, 95) and its color is (255, 227, 38).
+
+Pixel941 is square and its size is 5 and its position is (115, 100) and its color is (229, 201, 33).
+
+Pixel942 is square and its size is 5 and its position is (115, 105) and its color is (211, 171, 29).
+
+Pixel943 is square and its size is 5 and its position is (115, 110) and its color is (237, 207, 34).
+
+Pixel944 is square and its size is 5 and its position is (115, 115) and its color is (255, 226, 38).
+
+Pixel945 is square and its size is 5 and its position is (115, 120) and its color is (231, 200, 33).
+
+Pixel946 is square and its size is 5 and its position is (115, 125) and its color is (209, 179, 30).
+
+Pixel947 is square and its size is 5 and its position is (115, 130) and its color is (255, 223, 37).
+
+Pixel948 is square and its size is 5 and its position is (115, 135) and its color is (254, 216, 36).
+
+Pixel949 is square and its size is 5 and its position is (115, 140) and its color is (255, 217, 36).
+
+Pixel950 is square and its size is 5 and its position is (115, 145) and its color is (255, 217, 36).
+
+Pixel951 is square and its size is 5 and its position is (115, 150) and its color is (255, 217, 36).
+
+Pixel952 is square and its size is 5 and its position is (115, 155) and its color is (255, 217, 36).
+
+Pixel953 is square and its size is 5 and its position is (115, 160) and its color is (253, 216, 36).
+
+Pixel954 is square and its size is 5 and its position is (115, 165) and its color is (253, 215, 36).
+
+Pixel955 is square and its size is 5 and its position is (115, 170) and its color is (255, 221, 37).
+
+Pixel956 is square and its size is 5 and its position is (115, 175) and its color is (255, 226, 38).
+
+Pixel957 is square and its size is 5 and its position is (115, 180) and its color is (230, 200, 35).
+
+Pixel958 is square and its size is 5 and its position is (115, 185) and its color is (184, 138, 14).
+
+Pixel959 is square and its size is 5 and its position is (115, 190) and its color is (170, 131, 76).
+
+Pixel960 is square and its size is 5 and its position is (115, 195) and its color is (246, 250, 255).
+
+Pixel961 is square and its size is 5 and its position is (120, 0) and its color is (255, 255, 255).
+
+Pixel962 is square and its size is 5 and its position is (120, 5) and its color is (255, 255, 255).
+
+Pixel963 is square and its size is 5 and its position is (120, 10) and its color is (255, 255, 255).
+
+Pixel964 is square and its size is 5 and its position is (120, 15) and its color is (255, 255, 255).
+
+Pixel965 is square and its size is 5 and its position is (120, 20) and its color is (254, 254, 254).
+
+Pixel966 is square and its size is 5 and its position is (120, 25) and its color is (255, 255, 253).
+
+Pixel967 is square and its size is 5 and its position is (120, 30) and its color is (244, 247, 255).
+
+Pixel968 is square and its size is 5 and its position is (120, 35) and its color is (189, 176, 118).
+
+Pixel969 is square and its size is 5 and its position is (120, 40) and its color is (238, 202, 16).
+
+Pixel970 is square and its size is 5 and its position is (120, 45) and its color is (255, 222, 37).
+
+Pixel971 is square and its size is 5 and its position is (120, 50) and its color is (253, 215, 37).
+
+Pixel972 is square and its size is 5 and its position is (120, 55) and its color is (254, 224, 37).
+
+Pixel973 is square and its size is 5 and its position is (120, 60) and its color is (255, 218, 36).
+
+Pixel974 is square and its size is 5 and its position is (120, 65) and its color is (254, 216, 36).
+
+Pixel975 is square and its size is 5 and its position is (120, 70) and its color is (251, 215, 35).
+
+Pixel976 is square and its size is 5 and its position is (120, 75) and its color is (83, 69, 4).
+
+Pixel977 is square and its size is 5 and its position is (120, 80) and its color is (34, 24, 2).
+
+Pixel978 is square and its size is 5 and its position is (120, 85) and its color is (180, 146, 23).
+
+Pixel979 is square and its size is 5 and its position is (120, 90) and its color is (255, 233, 39).
+
+Pixel980 is square and its size is 5 and its position is (120, 95) and its color is (205, 160, 27).
+
+Pixel981 is square and its size is 5 and its position is (120, 100) and its color is (200, 52, 14).
+
+Pixel982 is square and its size is 5 and its position is (120, 105) and its color is (228, 36, 13).
+
+Pixel983 is square and its size is 5 and its position is (120, 110) and its color is (208, 77, 19).
+
+Pixel984 is square and its size is 5 and its position is (120, 115) and its color is (242, 216, 37).
+
+Pixel985 is square and its size is 5 and its position is (120, 120) and its color is (197, 168, 29).
+
+Pixel986 is square and its size is 5 and its position is (120, 125) and its color is (245, 212, 35).
+
+Pixel987 is square and its size is 5 and its position is (120, 130) and its color is (255, 217, 36).
+
+Pixel988 is square and its size is 5 and its position is (120, 135) and its color is (253, 216, 36).
+
+Pixel989 is square and its size is 5 and its position is (120, 140) and its color is (255, 217, 36).
+
+Pixel990 is square and its size is 5 and its position is (120, 145) and its color is (255, 217, 36).
+
+Pixel991 is square and its size is 5 and its position is (120, 150) and its color is (255, 217, 36).
+
+Pixel992 is square and its size is 5 and its position is (120, 155) and its color is (255, 219, 36).
+
+Pixel993 is square and its size is 5 and its position is (120, 160) and its color is (255, 224, 37).
+
+Pixel994 is square and its size is 5 and its position is (120, 165) and its color is (255, 224, 37).
+
+Pixel995 is square and its size is 5 and its position is (120, 170) and its color is (235, 200, 33).
+
+Pixel996 is square and its size is 5 and its position is (120, 175) and its color is (186, 158, 26).
+
+Pixel997 is square and its size is 5 and its position is (120, 180) and its color is (173, 118, 23).
+
+Pixel998 is square and its size is 5 and its position is (120, 185) and its color is (226, 143, 26).
+
+Pixel999 is square and its size is 5 and its position is (120, 190) and its color is (185, 124, 31).
+
+Pixel1000 is square and its size is 5 and its position is (120, 195) and its color is (216, 216, 217).
+
+Pixel1001 is square and its size is 5 and its position is (125, 0) and its color is (255, 255, 255).
+
+Pixel1002 is square and its size is 5 and its position is (125, 5) and its color is (255, 255, 255).
+
+Pixel1003 is square and its size is 5 and its position is (125, 10) and its color is (255, 255, 255).
+
+Pixel1004 is square and its size is 5 and its position is (125, 15) and its color is (255, 255, 255).
+
+Pixel1005 is square and its size is 5 and its position is (125, 20) and its color is (255, 255, 252).
+
+Pixel1006 is square and its size is 5 and its position is (125, 25) and its color is (248, 250, 255).
+
+Pixel1007 is square and its size is 5 and its position is (125, 30) and its color is (185, 173, 120).
+
+Pixel1008 is square and its size is 5 and its position is (125, 35) and its color is (239, 203, 16).
+
+Pixel1009 is square and its size is 5 and its position is (125, 40) and its color is (255, 223, 41).
+
+Pixel1010 is square and its size is 5 and its position is (125, 45) and its color is (255, 217, 37).
+
+Pixel1011 is square and its size is 5 and its position is (125, 50) and its color is (245, 211, 34).
+
+Pixel1012 is square and its size is 5 and its position is (125, 55) and its color is (201, 171, 28).
+
+Pixel1013 is square and its size is 5 and its position is (125, 60) and its color is (251, 214, 35).
+
+Pixel1014 is square and its size is 5 and its position is (125, 65) and its color is (255, 222, 37).
+
+Pixel1015 is square and its size is 5 and its position is (125, 70) and its color is (255, 226, 37).
+
+Pixel1016 is square and its size is 5 and its position is (125, 75) and its color is (255, 237, 42).
+
+Pixel1017 is square and its size is 5 and its position is (125, 80) and its color is (254, 227, 39).
+
+Pixel1018 is square and its size is 5 and its position is (125, 85) and its color is (255, 236, 39).
+
+Pixel1019 is square and its size is 5 and its position is (125, 90) and its color is (236, 208, 35).
+
+Pixel1020 is square and its size is 5 and its position is (125, 95) and its color is (214, 56, 15).
+
+Pixel1021 is square and its size is 5 and its position is (125, 100) and its color is (255, 47, 16).
+
+Pixel1022 is square and its size is 5 and its position is (125, 105) and its color is (255, 60, 18).
+
+Pixel1023 is square and its size is 5 and its position is (125, 110) and its color is (236, 42, 9).
+
+Pixel1024 is square and its size is 5 and its position is (125, 115) and its color is (145, 109, 12).
+
+Pixel1025 is square and its size is 5 and its position is (125, 120) and its color is (210, 182, 23).
+
+Pixel1026 is square and its size is 5 and its position is (125, 125) and its color is (255, 218, 37).
+
+Pixel1027 is square and its size is 5 and its position is (125, 130) and its color is (254, 221, 37).
+
+Pixel1028 is square and its size is 5 and its position is (125, 135) and its color is (255, 221, 37).
+
+Pixel1029 is square and its size is 5 and its position is (125, 140) and its color is (253, 215, 36).
+
+Pixel1030 is square and its size is 5 and its position is (125, 145) and its color is (254, 216, 36).
+
+Pixel1031 is square and its size is 5 and its position is (125, 150) and its color is (254, 217, 36).
+
+Pixel1032 is square and its size is 5 and its position is (125, 155) and its color is (244, 208, 34).
+
+Pixel1033 is square and its size is 5 and its position is (125, 160) and its color is (218, 186, 31).
+
+Pixel1034 is square and its size is 5 and its position is (125, 165) and its color is (185, 158, 26).
+
+Pixel1035 is square and its size is 5 and its position is (125, 170) and its color is (184, 157, 26).
+
+Pixel1036 is square and its size is 5 and its position is (125, 175) and its color is (231, 198, 33).
+
+Pixel1037 is square and its size is 5 and its position is (125, 180) and its color is (251, 188, 33).
+
+Pixel1038 is square and its size is 5 and its position is (125, 185) and its color is (227, 150, 32).
+
+Pixel1039 is square and its size is 5 and its position is (125, 190) and its color is (199, 126, 14).
+
+Pixel1040 is square and its size is 5 and its position is (125, 195) and its color is (175, 154, 123).
+
+Pixel1041 is square and its size is 5 and its position is (130, 0) and its color is (255, 255, 255).
+
+Pixel1042 is square and its size is 5 and its position is (130, 5) and its color is (255, 255, 255).
+
+Pixel1043 is square and its size is 5 and its position is (130, 10) and its color is (255, 255, 255).
+
+Pixel1044 is square and its size is 5 and its position is (130, 15) and its color is (254, 254, 252).
+
+Pixel1045 is square and its size is 5 and its position is (130, 20) and its color is (255, 255, 255).
+
+Pixel1046 is square and its size is 5 and its position is (130, 25) and its color is (189, 182, 148).
+
+Pixel1047 is square and its size is 5 and its position is (130, 30) and its color is (230, 196, 16).
+
+Pixel1048 is square and its size is 5 and its position is (130, 35) and its color is (255, 224, 41).
+
+Pixel1049 is square and its size is 5 and its position is (130, 40) and its color is (252, 214, 36).
+
+Pixel1050 is square and its size is 5 and its position is (130, 45) and its color is (255, 223, 37).
+
+Pixel1051 is square and its size is 5 and its position is (130, 50) and its color is (225, 195, 31).
+
+Pixel1052 is square and its size is 5 and its position is (130, 55) and its color is (186, 186, 186).
+
+Pixel1053 is square and its size is 5 and its position is (130, 60) and its color is (158, 141, 58).
+
+Pixel1054 is square and its size is 5 and its position is (130, 65) and its color is (198, 167, 20).
+
+Pixel1055 is square and its size is 5 and its position is (130, 70) and its color is (206, 176, 30).
+
+Pixel1056 is square and its size is 5 and its position is (130, 75) and its color is (210, 179, 30).
+
+Pixel1057 is square and its size is 5 and its position is (130, 80) and its color is (210, 178, 30).
+
+Pixel1058 is square and its size is 5 and its position is (130, 85) and its color is (218, 186, 31).
+
+Pixel1059 is square and its size is 5 and its position is (130, 90) and its color is (206, 172, 29).
+
+Pixel1060 is square and its size is 5 and its position is (130, 95) and its color is (221, 40, 14).
+
+Pixel1061 is square and its size is 5 and its position is (130, 100) and its color is (255, 42, 17).
+
+Pixel1062 is square and its size is 5 and its position is (130, 105) and its color is (226, 29, 6).
+
+Pixel1063 is square and its size is 5 and its position is (130, 110) and its color is (165, 64, 50).
+
+Pixel1064 is square and its size is 5 and its position is (130, 115) and its color is (198, 202, 199).
+
+Pixel1065 is square and its size is 5 and its position is (130, 120) and its color is (196, 190, 165).
+
+Pixel1066 is square and its size is 5 and its position is (130, 125) and its color is (175, 148, 23).
+
+Pixel1067 is square and its size is 5 and its position is (130, 130) and its color is (203, 175, 29).
+
+Pixel1068 is square and its size is 5 and its position is (130, 135) and its color is (229, 201, 33).
+
+Pixel1069 is square and its size is 5 and its position is (130, 140) and its color is (255, 228, 38).
+
+Pixel1070 is square and its size is 5 and its position is (130, 145) and its color is (255, 225, 39).
+
+Pixel1071 is square and its size is 5 and its position is (130, 150) and its color is (241, 206, 37).
+
+Pixel1072 is square and its size is 5 and its position is (130, 155) and its color is (203, 173, 29).
+
+Pixel1073 is square and its size is 5 and its position is (130, 160) and its color is (211, 180, 30).
+
+Pixel1074 is square and its size is 5 and its position is (130, 165) and its color is (240, 204, 34).
+
+Pixel1075 is square and its size is 5 and its position is (130, 170) and its color is (255, 227, 38).
+
+Pixel1076 is square and its size is 5 and its position is (130, 175) and its color is (255, 228, 38).
+
+Pixel1077 is square and its size is 5 and its position is (130, 180) and its color is (246, 203, 34).
+
+Pixel1078 is square and its size is 5 and its position is (130, 185) and its color is (240, 159, 32).
+
+Pixel1079 is square and its size is 5 and its position is (130, 190) and its color is (198, 126, 17).
+
+Pixel1080 is square and its size is 5 and its position is (130, 195) and its color is (192, 187, 180).
+
+Pixel1081 is square and its size is 5 and its position is (135, 0) and its color is (255, 255, 255).
+
+Pixel1082 is square and its size is 5 and its position is (135, 5) and its color is (255, 255, 255).
+
+Pixel1083 is square and its size is 5 and its position is (135, 10) and its color is (254, 253, 253).
+
+Pixel1084 is square and its size is 5 and its position is (135, 15) and its color is (255, 255, 255).
+
+Pixel1085 is square and its size is 5 and its position is (135, 20) and its color is (204, 203, 197).
+
+Pixel1086 is square and its size is 5 and its position is (135, 25) and its color is (212, 182, 26).
+
+Pixel1087 is square and its size is 5 and its position is (135, 30) and its color is (255, 226, 37).
+
+Pixel1088 is square and its size is 5 and its position is (135, 35) and its color is (253, 215, 36).
+
+Pixel1089 is square and its size is 5 and its position is (135, 40) and its color is (255, 218, 40).
+
+Pixel1090 is square and its size is 5 and its position is (135, 45) and its color is (249, 214, 19).
+
+Pixel1091 is square and its size is 5 and its position is (135, 50) and its color is (199, 185, 115).
+
+Pixel1092 is square and its size is 5 and its position is (135, 55) and its color is (199, 200, 208).
+
+Pixel1093 is square and its size is 5 and its position is (135, 60) and its color is (218, 185, 27).
+
+Pixel1094 is square and its size is 5 and its position is (135, 65) and its color is (251, 214, 35).
+
+Pixel1095 is square and its size is 5 and its position is (135, 70) and its color is (233, 199, 33).
+
+Pixel1096 is square and its size is 5 and its position is (135, 75) and its color is (233, 198, 33).
+
+Pixel1097 is square and its size is 5 and its position is (135, 80) and its color is (229, 195, 32).
+
+Pixel1098 is square and its size is 5 and its position is (135, 85) and its color is (214, 181, 30).
+
+Pixel1099 is square and its size is 5 and its position is (135, 90) and its color is (181, 158, 26).
+
+Pixel1100 is square and its size is 5 and its position is (135, 95) and its color is (157, 104, 19).
+
+Pixel1101 is square and its size is 5 and its position is (135, 100) and its color is (171, 89, 20).
+
+Pixel1102 is square and its size is 5 and its position is (135, 105) and its color is (173, 126, 9).
+
+Pixel1103 is square and its size is 5 and its position is (135, 110) and its color is (168, 166, 102).
+
+Pixel1104 is square and its size is 5 and its position is (135, 115) and its color is (249, 254, 255).
+
+Pixel1105 is square and its size is 5 and its position is (135, 120) and its color is (200, 186, 121).
+
+Pixel1106 is square and its size is 5 and its position is (135, 125) and its color is (253, 218, 24).
+
+Pixel1107 is square and its size is 5 and its position is (135, 130) and its color is (243, 196, 36).
+
+Pixel1108 is square and its size is 5 and its position is (135, 135) and its color is (180, 92, 20).
+
+Pixel1109 is square and its size is 5 and its position is (135, 140) and its color is (170, 113, 21).
+
+Pixel1110 is square and its size is 5 and its position is (135, 145) and its color is (225, 193, 25).
+
+Pixel1111 is square and its size is 5 and its position is (135, 150) and its color is (255, 221, 25).
+
+Pixel1112 is square and its size is 5 and its position is (135, 155) and its color is (255, 230, 40).
+
+Pixel1113 is square and its size is 5 and its position is (135, 160) and its color is (255, 228, 41).
+
+Pixel1114 is square and its size is 5 and its position is (135, 165) and its color is (255, 226, 38).
+
+Pixel1115 is square and its size is 5 and its position is (135, 170) and its color is (234, 203, 33).
+
+Pixel1116 is square and its size is 5 and its position is (135, 175) and its color is (242, 197, 33).
+
+Pixel1117 is square and its size is 5 and its position is (135, 180) and its color is (235, 158, 35).
+
+Pixel1118 is square and its size is 5 and its position is (135, 185) and its color is (220, 136, 9).
+
+Pixel1119 is square and its size is 5 and its position is (135, 190) and its color is (160, 138, 103).
+
+Pixel1120 is square and its size is 5 and its position is (135, 195) and its color is (251, 255, 255).
+
+Pixel1121 is square and its size is 5 and its position is (140, 0) and its color is (255, 255, 255).
+
+Pixel1122 is square and its size is 5 and its position is (140, 5) and its color is (254, 254, 254).
+
+Pixel1123 is square and its size is 5 and its position is (140, 10) and its color is (255, 255, 255).
+
+Pixel1124 is square and its size is 5 and its position is (140, 15) and its color is (233, 236, 248).
+
+Pixel1125 is square and its size is 5 and its position is (140, 20) and its color is (189, 169, 64).
+
+Pixel1126 is square and its size is 5 and its position is (140, 25) and its color is (255, 223, 28).
+
+Pixel1127 is square and its size is 5 and its position is (140, 30) and its color is (254, 216, 39).
+
+Pixel1128 is square and its size is 5 and its position is (140, 35) and its color is (253, 215, 37).
+
+Pixel1129 is square and its size is 5 and its position is (140, 40) and its color is (255, 226, 35).
+
+Pixel1130 is square and its size is 5 and its position is (140, 45) and its color is (203, 177, 34).
+
+Pixel1131 is square and its size is 5 and its position is (140, 50) and its color is (208, 211, 228).
+
+Pixel1132 is square and its size is 5 and its position is (140, 55) and its color is (182, 168, 94).
+
+Pixel1133 is square and its size is 5 and its position is (140, 60) and its color is (253, 216, 20).
+
+Pixel1134 is square and its size is 5 and its position is (140, 65) and its color is (255, 220, 39).
+
+Pixel1135 is square and its size is 5 and its position is (140, 70) and its color is (255, 221, 37).
+
+Pixel1136 is square and its size is 5 and its position is (140, 75) and its color is (255, 222, 37).
+
+Pixel1137 is square and its size is 5 and its position is (140, 80) and its color is (255, 222, 37).
+
+Pixel1138 is square and its size is 5 and its position is (140, 85) and its color is (255, 224, 37).
+
+Pixel1139 is square and its size is 5 and its position is (140, 90) and its color is (255, 230, 38).
+
+Pixel1140 is square and its size is 5 and its position is (140, 95) and its color is (254, 231, 40).
+
+Pixel1141 is square and its size is 5 and its position is (140, 100) and its color is (252, 225, 37).
+
+Pixel1142 is square and its size is 5 and its position is (140, 105) and its color is (255, 236, 38).
+
+Pixel1143 is square and its size is 5 and its position is (140, 110) and its color is (230, 200, 32).
+
+Pixel1144 is square and its size is 5 and its position is (140, 115) and its color is (163, 155, 125).
+
+Pixel1145 is square and its size is 5 and its position is (140, 120) and its color is (230, 197, 35).
+
+Pixel1146 is square and its size is 5 and its position is (140, 125) and its color is (249, 223, 35).
+
+Pixel1147 is square and its size is 5 and its position is (140, 130) and its color is (200, 130, 26).
+
+Pixel1148 is square and its size is 5 and its position is (140, 135) and its color is (216, 47, 0).
+
+Pixel1149 is square and its size is 5 and its position is (140, 140) and its color is (177, 103, 88).
+
+Pixel1150 is square and its size is 5 and its position is (140, 145) and its color is (202, 210, 201).
+
+Pixel1151 is square and its size is 5 and its position is (140, 150) and its color is (189, 167, 73).
+
+Pixel1152 is square and its size is 5 and its position is (140, 155) and its color is (216, 182, 20).
+
+Pixel1153 is square and its size is 5 and its position is (140, 160) and its color is (243, 204, 18).
+
+Pixel1154 is square and its size is 5 and its position is (140, 165) and its color is (224, 191, 30).
+
+Pixel1155 is square and its size is 5 and its position is (140, 170) and its color is (206, 174, 29).
+
+Pixel1156 is square and its size is 5 and its position is (140, 175) and its color is (240, 167, 36).
+
+Pixel1157 is square and its size is 5 and its position is (140, 180) and its color is (228, 141, 14).
+
+Pixel1158 is square and its size is 5 and its position is (140, 185) and its color is (157, 121, 62).
+
+Pixel1159 is square and its size is 5 and its position is (140, 190) and its color is (231, 236, 243).
+
+Pixel1160 is square and its size is 5 and its position is (140, 195) and its color is (255, 255, 255).
+
+Pixel1161 is square and its size is 5 and its position is (145, 0) and its color is (255, 255, 255).
+
+Pixel1162 is square and its size is 5 and its position is (145, 5) and its color is (254, 254, 252).
+
+Pixel1163 is square and its size is 5 and its position is (145, 10) and its color is (255, 255, 255).
+
+Pixel1164 is square and its size is 5 and its position is (145, 15) and its color is (188, 181, 148).
+
+Pixel1165 is square and its size is 5 and its position is (145, 20) and its color is (235, 202, 18).
+
+Pixel1166 is square and its size is 5 and its position is (145, 25) and its color is (255, 220, 41).
+
+Pixel1167 is square and its size is 5 and its position is (145, 30) and its color is (249, 211, 35).
+
+Pixel1168 is square and its size is 5 and its position is (145, 35) and its color is (255, 224, 41).
+
+Pixel1169 is square and its size is 5 and its position is (145, 40) and its color is (225, 194, 14).
+
+Pixel1170 is square and its size is 5 and its position is (145, 45) and its color is (193, 187, 160).
+
+Pixel1171 is square and its size is 5 and its position is (145, 50) and its color is (205, 206, 213).
+
+Pixel1172 is square and its size is 5 and its position is (145, 55) and its color is (204, 177, 22).
+
+Pixel1173 is square and its size is 5 and its position is (145, 60) and its color is (255, 226, 38).
+
+Pixel1174 is square and its size is 5 and its position is (145, 65) and its color is (253, 215, 36).
+
+Pixel1175 is square and its size is 5 and its position is (145, 70) and its color is (254, 216, 36).
+
+Pixel1176 is square and its size is 5 and its position is (145, 75) and its color is (254, 216, 36).
+
+Pixel1177 is square and its size is 5 and its position is (145, 80) and its color is (253, 215, 36).
+
+Pixel1178 is square and its size is 5 and its position is (145, 85) and its color is (255, 220, 37).
+
+Pixel1179 is square and its size is 5 and its position is (145, 90) and its color is (223, 192, 32).
+
+Pixel1180 is square and its size is 5 and its position is (145, 95) and its color is (230, 195, 23).
+
+Pixel1181 is square and its size is 5 and its position is (145, 100) and its color is (255, 223, 38).
+
+Pixel1182 is square and its size is 5 and its position is (145, 105) and its color is (251, 211, 36).
+
+Pixel1183 is square and its size is 5 and its position is (145, 110) and its color is (254, 219, 36).
+
+Pixel1184 is square and its size is 5 and its position is (145, 115) and its color is (228, 196, 25).
+
+Pixel1185 is square and its size is 5 and its position is (145, 120) and its color is (255, 222, 29).
+
+Pixel1186 is square and its size is 5 and its position is (145, 125) and its color is (208, 187, 64).
+
+Pixel1187 is square and its size is 5 and its position is (145, 130) and its color is (202, 201, 206).
+
+Pixel1188 is square and its size is 5 and its position is (145, 135) and its color is (155, 72, 38).
+
+Pixel1189 is square and its size is 5 and its position is (145, 140) and its color is (203, 184, 176).
+
+Pixel1190 is square and its size is 5 and its position is (145, 145) and its color is (255, 255, 255).
+
+Pixel1191 is square and its size is 5 and its position is (145, 150) and its color is (241, 243, 250).
+
+Pixel1192 is square and its size is 5 and its position is (145, 155) and its color is (199, 197, 189).
+
+Pixel1193 is square and its size is 5 and its position is (145, 160) and its color is (177, 171, 149).
+
+Pixel1194 is square and its size is 5 and its position is (145, 165) and its color is (167, 150, 54).
+
+Pixel1195 is square and its size is 5 and its position is (145, 170) and its color is (250, 198, 33).
+
+Pixel1196 is square and its size is 5 and its position is (145, 175) and its color is (222, 135, 13).
+
+Pixel1197 is square and its size is 5 and its position is (145, 180) and its color is (161, 123, 62).
+
+Pixel1198 is square and its size is 5 and its position is (145, 185) and its color is (223, 227, 233).
+
+Pixel1199 is square and its size is 5 and its position is (145, 190) and its color is (255, 255, 255).
+
+Pixel1200 is square and its size is 5 and its position is (145, 195) and its color is (253, 253, 253).
+
+Pixel1201 is square and its size is 5 and its position is (150, 0) and its color is (254, 254, 254).
+
+Pixel1202 is square and its size is 5 and its position is (150, 5) and its color is (255, 255, 255).
+
+Pixel1203 is square and its size is 5 and its position is (150, 10) and its color is (228, 230, 242).
+
+Pixel1204 is square and its size is 5 and its position is (150, 15) and its color is (190, 169, 52).
+
+Pixel1205 is square and its size is 5 and its position is (150, 20) and its color is (255, 226, 32).
+
+Pixel1206 is square and its size is 5 and its position is (150, 25) and its color is (253, 221, 38).
+
+Pixel1207 is square and its size is 5 and its position is (150, 30) and its color is (255, 237, 44).
+
+Pixel1208 is square and its size is 5 and its position is (150, 35) and its color is (245, 215, 20).
+
+Pixel1209 is square and its size is 5 and its position is (150, 40) and its color is (170, 154, 87).
+
+Pixel1210 is square and its size is 5 and its position is (150, 45) and its color is (242, 247, 255).
+
+Pixel1211 is square and its size is 5 and its position is (150, 50) and its color is (174, 163, 104).
+
+Pixel1212 is square and its size is 5 and its position is (150, 55) and its color is (248, 212, 21).
+
+Pixel1213 is square and its size is 5 and its position is (150, 60) and its color is (255, 218, 39).
+
+Pixel1214 is square and its size is 5 and its position is (150, 65) and its color is (255, 217, 36).
+
+Pixel1215 is square and its size is 5 and its position is (150, 70) and its color is (255, 217, 36).
+
+Pixel1216 is square and its size is 5 and its position is (150, 75) and its color is (255, 217, 36).
+
+Pixel1217 is square and its size is 5 and its position is (150, 80) and its color is (254, 216, 38).
+
+Pixel1218 is square and its size is 5 and its position is (150, 85) and its color is (255, 219, 23).
+
+Pixel1219 is square and its size is 5 and its position is (150, 90) and its color is (191, 178, 98).
+
+Pixel1220 is square and its size is 5 and its position is (150, 95) and its color is (181, 174, 145).
+
+Pixel1221 is square and its size is 5 and its position is (150, 100) and its color is (227, 192, 15).
+
+Pixel1222 is square and its size is 5 and its position is (150, 105) and its color is (255, 226, 38).
+
+Pixel1223 is square and its size is 5 and its position is (150, 110) and its color is (252, 214, 38).
+
+Pixel1224 is square and its size is 5 and its position is (150, 115) and its color is (255, 224, 42).
+
+Pixel1225 is square and its size is 5 and its position is (150, 120) and its color is (241, 207, 20).
+
+Pixel1226 is square and its size is 5 and its position is (150, 125) and its color is (193, 184, 140).
+
+Pixel1227 is square and its size is 5 and its position is (150, 130) and its color is (255, 255, 255).
+
+Pixel1228 is square and its size is 5 and its position is (150, 135) and its color is (231, 235, 234).
+
+Pixel1229 is square and its size is 5 and its position is (150, 140) and its color is (244, 245, 245).
+
+Pixel1230 is square and its size is 5 and its position is (150, 145) and its color is (255, 255, 254).
+
+Pixel1231 is square and its size is 5 and its position is (150, 150) and its color is (253, 253, 251).
+
+Pixel1232 is square and its size is 5 and its position is (150, 155) and its color is (255, 255, 255).
+
+Pixel1233 is square and its size is 5 and its position is (150, 160) and its color is (213, 211, 198).
+
+Pixel1234 is square and its size is 5 and its position is (150, 165) and its color is (205, 174, 22).
+
+Pixel1235 is square and its size is 5 and its position is (150, 170) and its color is (197, 158, 10).
+
+Pixel1236 is square and its size is 5 and its position is (150, 175) and its color is (164, 137, 87).
+
+Pixel1237 is square and its size is 5 and its position is (150, 180) and its color is (230, 234, 241).
+
+Pixel1238 is square and its size is 5 and its position is (150, 185) and its color is (255, 255, 255).
+
+Pixel1239 is square and its size is 5 and its position is (150, 190) and its color is (253, 253, 253).
+
+Pixel1240 is square and its size is 5 and its position is (150, 195) and its color is (255, 255, 255).
+
+Pixel1241 is square and its size is 5 and its position is (155, 0) and its color is (253, 253, 252).
+
+Pixel1242 is square and its size is 5 and its position is (155, 5) and its color is (255, 255, 255).
+
+Pixel1243 is square and its size is 5 and its position is (155, 10) and its color is (196, 191, 167).
+
+Pixel1244 is square and its size is 5 and its position is (155, 15) and its color is (231, 205, 21).
+
+Pixel1245 is square and its size is 5 and its position is (155, 20) and its color is (255, 219, 39).
+
+Pixel1246 is square and its size is 5 and its position is (155, 25) and its color is (225, 192, 37).
+
+Pixel1247 is square and its size is 5 and its position is (155, 30) and its color is (152, 127, 8).
+
+Pixel1248 is square and its size is 5 and its position is (155, 35) and its color is (113, 102, 50).
+
+Pixel1249 is square and its size is 5 and its position is (155, 40) and its color is (241, 242, 246).
+
+Pixel1250 is square and its size is 5 and its position is (155, 45) and its color is (218, 219, 226).
+
+Pixel1251 is square and its size is 5 and its position is (155, 50) and its color is (190, 167, 34).
+
+Pixel1252 is square and its size is 5 and its position is (155, 55) and its color is (255, 226, 36).
+
+Pixel1253 is square and its size is 5 and its position is (155, 60) and its color is (253, 215, 36).
+
+Pixel1254 is square and its size is 5 and its position is (155, 65) and its color is (255, 217, 36).
+
+Pixel1255 is square and its size is 5 and its position is (155, 70) and its color is (255, 217, 36).
+
+Pixel1256 is square and its size is 5 and its position is (155, 75) and its color is (255, 217, 36).
+
+Pixel1257 is square and its size is 5 and its position is (155, 80) and its color is (255, 220, 40).
+
+Pixel1258 is square and its size is 5 and its position is (155, 85) and its color is (240, 204, 19).
+
+Pixel1259 is square and its size is 5 and its position is (155, 90) and its color is (198, 191, 153).
+
+Pixel1260 is square and its size is 5 and its position is (155, 95) and its color is (255, 255, 255).
+
+Pixel1261 is square and its size is 5 and its position is (155, 100) and its color is (185, 180, 153).
+
+Pixel1262 is square and its size is 5 and its position is (155, 105) and its color is (213, 180, 21).
+
+Pixel1263 is square and its size is 5 and its position is (155, 110) and its color is (255, 226, 36).
+
+Pixel1264 is square and its size is 5 and its position is (155, 115) and its color is (255, 223, 37).
+
+Pixel1265 is square and its size is 5 and its position is (155, 120) and its color is (201, 177, 39).
+
+Pixel1266 is square and its size is 5 and its position is (155, 125) and its color is (219, 220, 227).
+
+Pixel1267 is square and its size is 5 and its position is (155, 130) and its color is (255, 255, 255).
+
+Pixel1268 is square and its size is 5 and its position is (155, 135) and its color is (253, 253, 252).
+
+Pixel1269 is square and its size is 5 and its position is (155, 140) and its color is (254, 254, 254).
+
+Pixel1270 is square and its size is 5 and its position is (155, 145) and its color is (255, 255, 255).
+
+Pixel1271 is square and its size is 5 and its position is (155, 150) and its color is (253, 253, 252).
+
+Pixel1272 is square and its size is 5 and its position is (155, 155) and its color is (255, 255, 255).
+
+Pixel1273 is square and its size is 5 and its position is (155, 160) and its color is (215, 211, 192).
+
+Pixel1274 is square and its size is 5 and its position is (155, 165) and its color is (152, 131, 31).
+
+Pixel1275 is square and its size is 5 and its position is (155, 170) and its color is (187, 180, 140).
+
+Pixel1276 is square and its size is 5 and its position is (155, 175) and its color is (246, 249, 254).
+
+Pixel1277 is square and its size is 5 and its position is (155, 180) and its color is (255, 255, 254).
+
+Pixel1278 is square and its size is 5 and its position is (155, 185) and its color is (253, 253, 253).
+
+Pixel1279 is square and its size is 5 and its position is (155, 190) and its color is (255, 255, 255).
+
+Pixel1280 is square and its size is 5 and its position is (155, 195) and its color is (255, 255, 255).
+
+Pixel1281 is square and its size is 5 and its position is (160, 0) and its color is (254, 253, 253).
+
+Pixel1282 is square and its size is 5 and its position is (160, 5) and its color is (255, 255, 255).
+
+Pixel1283 is square and its size is 5 and its position is (160, 10) and its color is (103, 98, 80).
+
+Pixel1284 is square and its size is 5 and its position is (160, 15) and its color is (64, 52, 0).
+
+Pixel1285 is square and its size is 5 and its position is (160, 20) and its color is (41, 36, 13).
+
+Pixel1286 is square and its size is 5 and its position is (160, 25) and its color is (0, 0, 0).
+
+Pixel1287 is square and its size is 5 and its position is (160, 30) and its color is (28, 30, 39).
+
+Pixel1288 is square and its size is 5 and its position is (160, 35) and its color is (214, 215, 222).
+
+Pixel1289 is square and its size is 5 and its position is (160, 40) and its color is (255, 255, 255).
+
+Pixel1290 is square and its size is 5 and its position is (160, 45) and its color is (173, 167, 137).
+
+Pixel1291 is square and its size is 5 and its position is (160, 50) and its color is (234, 201, 18).
+
+Pixel1292 is square and its size is 5 and its position is (160, 55) and its color is (255, 221, 40).
+
+Pixel1293 is square and its size is 5 and its position is (160, 60) and its color is (254, 217, 36).
+
+Pixel1294 is square and its size is 5 and its position is (160, 65) and its color is (255, 217, 36).
+
+Pixel1295 is square and its size is 5 and its position is (160, 70) and its color is (255, 217, 36).
+
+Pixel1296 is square and its size is 5 and its position is (160, 75) and its color is (254, 216, 36).
+
+Pixel1297 is square and its size is 5 and its position is (160, 80) and its color is (255, 224, 37).
+
+Pixel1298 is square and its size is 5 and its position is (160, 85) and its color is (217, 188, 30).
+
+Pixel1299 is square and its size is 5 and its position is (160, 90) and its color is (212, 212, 209).
+
+Pixel1300 is square and its size is 5 and its position is (160, 95) and its color is (255, 255, 255).
+
+Pixel1301 is square and its size is 5 and its position is (160, 100) and its color is (255, 255, 255).
+
+Pixel1302 is square and its size is 5 and its position is (160, 105) and its color is (191, 189, 178).
+
+Pixel1303 is square and its size is 5 and its position is (160, 110) and its color is (200, 171, 32).
+
+Pixel1304 is square and its size is 5 and its position is (160, 115) and its color is (252, 219, 14).
+
+Pixel1305 is square and its size is 5 and its position is (160, 120) and its color is (178, 168, 112).
+
+Pixel1306 is square and its size is 5 and its position is (160, 125) and its color is (254, 255, 255).
+
+Pixel1307 is square and its size is 5 and its position is (160, 130) and its color is (255, 255, 252).
+
+Pixel1308 is square and its size is 5 and its position is (160, 135) and its color is (254, 254, 254).
+
+Pixel1309 is square and its size is 5 and its position is (160, 140) and its color is (255, 255, 255).
+
+Pixel1310 is square and its size is 5 and its position is (160, 145) and its color is (255, 255, 255).
+
+Pixel1311 is square and its size is 5 and its position is (160, 150) and its color is (255, 255, 255).
+
+Pixel1312 is square and its size is 5 and its position is (160, 155) and its color is (255, 255, 255).
+
+Pixel1313 is square and its size is 5 and its position is (160, 160) and its color is (253, 253, 254).
+
+Pixel1314 is square and its size is 5 and its position is (160, 165) and its color is (241, 242, 245).
+
+Pixel1315 is square and its size is 5 and its position is (160, 170) and its color is (254, 255, 255).
+
+Pixel1316 is square and its size is 5 and its position is (160, 175) and its color is (254, 254, 253).
+
+Pixel1317 is square and its size is 5 and its position is (160, 180) and its color is (254, 254, 254).
+
+Pixel1318 is square and its size is 5 and its position is (160, 185) and its color is (255, 255, 255).
+
+Pixel1319 is square and its size is 5 and its position is (160, 190) and its color is (255, 255, 255).
+
+Pixel1320 is square and its size is 5 and its position is (160, 195) and its color is (255, 255, 255).
+
+Pixel1321 is square and its size is 5 and its position is (165, 0) and its color is (255, 255, 255).
+
+Pixel1322 is square and its size is 5 and its position is (165, 5) and its color is (241, 241, 241).
+
+Pixel1323 is square and its size is 5 and its position is (165, 10) and its color is (23, 23, 24).
+
+Pixel1324 is square and its size is 5 and its position is (165, 15) and its color is (0, 0, 0).
+
+Pixel1325 is square and its size is 5 and its position is (165, 20) and its color is (0, 0, 0).
+
+Pixel1326 is square and its size is 5 and its position is (165, 25) and its color is (65, 66, 66).
+
+Pixel1327 is square and its size is 5 and its position is (165, 30) and its color is (236, 236, 235).
+
+Pixel1328 is square and its size is 5 and its position is (165, 35) and its color is (255, 255, 255).
+
+Pixel1329 is square and its size is 5 and its position is (165, 40) and its color is (232, 234, 248).
+
+Pixel1330 is square and its size is 5 and its position is (165, 45) and its color is (174, 158, 61).
+
+Pixel1331 is square and its size is 5 and its position is (165, 50) and its color is (255, 224, 29).
+
+Pixel1332 is square and its size is 5 and its position is (165, 55) and its color is (253, 215, 38).
+
+Pixel1333 is square and its size is 5 and its position is (165, 60) and its color is (255, 217, 36).
+
+Pixel1334 is square and its size is 5 and its position is (165, 65) and its color is (255, 217, 36).
+
+Pixel1335 is square and its size is 5 and its position is (165, 70) and its color is (255, 217, 36).
+
+Pixel1336 is square and its size is 5 and its position is (165, 75) and its color is (253, 216, 37).
+
+Pixel1337 is square and its size is 5 and its position is (165, 80) and its color is (255, 223, 30).
+
+Pixel1338 is square and its size is 5 and its position is (165, 85) and its color is (196, 175, 61).
+
+Pixel1339 is square and its size is 5 and its position is (165, 90) and its color is (236, 238, 250).
+
+Pixel1340 is square and its size is 5 and its position is (165, 95) and its color is (255, 255, 255).
+
+Pixel1341 is square and its size is 5 and its position is (165, 100) and its color is (253, 252, 250).
+
+Pixel1342 is square and its size is 5 and its position is (165, 105) and its color is (255, 255, 255).
+
+Pixel1343 is square and its size is 5 and its position is (165, 110) and its color is (206, 205, 198).
+
+Pixel1344 is square and its size is 5 and its position is (165, 115) and its color is (149, 129, 37).
+
+Pixel1345 is square and its size is 5 and its position is (165, 120) and its color is (209, 207, 201).
+
+Pixel1346 is square and its size is 5 and its position is (165, 125) and its color is (255, 255, 255).
+
+Pixel1347 is square and its size is 5 and its position is (165, 130) and its color is (253, 253, 253).
+
+Pixel1348 is square and its size is 5 and its position is (165, 135) and its color is (255, 255, 255).
+
+Pixel1349 is square and its size is 5 and its position is (165, 140) and its color is (255, 255, 255).
+
+Pixel1350 is square and its size is 5 and its position is (165, 145) and its color is (255, 255, 255).
+
+Pixel1351 is square and its size is 5 and its position is (165, 150) and its color is (255, 255, 255).
+
+Pixel1352 is square and its size is 5 and its position is (165, 155) and its color is (255, 255, 255).
+
+Pixel1353 is square and its size is 5 and its position is (165, 160) and its color is (255, 255, 254).
+
+Pixel1354 is square and its size is 5 and its position is (165, 165) and its color is (255, 255, 255).
+
+Pixel1355 is square and its size is 5 and its position is (165, 170) and its color is (254, 254, 252).
+
+Pixel1356 is square and its size is 5 and its position is (165, 175) and its color is (254, 254, 254).
+
+Pixel1357 is square and its size is 5 and its position is (165, 180) and its color is (255, 255, 255).
+
+Pixel1358 is square and its size is 5 and its position is (165, 185) and its color is (255, 255, 255).
+
+Pixel1359 is square and its size is 5 and its position is (165, 190) and its color is (255, 255, 255).
+
+Pixel1360 is square and its size is 5 and its position is (165, 195) and its color is (255, 255, 255).
+
+Pixel1361 is square and its size is 5 and its position is (170, 0) and its color is (255, 255, 255).
+
+Pixel1362 is square and its size is 5 and its position is (170, 5) and its color is (210, 210, 210).
+
+Pixel1363 is square and its size is 5 and its position is (170, 10) and its color is (0, 0, 0).
+
+Pixel1364 is square and its size is 5 and its position is (170, 15) and its color is (14, 14, 13).
+
+Pixel1365 is square and its size is 5 and its position is (170, 20) and its color is (139, 139, 138).
+
+Pixel1366 is square and its size is 5 and its position is (170, 25) and its color is (253, 253, 253).
+
+Pixel1367 is square and its size is 5 and its position is (170, 30) and its color is (252, 252, 251).
+
+Pixel1368 is square and its size is 5 and its position is (170, 35) and its color is (255, 255, 255).
+
+Pixel1369 is square and its size is 5 and its position is (170, 40) and its color is (194, 194, 191).
+
+Pixel1370 is square and its size is 5 and its position is (170, 45) and its color is (208, 180, 22).
+
+Pixel1371 is square and its size is 5 and its position is (170, 50) and its color is (255, 225, 39).
+
+Pixel1372 is square and its size is 5 and its position is (170, 55) and its color is (253, 216, 36).
+
+Pixel1373 is square and its size is 5 and its position is (170, 60) and its color is (255, 217, 36).
+
+Pixel1374 is square and its size is 5 and its position is (170, 65) and its color is (255, 217, 36).
+
+Pixel1375 is square and its size is 5 and its position is (170, 70) and its color is (255, 217, 36).
+
+Pixel1376 is square and its size is 5 and its position is (170, 75) and its color is (255, 218, 39).
+
+Pixel1377 is square and its size is 5 and its position is (170, 80) and its color is (252, 214, 21).
+
+Pixel1378 is square and its size is 5 and its position is (170, 85) and its color is (187, 176, 112).
+
+Pixel1379 is square and its size is 5 and its position is (170, 90) and its color is (254, 255, 255).
+
+Pixel1380 is square and its size is 5 and its position is (170, 95) and its color is (255, 255, 252).
+
+Pixel1381 is square and its size is 5 and its position is (170, 100) and its color is (255, 255, 255).
+
+Pixel1382 is square and its size is 5 and its position is (170, 105) and its color is (253, 253, 252).
+
+Pixel1383 is square and its size is 5 and its position is (170, 110) and its color is (255, 255, 255).
+
+Pixel1384 is square and its size is 5 and its position is (170, 115) and its color is (222, 224, 231).
+
+Pixel1385 is square and its size is 5 and its position is (170, 120) and its color is (247, 247, 248).
+
+Pixel1386 is square and its size is 5 and its position is (170, 125) and its color is (255, 255, 255).
+
+Pixel1387 is square and its size is 5 and its position is (170, 130) and its color is (255, 255, 255).
+
+Pixel1388 is square and its size is 5 and its position is (170, 135) and its color is (255, 255, 255).
+
+Pixel1389 is square and its size is 5 and its position is (170, 140) and its color is (255, 255, 255).
+
+Pixel1390 is square and its size is 5 and its position is (170, 145) and its color is (255, 255, 255).
+
+Pixel1391 is square and its size is 5 and its position is (170, 150) and its color is (255, 255, 255).
+
+Pixel1392 is square and its size is 5 and its position is (170, 155) and its color is (255, 255, 255).
+
+Pixel1393 is square and its size is 5 and its position is (170, 160) and its color is (255, 255, 255).
+
+Pixel1394 is square and its size is 5 and its position is (170, 165) and its color is (254, 254, 254).
+
+Pixel1395 is square and its size is 5 and its position is (170, 170) and its color is (255, 255, 255).
+
+Pixel1396 is square and its size is 5 and its position is (170, 175) and its color is (255, 255, 255).
+
+Pixel1397 is square and its size is 5 and its position is (170, 180) and its color is (255, 255, 255).
+
+Pixel1398 is square and its size is 5 and its position is (170, 185) and its color is (255, 255, 255).
+
+Pixel1399 is square and its size is 5 and its position is (170, 190) and its color is (255, 255, 255).
+
+Pixel1400 is square and its size is 5 and its position is (170, 195) and its color is (255, 255, 255).
+
+Pixel1401 is square and its size is 5 and its position is (175, 0) and its color is (255, 255, 255).
+
+Pixel1402 is square and its size is 5 and its position is (175, 5) and its color is (219, 219, 219).
+
+Pixel1403 is square and its size is 5 and its position is (175, 10) and its color is (112, 112, 112).
+
+Pixel1404 is square and its size is 5 and its position is (175, 15) and its color is (227, 227, 227).
+
+Pixel1405 is square and its size is 5 and its position is (175, 20) and its color is (255, 255, 255).
+
+Pixel1406 is square and its size is 5 and its position is (175, 25) and its color is (252, 252, 252).
+
+Pixel1407 is square and its size is 5 and its position is (175, 30) and its color is (253, 252, 250).
+
+Pixel1408 is square and its size is 5 and its position is (175, 35) and its color is (255, 255, 255).
+
+Pixel1409 is square and its size is 5 and its position is (175, 40) and its color is (169, 161, 115).
+
+Pixel1410 is square and its size is 5 and its position is (175, 45) and its color is (245, 209, 20).
+
+Pixel1411 is square and its size is 5 and its position is (175, 50) and its color is (255, 219, 40).
+
+Pixel1412 is square and its size is 5 and its position is (175, 55) and its color is (255, 217, 36).
+
+Pixel1413 is square and its size is 5 and its position is (175, 60) and its color is (255, 217, 36).
+
+Pixel1414 is square and its size is 5 and its position is (175, 65) and its color is (255, 217, 36).
+
+Pixel1415 is square and its size is 5 and its position is (175, 70) and its color is (254, 217, 36).
+
+Pixel1416 is square and its size is 5 and its position is (175, 75) and its color is (255, 221, 40).
+
+Pixel1417 is square and its size is 5 and its position is (175, 80) and its color is (231, 197, 20).
+
+Pixel1418 is square and its size is 5 and its position is (175, 85) and its color is (194, 191, 169).
+
+Pixel1419 is square and its size is 5 and its position is (175, 90) and its color is (255, 255, 255).
+
+Pixel1420 is square and its size is 5 and its position is (175, 95) and its color is (253, 253, 252).
+
+Pixel1421 is square and its size is 5 and its position is (175, 100) and its color is (255, 255, 255).
+
+Pixel1422 is square and its size is 5 and its position is (175, 105) and its color is (255, 255, 255).
+
+Pixel1423 is square and its size is 5 and its position is (175, 110) and its color is (254, 253, 253).
+
+Pixel1424 is square and its size is 5 and its position is (175, 115) and its color is (254, 254, 254).
+
+Pixel1425 is square and its size is 5 and its position is (175, 120) and its color is (254, 254, 254).
+
+Pixel1426 is square and its size is 5 and its position is (175, 125) and its color is (255, 255, 255).
+
+Pixel1427 is square and its size is 5 and its position is (175, 130) and its color is (255, 255, 255).
+
+Pixel1428 is square and its size is 5 and its position is (175, 135) and its color is (255, 255, 255).
+
+Pixel1429 is square and its size is 5 and its position is (175, 140) and its color is (255, 255, 255).
+
+Pixel1430 is square and its size is 5 and its position is (175, 145) and its color is (255, 255, 255).
+
+Pixel1431 is square and its size is 5 and its position is (175, 150) and its color is (255, 255, 255).
+
+Pixel1432 is square and its size is 5 and its position is (175, 155) and its color is (255, 255, 255).
+
+Pixel1433 is square and its size is 5 and its position is (175, 160) and its color is (255, 255, 255).
+
+Pixel1434 is square and its size is 5 and its position is (175, 165) and its color is (255, 255, 255).
+
+Pixel1435 is square and its size is 5 and its position is (175, 170) and its color is (255, 255, 255).
+
+Pixel1436 is square and its size is 5 and its position is (175, 175) and its color is (255, 255, 255).
+
+Pixel1437 is square and its size is 5 and its position is (175, 180) and its color is (255, 255, 255).
+
+Pixel1438 is square and its size is 5 and its position is (175, 185) and its color is (255, 255, 255).
+
+Pixel1439 is square and its size is 5 and its position is (175, 190) and its color is (255, 255, 255).
+
+Pixel1440 is square and its size is 5 and its position is (175, 195) and its color is (255, 255, 255).
+
+Pixel1441 is square and its size is 5 and its position is (180, 0) and its color is (255, 255, 255).
+
+Pixel1442 is square and its size is 5 and its position is (180, 5) and its color is (255, 255, 255).
+
+Pixel1443 is square and its size is 5 and its position is (180, 10) and its color is (255, 255, 255).
+
+Pixel1444 is square and its size is 5 and its position is (180, 15) and its color is (255, 255, 255).
+
+Pixel1445 is square and its size is 5 and its position is (180, 20) and its color is (252, 252, 252).
+
+Pixel1446 is square and its size is 5 and its position is (180, 25) and its color is (254, 254, 254).
+
+Pixel1447 is square and its size is 5 and its position is (180, 30) and its color is (255, 255, 255).
+
+Pixel1448 is square and its size is 5 and its position is (180, 35) and its color is (232, 234, 247).
+
+Pixel1449 is square and its size is 5 and its position is (180, 40) and its color is (175, 157, 55).
+
+Pixel1450 is square and its size is 5 and its position is (180, 45) and its color is (255, 224, 31).
+
+Pixel1451 is square and its size is 5 and its position is (180, 50) and its color is (252, 214, 37).
+
+Pixel1452 is square and its size is 5 and its position is (180, 55) and its color is (254, 216, 36).
+
+Pixel1453 is square and its size is 5 and its position is (180, 60) and its color is (253, 216, 37).
+
+Pixel1454 is square and its size is 5 and its position is (180, 65) and its color is (253, 216, 38).
+
+Pixel1455 is square and its size is 5 and its position is (180, 70) and its color is (253, 217, 40).
+
+Pixel1456 is square and its size is 5 and its position is (180, 75) and its color is (255, 231, 40).
+
+Pixel1457 is square and its size is 5 and its position is (180, 80) and its color is (205, 180, 33).
+
+Pixel1458 is square and its size is 5 and its position is (180, 85) and its color is (214, 215, 220).
+
+Pixel1459 is square and its size is 5 and its position is (180, 90) and its color is (255, 255, 255).
+
+Pixel1460 is square and its size is 5 and its position is (180, 95) and its color is (254, 253, 253).
+
+Pixel1461 is square and its size is 5 and its position is (180, 100) and its color is (255, 255, 255).
+
+Pixel1462 is square and its size is 5 and its position is (180, 105) and its color is (255, 255, 255).
+
+Pixel1463 is square and its size is 5 and its position is (180, 110) and its color is (255, 255, 255).
+
+Pixel1464 is square and its size is 5 and its position is (180, 115) and its color is (254, 254, 254).
+
+Pixel1465 is square and its size is 5 and its position is (180, 120) and its color is (255, 255, 255).
+
+Pixel1466 is square and its size is 5 and its position is (180, 125) and its color is (255, 255, 255).
+
+Pixel1467 is square and its size is 5 and its position is (180, 130) and its color is (255, 255, 255).
+
+Pixel1468 is square and its size is 5 and its position is (180, 135) and its color is (255, 255, 255).
+
+Pixel1469 is square and its size is 5 and its position is (180, 140) and its color is (255, 255, 255).
+
+Pixel1470 is square and its size is 5 and its position is (180, 145) and its color is (255, 255, 255).
+
+Pixel1471 is square and its size is 5 and its position is (180, 150) and its color is (255, 255, 255).
+
+Pixel1472 is square and its size is 5 and its position is (180, 155) and its color is (255, 255, 255).
+
+Pixel1473 is square and its size is 5 and its position is (180, 160) and its color is (255, 255, 255).
+
+Pixel1474 is square and its size is 5 and its position is (180, 165) and its color is (255, 255, 255).
+
+Pixel1475 is square and its size is 5 and its position is (180, 170) and its color is (255, 255, 255).
+
+Pixel1476 is square and its size is 5 and its position is (180, 175) and its color is (255, 255, 255).
+
+Pixel1477 is square and its size is 5 and its position is (180, 180) and its color is (255, 255, 255).
+
+Pixel1478 is square and its size is 5 and its position is (180, 185) and its color is (255, 255, 255).
+
+Pixel1479 is square and its size is 5 and its position is (180, 190) and its color is (255, 255, 255).
+
+Pixel1480 is square and its size is 5 and its position is (180, 195) and its color is (255, 255, 255).
+
+Pixel1481 is square and its size is 5 and its position is (185, 0) and its color is (255, 255, 255).
+
+Pixel1482 is square and its size is 5 and its position is (185, 5) and its color is (254, 254, 254).
+
+Pixel1483 is square and its size is 5 and its position is (185, 10) and its color is (251, 251, 251).
+
+Pixel1484 is square and its size is 5 and its position is (185, 15) and its color is (253, 253, 253).
+
+Pixel1485 is square and its size is 5 and its position is (185, 20) and its color is (255, 255, 255).
+
+Pixel1486 is square and its size is 5 and its position is (185, 25) and its color is (253, 253, 253).
+
+Pixel1487 is square and its size is 5 and its position is (185, 30) and its color is (255, 255, 255).
+
+Pixel1488 is square and its size is 5 and its position is (185, 35) and its color is (199, 200, 203).
+
+Pixel1489 is square and its size is 5 and its position is (185, 40) and its color is (202, 176, 28).
+
+Pixel1490 is square and its size is 5 and its position is (185, 45) and its color is (255, 230, 41).
+
+Pixel1491 is square and its size is 5 and its position is (185, 50) and its color is (253, 221, 39).
+
+Pixel1492 is square and its size is 5 and its position is (185, 55) and its color is (255, 224, 37).
+
+Pixel1493 is square and its size is 5 and its position is (185, 60) and its color is (255, 224, 33).
+
+Pixel1494 is square and its size is 5 and its position is (185, 65) and its color is (255, 221, 26).
+
+Pixel1495 is square and its size is 5 and its position is (185, 70) and its color is (250, 211, 21).
+
+Pixel1496 is square and its size is 5 and its position is (185, 75) and its color is (235, 196, 10).
+
+Pixel1497 is square and its size is 5 and its position is (185, 80) and its color is (174, 156, 71).
+
+Pixel1498 is square and its size is 5 and its position is (185, 85) and its color is (243, 245, 255).
+
+Pixel1499 is square and its size is 5 and its position is (185, 90) and its color is (255, 255, 255).
+
+Pixel1500 is square and its size is 5 and its position is (185, 95) and its color is (255, 255, 255).
+
+Pixel1501 is square and its size is 5 and its position is (185, 100) and its color is (255, 255, 255).
+
+Pixel1502 is square and its size is 5 and its position is (185, 105) and its color is (255, 255, 255).
+
+Pixel1503 is square and its size is 5 and its position is (185, 110) and its color is (255, 255, 255).
+
+Pixel1504 is square and its size is 5 and its position is (185, 115) and its color is (255, 255, 255).
+
+Pixel1505 is square and its size is 5 and its position is (185, 120) and its color is (255, 255, 255).
+
+Pixel1506 is square and its size is 5 and its position is (185, 125) and its color is (255, 255, 255).
+
+Pixel1507 is square and its size is 5 and its position is (185, 130) and its color is (255, 255, 255).
+
+Pixel1508 is square and its size is 5 and its position is (185, 135) and its color is (255, 255, 255).
+
+Pixel1509 is square and its size is 5 and its position is (185, 140) and its color is (255, 255, 255).
+
+Pixel1510 is square and its size is 5 and its position is (185, 145) and its color is (255, 255, 255).
+
+Pixel1511 is square and its size is 5 and its position is (185, 150) and its color is (255, 255, 255).
+
+Pixel1512 is square and its size is 5 and its position is (185, 155) and its color is (255, 255, 255).
+
+Pixel1513 is square and its size is 5 and its position is (185, 160) and its color is (255, 255, 255).
+
+Pixel1514 is square and its size is 5 and its position is (185, 165) and its color is (255, 255, 255).
+
+Pixel1515 is square and its size is 5 and its position is (185, 170) and its color is (255, 255, 255).
+
+Pixel1516 is square and its size is 5 and its position is (185, 175) and its color is (255, 255, 255).
+
+Pixel1517 is square and its size is 5 and its position is (185, 180) and its color is (255, 255, 255).
+
+Pixel1518 is square and its size is 5 and its position is (185, 185) and its color is (255, 255, 255).
+
+Pixel1519 is square and its size is 5 and its position is (185, 190) and its color is (255, 255, 255).
+
+Pixel1520 is square and its size is 5 and its position is (185, 195) and its color is (255, 255, 255).
+
+Pixel1521 is square and its size is 5 and its position is (190, 0) and its color is (255, 255, 255).
+
+Pixel1522 is square and its size is 5 and its position is (190, 5) and its color is (255, 255, 255).
+
+Pixel1523 is square and its size is 5 and its position is (190, 10) and its color is (255, 255, 255).
+
+Pixel1524 is square and its size is 5 and its position is (190, 15) and its color is (255, 255, 255).
+
+Pixel1525 is square and its size is 5 and its position is (190, 20) and its color is (255, 255, 255).
+
+Pixel1526 is square and its size is 5 and its position is (190, 25) and its color is (253, 252, 251).
+
+Pixel1527 is square and its size is 5 and its position is (190, 30) and its color is (255, 255, 255).
+
+Pixel1528 is square and its size is 5 and its position is (190, 35) and its color is (175, 170, 145).
+
+Pixel1529 is square and its size is 5 and its position is (190, 40) and its color is (226, 190, 6).
+
+Pixel1530 is square and its size is 5 and its position is (190, 45) and its color is (247, 209, 26).
+
+Pixel1531 is square and its size is 5 and its position is (190, 50) and its color is (230, 194, 23).
+
+Pixel1532 is square and its size is 5 and its position is (190, 55) and its color is (218, 185, 30).
+
+Pixel1533 is square and its size is 5 and its position is (190, 60) and its color is (204, 177, 47).
+
+Pixel1534 is square and its size is 5 and its position is (190, 65) and its color is (192, 172, 76).
+
+Pixel1535 is square and its size is 5 and its position is (190, 70) and its color is (188, 176, 120).
+
+Pixel1536 is square and its size is 5 and its position is (190, 75) and its color is (197, 193, 173).
+
+Pixel1537 is square and its size is 5 and its position is (190, 80) and its color is (229, 230, 232).
+
+Pixel1538 is square and its size is 5 and its position is (190, 85) and its color is (255, 255, 255).
+
+Pixel1539 is square and its size is 5 and its position is (190, 90) and its color is (255, 254, 254).
+
+Pixel1540 is square and its size is 5 and its position is (190, 95) and its color is (255, 255, 255).
+
+Pixel1541 is square and its size is 5 and its position is (190, 100) and its color is (255, 255, 255).
+
+Pixel1542 is square and its size is 5 and its position is (190, 105) and its color is (255, 255, 255).
+
+Pixel1543 is square and its size is 5 and its position is (190, 110) and its color is (255, 255, 255).
+
+Pixel1544 is square and its size is 5 and its position is (190, 115) and its color is (255, 255, 255).
+
+Pixel1545 is square and its size is 5 and its position is (190, 120) and its color is (255, 255, 255).
+
+Pixel1546 is square and its size is 5 and its position is (190, 125) and its color is (255, 255, 255).
+
+Pixel1547 is square and its size is 5 and its position is (190, 130) and its color is (255, 255, 255).
+
+Pixel1548 is square and its size is 5 and its position is (190, 135) and its color is (255, 255, 255).
+
+Pixel1549 is square and its size is 5 and its position is (190, 140) and its color is (255, 255, 255).
+
+Pixel1550 is square and its size is 5 and its position is (190, 145) and its color is (255, 255, 255).
+
+Pixel1551 is square and its size is 5 and its position is (190, 150) and its color is (255, 255, 255).
+
+Pixel1552 is square and its size is 5 and its position is (190, 155) and its color is (255, 255, 255).
+
+Pixel1553 is square and its size is 5 and its position is (190, 160) and its color is (255, 255, 255).
+
+Pixel1554 is square and its size is 5 and its position is (190, 165) and its color is (255, 255, 255).
+
+Pixel1555 is square and its size is 5 and its position is (190, 170) and its color is (255, 255, 255).
+
+Pixel1556 is square and its size is 5 and its position is (190, 175) and its color is (255, 255, 255).
+
+Pixel1557 is square and its size is 5 and its position is (190, 180) and its color is (255, 255, 255).
+
+Pixel1558 is square and its size is 5 and its position is (190, 185) and its color is (255, 255, 255).
+
+Pixel1559 is square and its size is 5 and its position is (190, 190) and its color is (255, 255, 255).
+
+Pixel1560 is square and its size is 5 and its position is (190, 195) and its color is (255, 255, 255).
+
+Pixel1561 is square and its size is 5 and its position is (195, 0) and its color is (255, 255, 255).
+
+Pixel1562 is square and its size is 5 and its position is (195, 5) and its color is (255, 255, 255).
+
+Pixel1563 is square and its size is 5 and its position is (195, 10) and its color is (255, 255, 255).
+
+Pixel1564 is square and its size is 5 and its position is (195, 15) and its color is (255, 255, 255).
+
+Pixel1565 is square and its size is 5 and its position is (195, 20) and its color is (255, 255, 255).
+
+Pixel1566 is square and its size is 5 and its position is (195, 25) and its color is (253, 253, 252).
+
+Pixel1567 is square and its size is 5 and its position is (195, 30) and its color is (255, 255, 255).
+
+Pixel1568 is square and its size is 5 and its position is (195, 35) and its color is (174, 171, 154).
+
+Pixel1569 is square and its size is 5 and its position is (195, 40) and its color is (167, 155, 96).
+
+Pixel1570 is square and its size is 5 and its position is (195, 45) and its color is (182, 174, 137).
+
+Pixel1571 is square and its size is 5 and its position is (195, 50) and its color is (190, 186, 166).
+
+Pixel1572 is square and its size is 5 and its position is (195, 55) and its color is (205, 205, 201).
+
+Pixel1573 is square and its size is 5 and its position is (195, 60) and its color is (223, 225, 234).
+
+Pixel1574 is square and its size is 5 and its position is (195, 65) and its color is (242, 245, 255).
+
+Pixel1575 is square and its size is 5 and its position is (195, 70) and its color is (255, 255, 255).
+
+Pixel1576 is square and its size is 5 and its position is (195, 75) and its color is (255, 255, 255).
+
+Pixel1577 is square and its size is 5 and its position is (195, 80) and its color is (254, 254, 254).
+
+Pixel1578 is square and its size is 5 and its position is (195, 85) and its color is (255, 255, 255).
+
+Pixel1579 is square and its size is 5 and its position is (195, 90) and its color is (255, 255, 255).
+
+Pixel1580 is square and its size is 5 and its position is (195, 95) and its color is (255, 255, 255).
+
+Pixel1581 is square and its size is 5 and its position is (195, 100) and its color is (255, 255, 255).
+
+Pixel1582 is square and its size is 5 and its position is (195, 105) and its color is (255, 255, 255).
+
+Pixel1583 is square and its size is 5 and its position is (195, 110) and its color is (255, 255, 255).
+
+Pixel1584 is square and its size is 5 and its position is (195, 115) and its color is (255, 255, 255).
+
+Pixel1585 is square and its size is 5 and its position is (195, 120) and its color is (255, 255, 255).
+
+Pixel1586 is square and its size is 5 and its position is (195, 125) and its color is (255, 255, 255).
+
+Pixel1587 is square and its size is 5 and its position is (195, 130) and its color is (255, 255, 255).
+
+Pixel1588 is square and its size is 5 and its position is (195, 135) and its color is (255, 255, 255).
+
+Pixel1589 is square and its size is 5 and its position is (195, 140) and its color is (255, 255, 255).
+
+Pixel1590 is square and its size is 5 and its position is (195, 145) and its color is (255, 255, 255).
+
+Pixel1591 is square and its size is 5 and its position is (195, 150) and its color is (255, 255, 255).
+
+Pixel1592 is square and its size is 5 and its position is (195, 155) and its color is (255, 255, 255).
+
+Pixel1593 is square and its size is 5 and its position is (195, 160) and its color is (255, 255, 255).
+
+Pixel1594 is square and its size is 5 and its position is (195, 165) and its color is (255, 255, 255).
+
+Pixel1595 is square and its size is 5 and its position is (195, 170) and its color is (255, 255, 255).
+
+Pixel1596 is square and its size is 5 and its position is (195, 175) and its color is (255, 255, 255).
+
+Pixel1597 is square and its size is 5 and its position is (195, 180) and its color is (255, 255, 255).
+
+Pixel1598 is square and its size is 5 and its position is (195, 185) and its color is (255, 255, 255).
+
+Pixel1599 is square and its size is 5 and its position is (195, 190) and its color is (255, 255, 255).
+
+Pixel1600 is square and its size is 5 and its position is (195, 195) and its color is (255, 255, 255).

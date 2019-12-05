@@ -1,0 +1,14 @@
+Size of canvas is (300, 300).
+
+A is circle and its size is 120.
+Its position is (50, 50).
+Its color is red.
+
+B is rectangle.
+Its size is (140, 120)
+and its position is (120, 110)
+and its color is blue.
+Color of its border is green
+and size of its border is 10.
+
+A is in front of B.

@@ -1,0 +1,58 @@
+Size of canvas is (400, 300)
+ and its color is (135, 206, 235).
+
+Sun is circle
+ and its size is 60
+ and its position is (330, 10)
+ and its color is red
+ and size of its border is 7
+ and color of its border is (255, 150, 0).
+
+Leaf1 is ellipse
+ and its size is (100, 80)
+ and its position is (90, 100)
+ and its color is green.
+
+Leaf2 is ellipse
+ and its size is (100, 80)
+ and its position is (150, 100)
+ and its color is green.
+
+Leaf3 is ellipse
+ and its size is (100, 80)
+ and its position is (210, 100)
+ and its color is green.
+
+Leaf4 is ellipse
+ and its size is (100, 80)
+ and its position is (120, 60)
+ and its color is green.
+
+Leaf5 is ellipse
+ and its size is (100, 80)
+ and its position is (180, 60)
+ and its color is green.
+
+Tree is rectangle
+ and its size is (40, 180)
+ and its position is (180, 120)
+ and its color is (57, 0, 8).
+
+Leaf1 is in front of Tree
+ and Leaf2 is in front of Tree
+ and Leaf3 is in front of Tree.
+
+Fruit1 is circle
+ and its size is 25
+ and its position is (120, 120)
+ and its color is red.
+
+Fruit2 is circle
+ and its size is 25
+ and its position is (180, 130)
+ and its color is red.
+
+Fruit3 is circle
+ and its size is 25
+ and its position is (230, 90)
+ and its color is red.
