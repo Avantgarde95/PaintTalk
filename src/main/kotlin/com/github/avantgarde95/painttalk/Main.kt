@@ -7,7 +7,7 @@ fun main() {
     Font.createFont(
         Font.TRUETYPE_FONT,
         Util.getResourceAsStream("Font/Nanum_Gothic/NanumGothic-ExtraBold.ttf")
-    ).deriveFont(14f).run {
+    ).deriveFont(16f).run {
         UIManager.put("Button.font", this)
         UIManager.put("TabbedPane.font", this)
         UIManager.put("TitledBorder.font", this)
@@ -18,7 +18,7 @@ fun main() {
     Font.createFont(
         Font.TRUETYPE_FONT,
         Util.getResourceAsStream("Font/Nanum_Gothic_Coding/NanumGothicCoding-Bold.ttf")
-    ).deriveFont(14f).run {
+    ).deriveFont(16f).run {
         UIManager.put("TextArea.font", this)
         UIManager.put("TextField.font", this)
     }
