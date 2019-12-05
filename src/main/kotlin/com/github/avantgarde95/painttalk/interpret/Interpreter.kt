@@ -77,13 +77,13 @@ private class InterpreterInstance {
 
         when (orderNode.type) {
             OrderNode.Type.Front -> {
-                if (firstIndex > secondIndex) {
+                if (firstIndex < secondIndex) {
                     shapes.removeAt(firstIndex)
                     shapes.add(secondIndex, firstShape)
                 }
             }
             OrderNode.Type.Behind -> {
-                if (firstIndex < secondIndex) {
+                if (firstIndex > secondIndex) {
                     shapes.removeAt(secondIndex)
                     shapes.add(firstIndex, secondShape)
                 }

@@ -130,6 +130,9 @@ class App {
     }
 
     private fun parseAndDrawInput() {
+        Logger.addLog("Parsing the input...")
+        println("\n${"=".repeat(10)} Start ${"=".repeat(10)}")
+
         val input = inputPanel.getInput()
 
         val tokens = try {
@@ -143,7 +146,7 @@ class App {
             return
         }
 
-        Logger.addLog("\n${tokens.joinToString()}")
+        println("\n${tokens.joinToString()}")
 
         val ast = try {
             Parser.toAST(tokens)
@@ -152,7 +155,8 @@ class App {
             return
         }
 
-        Logger.addLog("\n${ast.toPrettyString()}")
+        println("\n${ast.toPrettyString()}")
+        Logger.addLog("Creating a picture...")
 
         val picture = try {
             Interpreter.toPicture(ast)
@@ -161,8 +165,11 @@ class App {
             return
         }
 
-        Logger.addLog("\n\n${picture.toPrettyString()}")
+        println("\n${picture.toPrettyString()}")
 
+        Logger.addLog("Drawing on the canvas...")
         canvasPanel.drawImageFromPicture(picture)
+        Logger.addLog("Done!")
+        println("${"=".repeat(10)} Finish ${"=".repeat(9)}")
     }
 }
