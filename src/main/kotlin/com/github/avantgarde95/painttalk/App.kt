@@ -108,7 +108,11 @@ class App {
         val returnValue = fileChooser.showSaveDialog(null)
 
         if (returnValue == JFileChooser.APPROVE_OPTION) {
-            val path = fileChooser.selectedFile.path
+            var path = fileChooser.selectedFile.path
+
+            if (!path.endsWith(".txt")) {
+                path += ".txt"
+            }
 
             File(path).writeText(inputPanel.getInput())
         }
@@ -123,7 +127,11 @@ class App {
         val returnValue = fileChooser.showSaveDialog(null)
 
         if (returnValue == JFileChooser.APPROVE_OPTION) {
-            val path = fileChooser.selectedFile.path
+            var path = fileChooser.selectedFile.path
+
+            if (!path.endsWith(".png")) {
+                path += ".png"
+            }
 
             ImageIO.write(canvasPanel.getImage(), "png", File(path))
         }
