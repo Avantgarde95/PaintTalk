@@ -118,7 +118,22 @@ private class InterpreterInstance {
                 val areaNode = targetNode.area!!
                 val objectNode = targetNode.obj!!
 
+                if (areaNode.type != AreaNode.Type.Border) {
+                    throw InterpretException(areaNode, "Wrong area!")
+                }
 
+                when (objectNode.type) {
+                    ObjectNode.Type.Canvas -> {
+                        setCanvasBorderAttribute(attributeNode, valueNode)
+                        lastUsedName = "canvas"
+                    }
+                    ObjectNode.Type.Name -> {
+                        val nameNode = objectNode.obj as NameNode
+
+                        setShapeBorderAttribute(nameNode, attributeNode, valueNode)
+                        lastUsedName = nameNode.token.value
+                    }
+                }
             }
             TargetNode.Type.IndirectAttribute -> {
             }
@@ -167,7 +182,6 @@ private class InterpreterInstance {
 
     private fun setCanvasBorderAttribute(
             attributeNode: AttributeNode,
-            areaNode: AreaNode,
             valueNode: ValueNode
     ) {
 
@@ -179,7 +193,7 @@ private class InterpreterInstance {
                 if (value.dimension != 1) {
                     throw InterpretException(
                             lineIndex,
-                            "Dimension of border should be 1!"
+                            "Dimension of border size should be 1!"
                     )
                 }
 
@@ -228,7 +242,7 @@ private class InterpreterInstance {
                 if (value.dimension != 3) {
                     throw InterpretException(
                             lineIndex,
-                            "Dimension of position should be 3!"
+                            "Dimension of color should be 3!"
                     )
                 }
 
@@ -238,7 +252,7 @@ private class InterpreterInstance {
                 if (value.dimension != 2) {
                     throw InterpretException(
                             lineIndex,
-                            "Invalid attribute for canvas!"
+                            "Dimension of position should be 2!"
                     )
                 }
 
@@ -247,12 +261,43 @@ private class InterpreterInstance {
         }
     }
 
-    private fun setShapeAreaAttribute(
+    private fun setShapeBorderAttribute(
             nameNode: NameNode,
             attributeNode: AttributeNode,
-            areaNode: AreaNode,
             valueNode: ValueNode
     ) {
+        val shape = getShapeByName(nameNode).second
+        val value = valueNodeToValue(valueNode)
+        val lineIndex = valueNode.token.lineIndex
+
+        when (attributeNode.type) {
+            AttributeNode.Type.Size -> {
+                if (value.dimension != 1) {
+                    throw InterpretException(
+                            lineIndex,
+                            "Dimension of border size should be 1!"
+                    )
+                }
+
+                shape.borderSize = value
+            }
+            AttributeNode.Type.Color -> {
+                if (value.dimension != 3) {
+                    throw InterpretException(
+                            lineIndex,
+                            "Dimension of color should be 3!"
+                    )
+                }
+
+                shape.borderColor = value
+            }
+            AttributeNode.Type.Position -> {
+                throw InterpretException(
+                        lineIndex,
+                        "Invalid attribute for border!"
+                )
+            }
+        }
     }
 
     private fun checkNameIsNew(nameNode: NameNode) {

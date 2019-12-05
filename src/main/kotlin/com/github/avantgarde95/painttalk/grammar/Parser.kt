@@ -2,43 +2,43 @@ package com.github.avantgarde95.painttalk.grammar
 
 object Parser {
     fun toAST(tokens: List<Token>) = AST(
-        root = ParserInstance(tokens).parse()
+            root = ParserInstance(tokens).parse()
     )
 }
 
 private object FirstTokenType {
     val color = listOf(
-        Token.Type.Red,
-        Token.Type.Blue,
-        Token.Type.Green,
-        Token.Type.White,
-        Token.Type.Black
+            Token.Type.Red,
+            Token.Type.Blue,
+            Token.Type.Green,
+            Token.Type.White,
+            Token.Type.Black
     )
 
     val number = listOf(Token.Type.Number)
     val tuple = listOf(Token.Type.LParen)
 
     val area = listOf(
-        Token.Type.Border,
-        Token.Type.Inside
+            Token.Type.Border//,
+            //Token.Type.Inside
     )
 
     val attribute = listOf(
-        Token.Type.Position,
-        Token.Type.Size,
-        Token.Type.Color
+            Token.Type.Position,
+            Token.Type.Size,
+            Token.Type.Color
     )
 
     val order = listOf(
-        Token.Type.In,
-        Token.Type.Behind
+            Token.Type.In,
+            Token.Type.Behind
     )
 
     val shape = listOf(
-        Token.Type.Circle,
-        Token.Type.Square,
-        Token.Type.Ellipse,
-        Token.Type.Rectangle
+            Token.Type.Circle,
+            Token.Type.Square,
+            Token.Type.Ellipse,
+            Token.Type.Rectangle
     )
 
     val name = listOf(Token.Type.Name)
@@ -51,10 +51,10 @@ private object FirstTokenType {
 }
 
 private class ParserInstance(
-    inputTokens: List<Token>
+        inputTokens: List<Token>
 ) {
     val tokens = inputTokens + listOf(
-        Token(Token.Type.EOF, "", inputTokens.last().lineIndex + 1)
+            Token(Token.Type.EOF, "", inputTokens.last().lineIndex + 1)
     )
 
     private var tokenIndex = 0
@@ -142,21 +142,21 @@ private class ParserInstance(
                         val secondName = parseName()
 
                         return BasicSentenceNode(
-                            firstToken,
-                            BasicSentenceNode.Type.Order,
-                            firstName = firstName,
-                            order = order,
-                            secondName = secondName
+                                firstToken,
+                                BasicSentenceNode.Type.Order,
+                                firstName = firstName,
+                                order = order,
+                                secondName = secondName
                         )
                     }
                     else -> {
                         val shape = parseShape()
 
                         return BasicSentenceNode(
-                            firstToken,
-                            BasicSentenceNode.Type.Shape,
-                            firstName = firstName,
-                            shape = shape
+                                firstToken,
+                                BasicSentenceNode.Type.Shape,
+                                firstName = firstName,
+                                shape = shape
                         )
                     }
                 }
@@ -173,10 +173,10 @@ private class ParserInstance(
                 val value = parseValue()
 
                 return BasicSentenceNode(
-                    firstToken,
-                    BasicSentenceNode.Type.Value,
-                    target = target,
-                    value = value
+                        firstToken,
+                        BasicSentenceNode.Type.Value,
+                        target = target,
+                        value = value
                 )
             }
             else -> {
@@ -192,9 +192,9 @@ private class ParserInstance(
             moveToNextToken()
             val attribute = parseAttribute()
             return TargetNode(
-                firstToken,
-                TargetNode.Type.IndirectAttribute,
-                attribute = attribute
+                    firstToken,
+                    TargetNode.Type.IndirectAttribute,
+                    attribute = attribute
             )
         }
 
@@ -213,10 +213,10 @@ private class ParserInstance(
                 moveToNextToken()
                 val area = parseArea()
                 return TargetNode(
-                    firstToken,
-                    TargetNode.Type.IndirectAreaAttribute,
-                    attribute = attribute,
-                    area = area
+                        firstToken,
+                        TargetNode.Type.IndirectAreaAttribute,
+                        attribute = attribute,
+                        area = area
                 )
             }
             in FirstTokenType.area -> {
@@ -230,20 +230,20 @@ private class ParserInstance(
                 moveToNextToken()
                 val obj = parseObject()
                 return TargetNode(
-                    firstToken,
-                    TargetNode.Type.AreaAttribute,
-                    attribute = attribute,
-                    area = area,
-                    obj = obj
+                        firstToken,
+                        TargetNode.Type.AreaAttribute,
+                        attribute = attribute,
+                        area = area,
+                        obj = obj
                 )
             }
             in FirstTokenType.obj -> {
                 val obj = parseObject()
                 return TargetNode(
-                    firstToken,
-                    TargetNode.Type.Attribute,
-                    attribute = attribute,
-                    obj = obj
+                        firstToken,
+                        TargetNode.Type.Attribute,
+                        attribute = attribute,
+                        obj = obj
                 )
             }
             else -> {
@@ -431,8 +431,8 @@ private class ParserInstance(
     }
 
     private fun createException(token: Token) =
-        GrammarException(
-            token.lineIndex,
-            "Wrong syntax at \"${token.value}\"!"
-        )
+            GrammarException(
+                    token.lineIndex,
+                    "Wrong syntax at \"${token.value}\"!"
+            )
 }

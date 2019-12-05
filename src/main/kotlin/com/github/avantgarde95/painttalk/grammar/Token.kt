@@ -1,9 +1,9 @@
 package com.github.avantgarde95.painttalk.grammar
 
 data class Token(
-    val type: Type,
-    val value: String,
-    val lineIndex: Int
+        val type: Type,
+        val value: String,
+        val lineIndex: Int
 ) {
     enum class Type(val pattern: Pattern) {
         Canvas(StringPattern("canvas")),
@@ -19,7 +19,7 @@ data class Token(
         Black(StringPattern("black")),
 
         Border(StringPattern("border")),
-        Inside(StringPattern("inside")),
+        //Inside(StringPattern("inside")),
 
         Position(StringPattern("position")),
         Size(StringPattern("size")),
@@ -46,5 +46,5 @@ data class Token(
     }
 
     override fun toString() =
-        "Token.$type(\"$value\" at line $lineIndex)"
+            "Token.$type(\"$value\" at line $lineIndex)"
 }

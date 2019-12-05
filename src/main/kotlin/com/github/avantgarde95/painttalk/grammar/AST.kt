@@ -22,7 +22,7 @@ package com.github.avantgarde95.painttalk.grammar
  * <Shape> ::= "Circle" | "Square" | ...
  * <Order> ::= "in" "front" "of" | "behind"
  * <Attribute> ::= "position" | "size" | ...
- * <Area> ::= "border" | "inside"
+ * <Area> ::= "border"
  * <Tuple> ::= "(" <Number> ("," <Number>)* ")"
  * <Number> ::= "3" | "15" | "230" | ...
  * <Color> ::= "red" | "green" | ...
@@ -182,8 +182,8 @@ class AreaNode(
         val type: Type
 ) : ASTNode(token, emptyList()) {
     enum class Type {
-        Border,
-        Inside
+        Border//,
+        //Inside
     }
 
     override fun getName() = "${super.getName()}.$type"

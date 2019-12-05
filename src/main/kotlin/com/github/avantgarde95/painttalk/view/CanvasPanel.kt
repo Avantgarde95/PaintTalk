@@ -68,11 +68,11 @@ class CanvasPanel : JPanel() {
     fun getImage() = originalImage
 
     fun drawImageFromPicture(picture: Picture) {
-        drawCanvasInside(picture.canvas)
+        drawCanvas(picture.canvas)
         drawCanvasBorder(picture.canvas)
 
         picture.shapes.forEach {
-            drawShapeInside(it)
+            drawShape(it)
             drawShapeBorder(it)
         }
 
@@ -80,7 +80,7 @@ class CanvasPanel : JPanel() {
         updateDrawPanel()
     }
 
-    private fun drawCanvasInside(canvas: Canvas) {
+    private fun drawCanvas(canvas: Canvas) {
         originalImage = BufferedImage(
                 canvas.size.numbers[0],
                 canvas.size.numbers[1],
@@ -100,10 +100,25 @@ class CanvasPanel : JPanel() {
     }
 
     private fun drawCanvasBorder(canvas: Canvas) {
+        val borderSize = canvas.borderSize.numbers[0]
+        val originalGraphics = originalImage.createGraphics()
 
+        if (borderSize == 0) {
+            return
+        }
+
+        originalGraphics.stroke = BasicStroke(borderSize.toFloat())
+        originalGraphics.color = valueToColor(canvas.borderColor)
+
+        originalGraphics.drawRect(
+                0,
+                0,
+                canvas.size.numbers[0],
+                canvas.size.numbers[1]
+        )
     }
 
-    private fun drawShapeInside(shape: Shape) {
+    private fun drawShape(shape: Shape) {
         val originalGraphics = originalImage.createGraphics()
 
         originalGraphics.color = valueToColor(shape.color)
