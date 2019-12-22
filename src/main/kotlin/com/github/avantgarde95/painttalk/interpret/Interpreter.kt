@@ -38,7 +38,7 @@ private class InterpreterInstance {
     private fun interpretShapeSentence(basicSentenceNode: BasicSentenceNode) {
         val nameNode = basicSentenceNode.firstName!!
         val shapeNode = basicSentenceNode.shape!!
-        val name = nameNode.token.value
+        val name = nameNodeToName(nameNode)
 
         checkNameIsNew(nameNode)
 
@@ -361,7 +361,7 @@ private class InterpreterInstance {
     }
 
     private fun checkNameIsNew(nameNode: NameNode) {
-        val name = nameNode.token.value
+        val name = nameNodeToName(nameNode)
 
         if (shapes.find { name == it.name } != null) {
             throw InterpretException(
@@ -372,7 +372,7 @@ private class InterpreterInstance {
     }
 
     private fun getShapeByName(nameNode: NameNode): Pair<Int, Shape> {
-        val name = nameNode.token.value
+        val name = nameNodeToName(nameNode)
         val index = shapes.indexOfFirst { name == it.name }
 
         if (index < 0) {
@@ -384,6 +384,9 @@ private class InterpreterInstance {
 
         return index to shapes[index]
     }
+
+    private fun nameNodeToName(nameNode: NameNode) =
+        nameNode.token.value.toLowerCase()
 
     private fun valueNodeToValue(valueNode: ValueNode) =
             when (valueNode.type) {

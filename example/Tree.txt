@@ -38,9 +38,9 @@ Tree is rectangle
  and its position is (180, 120)
  and its color is (57, 0, 8).
 
-Leaf1 is in front of Tree
- and Leaf2 is in front of Tree
- and Leaf3 is in front of Tree.
+Leaf1 is in front of tree
+ and Leaf2 is in front of tree
+ and Leaf3 is in front of tree.
 
 Fruit1 is circle
  and its size is 25
